@@ -20,7 +20,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="keR-IS-sXD">
-                    <rect key="frame" x="20" y="97" width="374" height="745"/>
+                    <rect key="frame" x="20" y="97" width="374" height="681"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nib tela teste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rD-hb-wH9">
@@ -29,18 +29,27 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybJ-32-eCg">
+                    <rect key="frame" x="174.5" y="812" width="65" height="30"/>
+                    <state key="normal" title="Get coins"/>
+                    <connections>
+                        <action selector="getCoins:" destination="-1" eventType="touchUpInside" id="h6C-3g-9m0"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Cb8-rF-eHy"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="Cb8-rF-eHy" firstAttribute="trailing" secondItem="keR-IS-sXD" secondAttribute="trailing" constant="20" id="Pbp-l2-VPd"/>
-                <constraint firstItem="Cb8-rF-eHy" firstAttribute="bottom" secondItem="keR-IS-sXD" secondAttribute="bottom" constant="20" id="Sj9-3P-Ofj"/>
+                <constraint firstItem="ybJ-32-eCg" firstAttribute="top" secondItem="keR-IS-sXD" secondAttribute="bottom" constant="34" id="TrL-Ds-49k"/>
                 <constraint firstItem="4rD-hb-wH9" firstAttribute="centerX" secondItem="Mtg-WM-joF" secondAttribute="centerX" id="Yop-yl-ExZ"/>
                 <constraint firstItem="4rD-hb-wH9" firstAttribute="top" secondItem="Cb8-rF-eHy" secondAttribute="top" constant="12" id="dKD-5Q-zyo"/>
                 <constraint firstItem="keR-IS-sXD" firstAttribute="leading" secondItem="Cb8-rF-eHy" secondAttribute="leading" constant="20" id="ehj-MG-cQR"/>
+                <constraint firstItem="Cb8-rF-eHy" firstAttribute="bottom" secondItem="ybJ-32-eCg" secondAttribute="bottom" constant="20" id="ooy-LL-o8J"/>
                 <constraint firstItem="keR-IS-sXD" firstAttribute="top" secondItem="4rD-hb-wH9" secondAttribute="bottom" constant="20" id="qOZ-Lu-Ecq"/>
+                <constraint firstItem="ybJ-32-eCg" firstAttribute="centerX" secondItem="Mtg-WM-joF" secondAttribute="centerX" id="ti0-3S-Mwo"/>
             </constraints>
-            <point key="canvasLocation" x="-667" y="117"/>
+            <point key="canvasLocation" x="-668.11594202898561" y="116.51785714285714"/>
         </view>
     </objects>
     <resources>

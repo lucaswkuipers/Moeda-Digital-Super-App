@@ -6,17 +6,22 @@
 //
 
 import UIKit
+import API
 
 class TelaViewController: UIViewController {
 	
+	@IBAction func getCoins(_ sender: UIButton) {
+		print(coins)
+	}
 	@IBOutlet var tableView: UITableView!
 	
-	var coins = ["Bitcoin", "Etherium", "Dogecoin", "Dollar"]
+	var coins: [Coin] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
 		
 		setupUI()
+		fetchData()
 		print("carregou!!")
     }
 	
@@ -29,6 +34,10 @@ class TelaViewController: UIViewController {
 		tableView.dataSource = self
 		tableView.tableFooterView = UIView()
 	}
+	
+	func fetchData() {
+		coins = API.requestCoinList()
+	}
 }
 
 extension TelaViewController: UITableViewDelegate, UITableViewDataSource {
@@ -40,14 +49,16 @@ extension TelaViewController: UITableViewDelegate, UITableViewDataSource {
 		
 		let cell = tableView.dequeueReusableCell(withIdentifier: "TelaTableViewCell", for: indexPath) as? TelaTableViewCell
 		
-		cell?.nomeMoedaLabel.text = coins[indexPath.row]
+		cell?.nomeMoedaLabel.text = coins[indexPath.row].name
 						
 		return  cell!
 	}
 	
 	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-		return CGFloat(250)
+		return AppDimensions.rowHeight
 	}
-	
+}
 
+struct AppDimensions {
+	static let rowHeight = CGFloat(250.0)
 }

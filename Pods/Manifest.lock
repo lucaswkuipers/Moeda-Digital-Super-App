@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - API (1.0.0):
+    - AlamofireImage
+    - SwiftLint
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - API (from `../API`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  API:
+    :path: "../API"
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  API: f29b9cc4a24497fbd7d3154abd1b167ead56636a
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 6d3f12496d83dcb1c2e14ffaf99f5c6d0af6a372
+
+COCOAPODS: 1.10.1
