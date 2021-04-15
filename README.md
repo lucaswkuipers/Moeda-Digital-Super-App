@@ -1,9 +1,9 @@
 # Moeda Digital Super App
 
-[![CI Status](https://img.shields.io/travis/lucaswkuipers/Moeda Digital Super App.svg?style=flat)](https://travis-ci.org/lucaswkuipers/Moeda Digital Super App)
-[![Version](https://img.shields.io/cocoapods/v/Moeda Digital Super App.svg?style=flat)](https://cocoapods.org/pods/Moeda Digital Super App)
-[![License](https://img.shields.io/cocoapods/l/Moeda Digital Super App.svg?style=flat)](https://cocoapods.org/pods/Moeda Digital Super App)
-[![Platform](https://img.shields.io/cocoapods/p/Moeda Digital Super App.svg?style=flat)](https://cocoapods.org/pods/Moeda Digital Super App)
+[![CI Status](https://img.shields.io/travis/lucaswkuipers/MoedaDigitalSuperApp.svg?style=flat)](https://travis-ci.org/lucaswkuipers/MoedaDigitalSuperApp)
+[![Version](https://img.shields.io/cocoapods/v/API.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
+[![License](https://img.shields.io/cocoapods/l/API.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
+[![Platform](https://img.shields.io/cocoapods/p/API.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
 
 ## Example
 
@@ -17,7 +17,7 @@ Moeda Digital Super App is available through [CocoaPods](https://cocoapods.org).
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Moeda-Digital-Super-App'
+pod 'MoedaDigitalSuperApp'
 ```
 
 ## Author
