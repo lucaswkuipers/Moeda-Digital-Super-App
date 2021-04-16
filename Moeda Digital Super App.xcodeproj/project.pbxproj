@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -110,12 +110,53 @@
 		9D4F9D0D262748F40037ED53 /* Tela */ = {
 			isa = PBXGroup;
 			children = (
-				9DDB0E3726271DD600694E68 /* TelaViewController.swift */,
 				9DDB0E3826271DD600694E68 /* TelaViewController.xib */,
+				9DDB0E3726271DD600694E68 /* TelaViewController.swift */,
 				9D7F379E26275DA300D6042A /* TelaTableViewCell.swift */,
 				9D7F379F26275DA300D6042A /* TelaTableViewCell.xib */,
 			);
 			path = Tela;
+			sourceTree = "<group>";
+		};
+		9DA648202629F89200138F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA648212629F8CC00138F87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DDB0E0B262716DB00694E68 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DA648222629F8D400138F87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DA648232629F8E000138F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DDB0E01262716DA00694E68 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DA648242629F8E900138F87 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9DDB0DFD262716DA00694E68 /* AppDelegate.swift */,
+				9DDB0DFF262716DA00694E68 /* SceneDelegate.swift */,
+				9DDB0E09262716DB00694E68 /* Assets.xcassets */,
+				9DDB0E06262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		9DDB0DF1262716DA00694E68 = {
@@ -143,14 +184,13 @@
 		9DDB0DFC262716DA00694E68 /* Moeda Digital Super App */ = {
 			isa = PBXGroup;
 			children = (
+				9DA648242629F8E900138F87 /* Application */,
+				9DA648232629F8E000138F87 /* Controller */,
+				9DA648222629F8D400138F87 /* ViewModel */,
+				9DA648212629F8CC00138F87 /* View */,
+				9DA648202629F89200138F87 /* Model */,
 				9D4F9D0C262748EC0037ED53 /* Components */,
-				9DDB0DFD262716DA00694E68 /* AppDelegate.swift */,
-				9DDB0DFF262716DA00694E68 /* SceneDelegate.swift */,
-				9DDB0E01262716DA00694E68 /* ViewController.swift */,
-				9DDB0E09262716DB00694E68 /* Assets.xcassets */,
-				9DDB0E0B262716DB00694E68 /* LaunchScreen.storyboard */,
 				9DDB0E0E262716DB00694E68 /* Info.plist */,
-				9DDB0E06262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld */,
 			);
 			path = "Moeda Digital Super App";
 			sourceTree = "<group>";
@@ -193,7 +233,6 @@
 				44A5C2F4D1BA6DF2D32A11B5 /* Pods-Moeda Digital Super AppTests.debug.xcconfig */,
 				800672FC906E1CE55E4C0B27 /* Pods-Moeda Digital Super AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -613,6 +652,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR7T5G5Z83;
 				INFOPLIST_FILE = "Moeda Digital Super App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -620,7 +660,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucaswkuipers.Moeda-Digital-Super-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -633,6 +673,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR7T5G5Z83;
 				INFOPLIST_FILE = "Moeda Digital Super App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -640,7 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lucaswkuipers.Moeda-Digital-Super-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

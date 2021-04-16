@@ -1,18 +1,19 @@
-# Uncomment the next line to define a global platform for your project
 platform :ios, '10.0'
 
 target 'Moeda Digital Super App' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Outside Pods for Moeda Digital Super App
+  # OUTSIDE Pods for Moeda Digital Super App
   pod 'Alamofire'
   pod 'AlamofireImage'
   pod 'SwiftLint'
 
-  # Inside Pods for Moeda Digital Super App
-  pod  'API', :path => '../API'
-
+  # SQUAD02 Pods for Moeda Digital Super App
+  pod 'API', :git => 'https://github.com/lucaswkuipers/API'
+  pod 'Utilities', :git => 'https://github.com/lucaswkuipers/Utilities'
+  pod 'Commons', :git => 'https://github.com/ssabrinasu/Commons'
+  pod 'DataModels', :git => 'https://github.com/ssabrinasu/DataModels'
+  #pod 'Details', :git => 'https://github.com/ssabrinasu/Details'
 
   target 'Moeda Digital Super AppTests' do
     inherit! :search_paths
