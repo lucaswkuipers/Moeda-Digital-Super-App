@@ -13,7 +13,6 @@
 		9D7F37A126275DA300D6042A /* TelaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F379F26275DA300D6042A /* TelaTableViewCell.xib */; };
 		9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB0DFD262716DA00694E68 /* AppDelegate.swift */; };
 		9DDB0E00262716DA00694E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB0DFF262716DA00694E68 /* SceneDelegate.swift */; };
-		9DDB0E02262716DA00694E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB0E01262716DA00694E68 /* ViewController.swift */; };
 		9DDB0E08262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB0E06262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld */; };
 		9DDB0E0A262716DB00694E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB0E09262716DB00694E68 /* Assets.xcassets */; };
 		9DDB0E0D262716DB00694E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB0E0B262716DB00694E68 /* LaunchScreen.storyboard */; };
@@ -54,7 +53,6 @@
 		9DDB0DFA262716DA00694E68 /* Moeda Digital Super App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moeda Digital Super App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDB0DFD262716DA00694E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDB0DFF262716DA00694E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DDB0E01262716DA00694E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DDB0E07262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moeda_Digital_Super_App.xcdatamodel; sourceTree = "<group>"; };
 		9DDB0E09262716DB00694E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DDB0E0C262716DB00694E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,12 +100,12 @@
 		9D4F9D0C262748EC0037ED53 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				9D4F9D0D262748F40037ED53 /* Tela */,
+				9D4F9D0D262748F40037ED53 /* CoinList */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		9D4F9D0D262748F40037ED53 /* Tela */ = {
+		9D4F9D0D262748F40037ED53 /* CoinList */ = {
 			isa = PBXGroup;
 			children = (
 				9DDB0E3826271DD600694E68 /* TelaViewController.xib */,
@@ -115,7 +113,7 @@
 				9D7F379E26275DA300D6042A /* TelaTableViewCell.swift */,
 				9D7F379F26275DA300D6042A /* TelaTableViewCell.xib */,
 			);
-			path = Tela;
+			path = CoinList;
 			sourceTree = "<group>";
 		};
 		9DA648202629F89200138F87 /* Model */ = {
@@ -143,7 +141,6 @@
 		9DA648232629F8E000138F87 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9DDB0E01262716DA00694E68 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,7 +472,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DDB0E02262716DA00694E68 /* ViewController.swift in Sources */,
 				9DDB0E08262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld in Sources */,
 				9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */,
 				9D7F37A026275DA300D6042A /* TelaTableViewCell.swift in Sources */,
