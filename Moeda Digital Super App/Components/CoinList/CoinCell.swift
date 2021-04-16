@@ -7,9 +7,10 @@
 
 import UIKit
 
-class TelaTableViewCell: UITableViewCell {
+class CoinCell: UITableViewCell {
 
-	@IBOutlet weak var nomeMoedaLabel: UILabel!
+
+	@IBOutlet weak var coinNameLabel: UILabel!
 	
 	override func awakeFromNib() {
         super.awakeFromNib()

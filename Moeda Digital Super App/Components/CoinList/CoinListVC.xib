@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TelaViewController" customModule="Moeda_Digital_Super_App" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoinListVC" customModule="Moeda_Digital_Super_App" customModuleProvider="target">
             <connections>
                 <outlet property="tableView" destination="keR-IS-sXD" id="eCi-GD-JeX"/>
                 <outlet property="view" destination="Mtg-WM-joF" id="exO-pc-bjD"/>

@@ -8,10 +8,10 @@
 import UIKit
 import API
 
-class TelaViewController: UIViewController {
+class CoinListVC: UIViewController {
 	
 	@IBAction func getCoins(_ sender: UIButton) {
-		print(coins)
+//		print(coins)
 	}
 	@IBOutlet var tableView: UITableView!
 	
@@ -21,35 +21,36 @@ class TelaViewController: UIViewController {
         super.viewDidLoad()
 		
 		setupUI()
-		fetchData()
+//		fetchData()
 		print("carregou!!")
     }
 	
 	func setupUI() {
 		
-		let nib = UINib(nibName: "TelaTableViewCell", bundle: nil)
+		let nib = UINib(nibName: "CoinCell", bundle: nil)
 		
-		tableView.register(nib, forCellReuseIdentifier: "TelaTableViewCell")
+		tableView.register(nib, forCellReuseIdentifier: "CoinCell")
 		tableView.delegate = self
 		tableView.dataSource = self
 		tableView.tableFooterView = UIView()
 	}
 	
 	func fetchData() {
-		coins = API.requestCoinList()
+//		coins = API.requestCoinList()
 	}
 }
 
-extension TelaViewController: UITableViewDelegate, UITableViewDataSource {
+extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return coins.count
+//		return coins.count
+		return 10
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		
-		let cell = tableView.dequeueReusableCell(withIdentifier: "TelaTableViewCell", for: indexPath) as? TelaTableViewCell
+		let cell = tableView.dequeueReusableCell(withIdentifier: "CoinCell", for: indexPath) as? CoinCell
 		
-		cell?.nomeMoedaLabel.text = coins[indexPath.row].name
+		cell?.coinNameLabel.text = "Bitcoin!!" //coins[indexPath.row].name
 						
 		return  cell!
 	}
