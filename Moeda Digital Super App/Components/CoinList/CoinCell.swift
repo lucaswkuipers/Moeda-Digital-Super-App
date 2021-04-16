@@ -8,9 +8,12 @@
 import UIKit
 
 class CoinCell: UITableViewCell {
-
-
+	
 	@IBOutlet weak var coinNameLabel: UILabel!
+	@IBOutlet weak var coinIDLabel: UILabel!
+	@IBOutlet weak var coinValueLabel: UILabel!
+	@IBOutlet weak var coinIconImageView: UIImageView!
+	@IBOutlet weak var coinsFavoriteStarImageView: UIImageView!
 	
 	override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,5 +25,4 @@ class CoinCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }

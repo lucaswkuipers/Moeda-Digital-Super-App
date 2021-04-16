@@ -4,38 +4,78 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoinCell" customModule="Moeda_Digital_Super_App" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CoinCell" id="KGk-i7-Jjw" customClass="CoinCell" customModule="Moeda_Digital_Super_App" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CoinCell" rowHeight="90" id="KGk-i7-Jjw" customClass="CoinCell" customModule="Moeda_Digital_Super_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome da moeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6i-9h-8zG">
-                        <rect key="frame" x="97" y="7" width="126" height="30"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="30" id="j7d-5m-Cfu"/>
-                        </constraints>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fis-K0-kds">
+                        <rect key="frame" x="88" y="14.5" width="9" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dI7-An-jZl">
+                        <rect key="frame" x="282" y="34.5" width="23" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEE-Zt-h6v">
+                        <rect key="frame" x="88" y="41" width="6.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ccx-9n-5aY">
+                        <rect key="frame" x="105" y="16" width="22" height="20"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btcIcon" translatesAutoresizingMaskIntoConstraints="NO" id="afB-6v-G9y">
+                        <rect key="frame" x="16" y="13" width="64" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="64" id="9pq-sd-J6H"/>
+                            <constraint firstAttribute="height" constant="64" id="Gae-54-Igd"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="D6i-9h-8zG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PCh-v7-lwG"/>
-                    <constraint firstItem="D6i-9h-8zG" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="mTe-7j-9sg"/>
+                    <constraint firstItem="yEE-Zt-h6v" firstAttribute="leading" secondItem="fis-K0-kds" secondAttribute="leading" id="1M2-wl-dXh"/>
+                    <constraint firstItem="Ccx-9n-5aY" firstAttribute="leading" secondItem="fis-K0-kds" secondAttribute="trailing" constant="8" symbolic="YES" id="36w-yQ-Ypb"/>
+                    <constraint firstItem="afB-6v-G9y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8Py-6b-zKb"/>
+                    <constraint firstItem="dI7-An-jZl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="DD6-8F-wdb"/>
+                    <constraint firstItem="Ccx-9n-5aY" firstAttribute="centerY" secondItem="fis-K0-kds" secondAttribute="centerY" id="GRK-zD-sya"/>
+                    <constraint firstItem="dI7-An-jZl" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailing" constant="-15" id="OXE-FF-oN0"/>
+                    <constraint firstItem="yEE-Zt-h6v" firstAttribute="firstBaseline" secondItem="fis-K0-kds" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="YEB-R1-BzZ"/>
+                    <constraint firstItem="yEE-Zt-h6v" firstAttribute="top" secondItem="afB-6v-G9y" secondAttribute="bottom" constant="-36" id="ppJ-qH-r7R"/>
+                    <constraint firstItem="afB-6v-G9y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ukz-PZ-Fhe"/>
+                    <constraint firstItem="fis-K0-kds" firstAttribute="leading" secondItem="afB-6v-G9y" secondAttribute="trailing" constant="8" symbolic="YES" id="xwo-3l-DxH"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="coinNameLabel" destination="D6i-9h-8zG" id="mY4-qj-NUQ"/>
+                <outlet property="coinIDLabel" destination="yEE-Zt-h6v" id="GQd-ca-5Qz"/>
+                <outlet property="coinIconImageView" destination="afB-6v-G9y" id="Zj0-sU-U3d"/>
+                <outlet property="coinNameLabel" destination="fis-K0-kds" id="RTL-jW-DXK"/>
+                <outlet property="coinValueLabel" destination="dI7-An-jZl" id="UlM-Th-Qle"/>
+                <outlet property="coinsFavoriteStarImageView" destination="Ccx-9n-5aY" id="3CX-sg-ohv"/>
             </connections>
-            <point key="canvasLocation" x="128.98550724637681" y="75.669642857142847"/>
+            <point key="canvasLocation" x="198.55072463768118" y="105.80357142857143"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="btcIcon" width="256" height="256"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
