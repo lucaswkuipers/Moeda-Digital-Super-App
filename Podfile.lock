@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - API (0.0.1):
+    - AlamofireImage
+    - SwiftLint
+  - Commons (0.1.0)
+  - DataModels (0.1.0):
+    - AlamofireImage
+    - SwiftLint
+  - SwiftLint (0.43.1)
+  - Utilities (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - API (from `../API`)
+  - Commons (from `https://github.com/ssabrinasu/Commons`)
+  - DataModels (from `https://github.com/ssabrinasu/DataModels`)
+  - SwiftLint
+  - Utilities (from `https://github.com/lucaswkuipers/Utilities`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  API:
+    :path: "../API"
+  Commons:
+    :git: https://github.com/ssabrinasu/Commons
+  DataModels:
+    :git: https://github.com/ssabrinasu/DataModels
+  Utilities:
+    :git: https://github.com/lucaswkuipers/Utilities
+
+CHECKOUT OPTIONS:
+  Commons:
+    :commit: dd199e39a4a51a00225057cfc082f906c90e8368
+    :git: https://github.com/ssabrinasu/Commons
+  DataModels:
+    :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
+    :git: https://github.com/ssabrinasu/DataModels
+  Utilities:
+    :commit: 9fb15c75accd805b74db84d932869b3360988633
+    :git: https://github.com/lucaswkuipers/Utilities
+
+SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  API: 72054ef4be24a2d740cfbd6caa03cc7b9dbb9754
+  Commons: ece3cfae1123185556c05aebb9f511b1162a313a
+  DataModels: b2f8c7025a553f5eafc14713f90b80d72753e35f
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Utilities: 0581be06184fda3ab4fdac2d9a8d117e46d6429b
+
+PODFILE CHECKSUM: 0519ab1b4dfac638e54e8c39f78720d960367e34
+
+COCOAPODS: 1.10.1

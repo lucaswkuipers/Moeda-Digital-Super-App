@@ -18,14 +18,25 @@ class CoinListVC: UIViewController {
 	@IBOutlet weak var dateLabel: UILabel!
 	
 	var coins: [Coin] = []
+	
+	// MARK: - Life Cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-		
+		title = "Moedas"
+		self.navigationController?.isNavigationBarHidden = true
 		setupUI()
 		fetchData()
 		print("Coin list loaded with a total of #\(coins.count) coins.")
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		self.navigationController?.isNavigationBarHidden = true
+	}
+	
+	override func viewDidDisappear(_ animated: Bool) {
+		self.navigationController?.isNavigationBarHidden = false
+	}
 	
 	func setupUI() {
 		
@@ -46,9 +57,11 @@ class CoinListVC: UIViewController {
 	}
 	
 	func fetchData() {
-		coins = API.requestCoinList()
+		coins = API.requestCoinList(on: self)
 	}
 }
+
+// MARK: - Table View
 
 extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -87,6 +100,8 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 		return AppDimensions.rowHeight
 	}
 }
+
+// MARK: - Constants
 
 struct AppDimensions {
 	static let rowHeight = CGFloat(100)

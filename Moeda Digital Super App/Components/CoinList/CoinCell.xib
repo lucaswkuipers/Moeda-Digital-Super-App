@@ -39,7 +39,7 @@
                         <rect key="frame" x="105" y="16" width="22" height="20"/>
                         <color key="tintColor" systemColor="labelColor"/>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btcIcon" translatesAutoresizingMaskIntoConstraints="NO" id="afB-6v-G9y">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coloncurrencysign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="afB-6v-G9y">
                         <rect key="frame" x="16" y="13" width="64" height="64"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="64" id="9pq-sd-J6H"/>
@@ -72,7 +72,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="btcIcon" width="256" height="256"/>
+        <image name="coloncurrencysign.circle" catalog="system" width="128" height="121"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

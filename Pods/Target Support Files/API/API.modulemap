@@ -1,0 +1,6 @@
+framework module API {
+  umbrella header "API-umbrella.h"
+
+  export *
+  module * { export * }
+}

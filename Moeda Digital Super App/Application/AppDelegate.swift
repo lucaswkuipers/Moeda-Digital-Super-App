@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
-		loadMainScreen()
+//		loadMainScreen()
 		return true
 	}
 	
@@ -24,7 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //		let vc = TelaViewController.fromNib()
 //		vc.setupUI(delegate: self)
 //		self.present(vc, animated: true, completion: nil)
-		
 		
 		window = UIWindow(frame: UIScreen.main.bounds)
 		let  mainVC = UIViewController(nibName: "CoinListVC", bundle: nil)
