@@ -9,7 +9,11 @@ PODS:
   - DataModels (0.1.0):
     - AlamofireImage
     - SwiftLint
-  - Details (0.1.0)
+  - Details (0.1.0):
+    - LucasCoinAPI
+  - LucasCoinAPI (0.0.1):
+    - AlamofireImage
+    - SwiftLint
   - SwiftLint (0.43.1)
   - Utilities (1.0.0)
 
@@ -27,6 +31,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - LucasCoinAPI
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -52,7 +57,7 @@ CHECKOUT OPTIONS:
     :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
     :git: https://github.com/ssabrinasu/DataModels
   Details:
-    :commit: e26a847e9812c4ff7a9eb30dce8846e7dadb8f86
+    :commit: f1164e12a75f1d8f7ebc38e981edd5743b5db4aa
     :git: https://github.com/ssabrinasu/Details
   Utilities:
     :commit: 9fb15c75accd805b74db84d932869b3360988633
@@ -64,10 +69,11 @@ SPEC CHECKSUMS:
   API: 72054ef4be24a2d740cfbd6caa03cc7b9dbb9754
   Commons: ece3cfae1123185556c05aebb9f511b1162a313a
   DataModels: b2f8c7025a553f5eafc14713f90b80d72753e35f
-  Details: 7e7743ff529ba57d7fe1d6af3027826a057f9164
+  Details: 77ef8c6f093a967db4bedf0ca29372019a18b801
+  LucasCoinAPI: 62d41fe08e88c4656279cd43093985810322ce8c
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   Utilities: 0581be06184fda3ab4fdac2d9a8d117e46d6429b
 
-PODFILE CHECKSUM: 98e9dc72ea38e0071038ab810d748534907a61ff
+PODFILE CHECKSUM: d879869b6557cf2b6aceb398f66701204025c47e
 
 COCOAPODS: 1.10.1

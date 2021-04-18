@@ -1,4 +1,4 @@
-platform :ios, '10.0'
+#platform :ios, '10.0'
 
 target 'Moeda Digital Super App' do
   use_frameworks!

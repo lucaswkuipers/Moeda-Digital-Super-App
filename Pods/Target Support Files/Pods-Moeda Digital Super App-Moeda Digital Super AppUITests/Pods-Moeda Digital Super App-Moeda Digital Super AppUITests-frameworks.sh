@@ -181,6 +181,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Commons/Commons.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Details/Details.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LucasCoinAPI/LucasCoinAPI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Utilities/Utilities.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -190,6 +191,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Commons/Commons.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Details/Details.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LucasCoinAPI/LucasCoinAPI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Utilities/Utilities.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

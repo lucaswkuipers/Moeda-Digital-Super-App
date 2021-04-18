@@ -10,8 +10,6 @@
 		509F0A5602965FAF5711681C /* Pods_Moeda_Digital_Super_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3791EE2531A40290A825C57E /* Pods_Moeda_Digital_Super_App.framework */; };
 		9A261FFEC569AED877E19A79 /* Pods_Moeda_Digital_Super_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFFD6C9C57F3BF6DEE5371 /* Pods_Moeda_Digital_Super_AppTests.framework */; };
 		9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */; };
-		9D73A94C262C62A30003D83A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D73A94A262C62A30003D83A /* DetailsViewController.swift */; };
-		9D73A94D262C62A30003D83A /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D73A94B262C62A30003D83A /* DetailsViewController.xib */; };
 		9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F379E26275DA300D6042A /* CoinCell.swift */; };
 		9D7F37A126275DA300D6042A /* CoinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F379F26275DA300D6042A /* CoinCell.xib */; };
 		9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB0DFD262716DA00694E68 /* AppDelegate.swift */; };
@@ -53,8 +51,6 @@
 		4DD8E8BC09DA1013835F8A2F /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		800672FC906E1CE55E4C0B27 /* Pods-Moeda Digital Super AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super AppTests.release.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
-		9D73A94A262C62A30003D83A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		9D73A94B262C62A30003D83A /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		9D7F379E26275DA300D6042A /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 		9D7F379F26275DA300D6042A /* CoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinCell.xib; sourceTree = "<group>"; };
 		9DDB0DFA262716DA00694E68 /* Moeda Digital Super App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moeda Digital Super App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,8 +135,6 @@
 		9D73A948262C625C0003D83A /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				9D73A94A262C62A30003D83A /* DetailsViewController.swift */,
-				9D73A94B262C62A30003D83A /* DetailsViewController.xib */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -383,7 +377,6 @@
 				9DDB0E0D262716DB00694E68 /* LaunchScreen.storyboard in Resources */,
 				9DDB0E0A262716DB00694E68 /* Assets.xcassets in Resources */,
 				9D7F37A126275DA300D6042A /* CoinCell.xib in Resources */,
-				9D73A94D262C62A30003D83A /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +508,6 @@
 				9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */,
 				9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */,
 				9DDB0E00262716DA00694E68 /* SceneDelegate.swift in Sources */,
-				9D73A94C262C62A30003D83A /* DetailsViewController.swift in Sources */,
 				9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */,
 				9DDB0E3926271DD600694E68 /* CoinListVC.swift in Sources */,
 			);

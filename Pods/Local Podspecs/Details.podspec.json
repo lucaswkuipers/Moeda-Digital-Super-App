@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Details/Classes/**/*"
+  "source_files": "Details/Classes/**/*",
+  "dependencies": {
+    "LucasCoinAPI": [
+
+    ]
+  }
 }

@@ -10,6 +10,7 @@ import AlamofireImage
 import API
 import Commons
 import Utilities
+import Details
 
 
 class CoinListVC: UIViewController {
@@ -25,6 +26,7 @@ class CoinListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+				
 		title = "Moedas"
 		self.navigationController?.isNavigationBarHidden = true
 		setupUI()
@@ -112,7 +114,10 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 		let selectedCoinAssetID = selectedCoin.assetID
 		UserDefaults.standard.set(selectedCoinAssetID, forKey: "selectedCoinAssetID")
 		
-		let detailsVC = DetailsViewController()
+		let detailsVC = DetailsViewController(id: selectedCoinAssetID)
+
+		
+
 		self.navigationController?.pushViewController(detailsVC, animated: true)
 	}
 }

@@ -9,7 +9,7 @@ import UIKit
 import Utilities
 import API
 
-class DetailsViewController: UIViewController {
+class DetailsVC: UIViewController {
 
 	@IBOutlet weak var coinAssetIDLabel: UILabel!
 	
