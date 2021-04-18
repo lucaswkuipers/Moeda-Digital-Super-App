@@ -99,6 +99,16 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 		return AppDimensions.rowHeight
 	}
+	
+	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		let selectedCoin = coins[indexPath.row]
+		let selectedCoinAssetID = selectedCoin.assetID
+		UserDefaults.standard.set(selectedCoinAssetID, forKey: "selectedCoinAssetID")
+//		print(UserDefaults.standard.value(forKey: "selectedCoinAssetID"))
+		
+		let detailsVC = DetailsViewController()
+		self.navigationController?.pushViewController(detailsVC, animated: true)
+	}
 }
 
 // MARK: - Constants
