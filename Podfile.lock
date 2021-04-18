@@ -9,15 +9,17 @@ PODS:
   - DataModels (0.1.0):
     - AlamofireImage
     - SwiftLint
+  - Details (0.1.0)
   - SwiftLint (0.43.1)
   - Utilities (1.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage
-  - API (from `../API`)
+  - API (from `https://github.com/lucaswkuipers/API`)
   - Commons (from `https://github.com/ssabrinasu/Commons`)
   - DataModels (from `https://github.com/ssabrinasu/DataModels`)
+  - Details (from `https://github.com/ssabrinasu/Details`)
   - SwiftLint
   - Utilities (from `https://github.com/lucaswkuipers/Utilities`)
 
@@ -29,21 +31,29 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   API:
-    :path: "../API"
+    :git: https://github.com/lucaswkuipers/API
   Commons:
     :git: https://github.com/ssabrinasu/Commons
   DataModels:
     :git: https://github.com/ssabrinasu/DataModels
+  Details:
+    :git: https://github.com/ssabrinasu/Details
   Utilities:
     :git: https://github.com/lucaswkuipers/Utilities
 
 CHECKOUT OPTIONS:
+  API:
+    :commit: 3913e95fd0d27eb7b4c87690d7b7c9af59168c0c
+    :git: https://github.com/lucaswkuipers/API
   Commons:
     :commit: dd199e39a4a51a00225057cfc082f906c90e8368
     :git: https://github.com/ssabrinasu/Commons
   DataModels:
     :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
     :git: https://github.com/ssabrinasu/DataModels
+  Details:
+    :commit: e26a847e9812c4ff7a9eb30dce8846e7dadb8f86
+    :git: https://github.com/ssabrinasu/Details
   Utilities:
     :commit: 9fb15c75accd805b74db84d932869b3360988633
     :git: https://github.com/lucaswkuipers/Utilities
@@ -54,9 +64,10 @@ SPEC CHECKSUMS:
   API: 72054ef4be24a2d740cfbd6caa03cc7b9dbb9754
   Commons: ece3cfae1123185556c05aebb9f511b1162a313a
   DataModels: b2f8c7025a553f5eafc14713f90b80d72753e35f
+  Details: 7e7743ff529ba57d7fe1d6af3027826a057f9164
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   Utilities: 0581be06184fda3ab4fdac2d9a8d117e46d6429b
 
-PODFILE CHECKSUM: 0519ab1b4dfac638e54e8c39f78720d960367e34
+PODFILE CHECKSUM: 98e9dc72ea38e0071038ab810d748534907a61ff
 
 COCOAPODS: 1.10.1

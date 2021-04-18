@@ -4,4 +4,5 @@ ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
 ${BUILT_PRODUCTS_DIR}/Commons/Commons.framework
 ${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework
+${BUILT_PRODUCTS_DIR}/Details/Details.framework
 ${BUILT_PRODUCTS_DIR}/Utilities/Utilities.framework

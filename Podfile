@@ -9,12 +9,12 @@ target 'Moeda Digital Super App' do
   pod 'SwiftLint'
 
   # SQUAD02 Pods for Moeda Digital Super App
-  #pod 'API', :git => 'https://github.com/lucaswkuipers/API'
-  pod 'API', :path => '../API'
+  pod 'API', :git => 'https://github.com/lucaswkuipers/API'
+  #pod 'API', :path => '../API'
   pod 'Utilities', :git => 'https://github.com/lucaswkuipers/Utilities'
   pod 'Commons', :git => 'https://github.com/ssabrinasu/Commons'
   pod 'DataModels', :git => 'https://github.com/ssabrinasu/DataModels'
-  #pod 'Details', :git => 'https://github.com/ssabrinasu/Details'
+  pod 'Details', :git => 'https://github.com/ssabrinasu/Details'
 
   target 'Moeda Digital Super AppTests' do
     inherit! :search_paths
