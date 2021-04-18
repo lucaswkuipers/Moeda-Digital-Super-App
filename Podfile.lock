@@ -51,7 +51,7 @@ CHECKOUT OPTIONS:
     :commit: 3913e95fd0d27eb7b4c87690d7b7c9af59168c0c
     :git: https://github.com/lucaswkuipers/API
   Commons:
-    :commit: dd199e39a4a51a00225057cfc082f906c90e8368
+    :commit: 65972cdb2e4f88770330f4bbfc7aa47118446fae
     :git: https://github.com/ssabrinasu/Commons
   DataModels:
     :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
@@ -67,7 +67,7 @@ SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   API: 72054ef4be24a2d740cfbd6caa03cc7b9dbb9754
-  Commons: ece3cfae1123185556c05aebb9f511b1162a313a
+  Commons: 2bc03655794d970a880bc1bbb3d434d65f08ec86
   DataModels: b2f8c7025a553f5eafc14713f90b80d72753e35f
   Details: 77ef8c6f093a967db4bedf0ca29372019a18b801
   LucasCoinAPI: 62d41fe08e88c4656279cd43093985810322ce8c

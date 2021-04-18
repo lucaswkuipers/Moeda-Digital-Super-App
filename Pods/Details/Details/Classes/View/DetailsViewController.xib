@@ -158,8 +158,9 @@
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                         </button>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-4O-Gd2">
-                            <rect key="frame" x="323" y="54.666666666666671" width="22" height="20"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-4O-Gd2">
+                            <rect key="frame" x="317" y="51.666666666666742" width="28" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="tintColor" systemColor="systemGray5Color"/>
                         </imageView>
                     </subviews>
@@ -169,12 +170,11 @@
                         <constraint firstItem="0cs-lE-cnd" firstAttribute="top" secondItem="mnf-jG-OXc" secondAttribute="bottom" constant="23" id="8Ro-nQ-f95"/>
                         <constraint firstAttribute="height" constant="360" id="9Ik-P6-PBS"/>
                         <constraint firstItem="0cs-lE-cnd" firstAttribute="centerX" secondItem="cb0-6e-PaK" secondAttribute="centerX" id="ICj-iG-nbS"/>
-                        <constraint firstItem="i2I-4O-Gd2" firstAttribute="centerY" secondItem="9ct-ZL-dOH" secondAttribute="centerY" id="VVB-dC-VMG"/>
                         <constraint firstItem="daZ-tk-RD1" firstAttribute="top" secondItem="9ct-ZL-dOH" secondAttribute="bottom" constant="28" id="bv3-6r-TZy"/>
+                        <constraint firstItem="9ct-ZL-dOH" firstAttribute="top" secondItem="cb0-6e-PaK" secondAttribute="top" constant="52" id="fyG-mg-PlH"/>
                         <constraint firstItem="9ct-ZL-dOH" firstAttribute="centerX" secondItem="cb0-6e-PaK" secondAttribute="centerX" id="h92-zL-Bhl"/>
                         <constraint firstItem="daZ-tk-RD1" firstAttribute="centerX" secondItem="cb0-6e-PaK" secondAttribute="centerX" id="le5-Y4-9q9"/>
                         <constraint firstAttribute="trailing" secondItem="mnf-jG-OXc" secondAttribute="trailing" id="sQy-aV-Yq8"/>
-                        <constraint firstAttribute="trailing" secondItem="i2I-4O-Gd2" secondAttribute="trailing" constant="45" id="u8E-PR-vkf"/>
                         <constraint firstItem="mnf-jG-OXc" firstAttribute="top" secondItem="daZ-tk-RD1" secondAttribute="bottom" constant="16" id="wfz-2D-9Od"/>
                     </constraints>
                 </view>
@@ -186,7 +186,6 @@
                 <constraint firstItem="9Ep-Cp-nVg" firstAttribute="top" secondItem="cb0-6e-PaK" secondAttribute="bottom" id="PI0-qB-rQM"/>
                 <constraint firstAttribute="bottom" secondItem="9Ep-Cp-nVg" secondAttribute="bottom" id="Pzk-qM-JeV"/>
                 <constraint firstItem="9Ep-Cp-nVg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UAw-zZ-eIK"/>
-                <constraint firstItem="9ct-ZL-dOH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="egG-iW-lBg"/>
                 <constraint firstItem="cb0-6e-PaK" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="jAd-SH-cZ3"/>
                 <constraint firstItem="9Ep-Cp-nVg" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="nG8-gY-5aN"/>
                 <constraint firstItem="cb0-6e-PaK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vPf-9k-V4S"/>

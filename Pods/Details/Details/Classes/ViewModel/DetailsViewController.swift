@@ -50,7 +50,7 @@ public class DetailsViewController: UIViewController {
         setBorderButton()
         //print(coinsResult[0].assetID)
         
-        print(formatNumberToDecimal(value: 8989009090.090))
+//        print(formatNumberToDecimal(value: 8989009090.090))
         
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector (tap))
