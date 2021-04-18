@@ -14,10 +14,12 @@ import Utilities
 
 class CoinListVC: UIViewController {
 	
+	@IBOutlet weak var coinSearchBar: UISearchBar!
 	@IBOutlet var tableView: UITableView!
 	@IBOutlet weak var dateLabel: UILabel!
 	
 	var coins: [Coin] = []
+	var allCoins: [Coin] = []
 	
 	// MARK: - Life Cycle
 
@@ -47,6 +49,10 @@ class CoinListVC: UIViewController {
 		tableView.dataSource = self
 		tableView.tableFooterView = UIView()
 		
+		
+		// Search Bar
+		coinSearchBar.delegate = self
+		
 		// Date
 		let currentDateTime = Date()
 		let formatter = DateFormatter()
@@ -57,7 +63,8 @@ class CoinListVC: UIViewController {
 	}
 	
 	func fetchData() {
-		coins = API.requestCoinList(on: self)
+		allCoins = API.requestCoinList(on: self)
+		coins = allCoins
 	}
 }
 
@@ -104,10 +111,24 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 		let selectedCoin = coins[indexPath.row]
 		let selectedCoinAssetID = selectedCoin.assetID
 		UserDefaults.standard.set(selectedCoinAssetID, forKey: "selectedCoinAssetID")
-//		print(UserDefaults.standard.value(forKey: "selectedCoinAssetID"))
 		
 		let detailsVC = DetailsViewController()
 		self.navigationController?.pushViewController(detailsVC, animated: true)
+	}
+}
+
+
+// MARK: - Search Bar
+extension CoinListVC: UISearchBarDelegate {
+	func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+		if searchText == "" {
+			coins = allCoins
+		} else {
+			coins = try allCoins.filter {
+				$0.name!.lowercased().contains(searchText.lowercased())
+			}
+		}
+		tableView.reloadData()
 	}
 }
 
