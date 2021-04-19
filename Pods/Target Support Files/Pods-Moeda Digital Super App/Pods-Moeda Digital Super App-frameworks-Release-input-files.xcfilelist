@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks.sh
+${BUILT_PRODUCTS_DIR}/API/API.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/Commons/Commons.framework
+${BUILT_PRODUCTS_DIR}/DataModels/DataModels.framework
+${BUILT_PRODUCTS_DIR}/Details/Details.framework
+${BUILT_PRODUCTS_DIR}/LucasCoinAPI/LucasCoinAPI.framework
+${BUILT_PRODUCTS_DIR}/LucasUtilities/LucasUtilities.framework
+${BUILT_PRODUCTS_DIR}/Utilities/Utilities.framework

@@ -1,0 +1,6 @@
+framework module LucasCoinAPI {
+  umbrella header "LucasCoinAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
