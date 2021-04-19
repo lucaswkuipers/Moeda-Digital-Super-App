@@ -15,10 +15,12 @@ import Details
 
 class FavoriteCollectionViewController: UIViewController {
     
-  
-    @IBOutlet weak var collection: UICollectionView!
+    //MARK: Var
     
-
+    @IBOutlet weak var collection: UICollectionView!
+    @IBOutlet weak var dayLabel: UILabel!
+    
+    var coinsResults: [Coin] = []
     var list: String
     
     
@@ -34,21 +36,22 @@ class FavoriteCollectionViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    //MARK: Func
 
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let defaults = UserDefaults.standard
-//        let array = defaults.object(forKey:"selectedCoinAssetID") as? [String]
-//        print("--------ARRAY-----------------\(array)------------ARRAY------------")
+        
+//        guard let returnValue: [NSString]? = UserDefaults.standard.object(forKey: "selectedCoinAssetID") as? [NSString] else {return}
+//       let defaults = UserDefaults.standard
+//       let array = defaults.object(forKey:"selectedCoinAssetID") as? [String]
+//        print("--------ARRAY-----------------\(returnValue)------------ARRAY------------")
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         collection?.reloadData()
         setupCollectionView()
         collection?.reloadData()
+        setData()
         }
     
     func setupCollectionView() {
@@ -59,10 +62,22 @@ class FavoriteCollectionViewController: UIViewController {
         collection?.register(nibCell, forCellWithReuseIdentifier: "FavoriteCollectionViewCell")
     }
     
+    func setData() {
+        let now = Date()
+
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.locale = Locale(identifier: "pt_br")
+
+        let datetime = formatter.string(from: now)
+        dayLabel.text = datetime
+    }
+    
 }
+//MARK: Collection View
 
 extension FavoriteCollectionViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-   
+
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         let arrayIds = Utilities.decode(idListString: list)
@@ -76,16 +91,41 @@ extension FavoriteCollectionViewController: UICollectionViewDelegate, UICollecti
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FavoriteCollectionViewCell", for: indexPath) as! FavoriteCollectionViewCell
         
+        cell.layer.cornerRadius = 10
+        cell.layer.masksToBounds = true
+       
+        
         let arrayIds = Utilities.decode(idListString: list)
+        let favCoin = arrayIds[indexPath.row]
         
-        let favCoins = arrayIds[indexPath.row]
+        let coinsResult = API.requestCoinList(on: self, assetId: favCoin)
+        coinsResults = coinsResult
+        let coin = coinsResults[0]
+        let model = CellsViewModel.init(coin: coin)
         
-        cell.nameCoin.text = favCoins
+        cell.nameCoin.text = model.name
+        cell.siglaCoin.text = model.identifier
+        cell.priceCoin.text = Utilities.formatCoin(coinAmount: model.price)
         
         
+        let urlModel = model.icon
+        let newUrl = urlModel.replacingOccurrences(of: "-", with: "")
+        let urlStr = "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_128/\(newUrl).png"
+        
+        if let url = URL(string: urlStr ) {
+            cell.imageCoin.af.setImage(withURL: url)
+        }
+
         return cell
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let arrayIds = Utilities.decode(idListString: list)
+        let favCoin = arrayIds[indexPath.row]
+        
+        let detailsVC = DetailsViewController(id: favCoin)
+        self.navigationController?.pushViewController(detailsVC, animated: true)
+    }
    
     
     

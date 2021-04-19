@@ -12,6 +12,7 @@
 		93FF4F31262DC3B800AF0544 /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4F30262DC3B800AF0544 /* FavoriteCollectionViewCell.swift */; };
 		93FF4F36262DC3CD00AF0544 /* FavoriteCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF4F35262DC3CD00AF0544 /* FavoriteCollectionViewController.xib */; };
 		93FF4F90262DF7ED00AF0544 /* FavoriteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4F8F262DF7ED00AF0544 /* FavoriteCollectionViewController.swift */; };
+		93FF4FAB262E095C00AF0544 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4FAA262E095C00AF0544 /* CellViewModel.swift */; };
 		9A261FFEC569AED877E19A79 /* Pods_Moeda_Digital_Super_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFFD6C9C57F3BF6DEE5371 /* Pods_Moeda_Digital_Super_AppTests.framework */; };
 		9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */; };
 		9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F379E26275DA300D6042A /* CoinCell.swift */; };
@@ -58,6 +59,7 @@
 		93FF4F30262DC3B800AF0544 /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteCollectionViewCell.swift; path = ../../../../../Prototipo/Prototipo/FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
 		93FF4F35262DC3CD00AF0544 /* FavoriteCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavoriteCollectionViewController.xib; path = ../../../../../Prototipo/Prototipo/FavoriteCollectionViewController.xib; sourceTree = "<group>"; };
 		93FF4F8F262DF7ED00AF0544 /* FavoriteCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewController.swift; sourceTree = "<group>"; };
+		93FF4FAA262E095C00AF0544 /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellViewModel.swift; path = ../../../../../../DataModels/DataModels/Classes/ViewModel/CellViewModel.swift; sourceTree = "<group>"; };
 		9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		9D7F379E26275DA300D6042A /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 		9D7F379F26275DA300D6042A /* CoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinCell.xib; sourceTree = "<group>"; };
@@ -109,6 +111,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93FF4FA7262E08DE00AF0544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93FF4FA8262E08F800AF0544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93FF4FAA262E095C00AF0544 /* CellViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93FF4FA9262E090000AF0544 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9D22A88A262B7771004F0CA5 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +166,9 @@
 		9D73A949262C62660003D83A /* FavoriteList */ = {
 			isa = PBXGroup;
 			children = (
+				93FF4FA9262E090000AF0544 /* ViewModel */,
+				93FF4FA8262E08F800AF0544 /* Model */,
+				93FF4FA7262E08DE00AF0544 /* View */,
 				93FF4F8F262DF7ED00AF0544 /* FavoriteCollectionViewController.swift */,
 				93FF4F35262DC3CD00AF0544 /* FavoriteCollectionViewController.xib */,
 				93FF4F30262DC3B800AF0544 /* FavoriteCollectionViewCell.swift */,
@@ -490,6 +517,7 @@
 				9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */,
 				9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */,
 				93FF4F31262DC3B800AF0544 /* FavoriteCollectionViewCell.swift in Sources */,
+				93FF4FAB262E095C00AF0544 /* CellViewModel.swift in Sources */,
 				9DDB0E00262716DA00694E68 /* SceneDelegate.swift in Sources */,
 				9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */,
 				93FF4F90262DF7ED00AF0544 /* FavoriteCollectionViewController.swift in Sources */,
