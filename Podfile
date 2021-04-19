@@ -12,6 +12,7 @@ target 'Moeda Digital Super App' do
   pod 'API', :git => 'https://github.com/lucaswkuipers/API'
   #pod 'API', :path => '../API'
   pod 'Utilities', :git => 'https://github.com/lucaswkuipers/Utilities'
+  #pod 'Utilities', :path => '../Utilities'
   pod 'Commons', :git => 'https://github.com/ssabrinasu/Commons'
   pod 'DataModels', :git => 'https://github.com/ssabrinasu/DataModels'
   pod 'Details', :git => 'https://github.com/ssabrinasu/Details'

@@ -115,7 +115,6 @@
 			children = (
 				9D22A88A262B7771004F0CA5 /* TabBar */,
 				9D4F9D0D262748F40037ED53 /* CoinList */,
-				9D73A948262C625C0003D83A /* Details */,
 				9D73A949262C62660003D83A /* FavoriteList */,
 			);
 			path = Components;
@@ -130,13 +129,6 @@
 				9D7F379F26275DA300D6042A /* CoinCell.xib */,
 			);
 			path = CoinList;
-			sourceTree = "<group>";
-		};
-		9D73A948262C625C0003D83A /* Details */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Details;
 			sourceTree = "<group>";
 		};
 		9D73A949262C62660003D83A /* FavoriteList */ = {
