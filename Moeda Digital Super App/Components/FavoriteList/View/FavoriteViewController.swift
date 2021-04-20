@@ -65,7 +65,13 @@ class FavoriteViewController: UIViewController {
 	}
 	
 	func getDecodedFavoriteList() -> [String] {
-        let favoriteList = UserDefaults.standard.value(forKey: "favoriteList")
+        
+        var favoriteList = UserDefaults.standard.value(forKey: "favoriteList")
+        
+        if favoriteList == nil {
+            favoriteList = "BTC" 
+        }
+        
         let decodedFavoriteList = Utilities.decode(idListString: favoriteList as! String)
 		
 		return decodedFavoriteList
