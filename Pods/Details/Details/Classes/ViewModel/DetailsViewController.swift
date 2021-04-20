@@ -59,7 +59,6 @@ public class DetailsViewController: UIViewController {
 	// MARK: - IBActions
 	
 	@IBAction func toggleFavorite(_ sender: Any) {
-		print("Clicked toggle favorite button")
 
 		if isFavorite(id: self.id) {
 			removeFromFavorite(id)
