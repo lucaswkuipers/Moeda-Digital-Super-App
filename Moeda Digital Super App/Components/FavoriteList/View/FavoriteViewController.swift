@@ -56,6 +56,15 @@ class FavoriteViewController: UIViewController {
     }
 	
 	// MARK: - Functions
+	func setAccessibility() {
+		dayLabel.isAccessibilityElement = true
+		dayLabel.accessibilityTraits = .staticText
+		dayLabel.accessibilityLabel = "\(setDate())"
+		
+		tituloLabel.isAccessibilityElement = true
+		tituloLabel.accessibilityTraits = .image
+		tituloLabel.accessibilityLabel = "Moeda Digital"
+	}
 	
 	func getDecodedFavoriteList() -> [String] {
 		let favoriteList = UserDefaults.standard.value(forKey: "favoriteList")
@@ -82,6 +91,30 @@ class FavoriteViewController: UIViewController {
 		setLocalFavoriteCoins()
 
 	}
+	
+	
+	func setupCollectionView() {
+		collection?.dataSource = self
+		collection?.delegate = self
+		
+		let nibCell = UINib(nibName: "FavoritesCollectionViewCell", bundle: Bundle(for: FavoritesCollectionViewCell.self))
+		collection?.register(nibCell, forCellWithReuseIdentifier: "FavoritesCollectionViewCell")
+		
+	}
+  
+	
+	func setDate() {
+		let now = Date()
+
+		let formatter = DateFormatter()
+		formatter.dateStyle = .medium
+		formatter.locale = Locale(identifier: "pt_br")
+
+		let datetime = formatter.string(from: now)
+		dayLabel.text = datetime
+	}
+	
+
     
     //MARK: Life Cycle
 
@@ -93,43 +126,12 @@ class FavoriteViewController: UIViewController {
     }
     
     public override func viewWillAppear(_ animated: Bool) {
-        collection?.reloadData()
-        setupCollectionView()
-        collection?.reloadData()
 
-        accessibility()
+		setupCollectionView()
+        setAccessibility()
+		setLocalFavoriteCoins()
+		collection.reloadData()
         }
-    
-    func setupCollectionView() {
-        collection?.dataSource = self
-        collection?.delegate = self
-        
-        let nibCell = UINib(nibName: "FavoritesCollectionViewCell", bundle: Bundle(for: FavoritesCollectionViewCell.self))
-        collection?.register(nibCell, forCellWithReuseIdentifier: "FavoritesCollectionViewCell")
-        
-    }
-  
-    
-    func setDate() {
-        let now = Date()
-
-        let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        formatter.locale = Locale(identifier: "pt_br")
-
-        let datetime = formatter.string(from: now)
-        dayLabel.text = datetime
-	}
-    
-    func accessibility() {
-        dayLabel.isAccessibilityElement = true
-        dayLabel.accessibilityTraits = .staticText
-        dayLabel.accessibilityLabel = "\(setDate())"
-        
-        tituloLabel.isAccessibilityElement = true
-        tituloLabel.accessibilityTraits = .image
-        tituloLabel.accessibilityLabel = "Moeda Digital"
-    }
 }
 
 
