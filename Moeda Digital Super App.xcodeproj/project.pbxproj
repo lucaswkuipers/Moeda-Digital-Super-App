@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		509F0A5602965FAF5711681C /* Pods_Moeda_Digital_Super_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3791EE2531A40290A825C57E /* Pods_Moeda_Digital_Super_App.framework */; };
-		93FF4F2C262DC3AB00AF0544 /* FavoriteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF4F2B262DC3AB00AF0544 /* FavoriteCollectionViewCell.xib */; };
-		93FF4F31262DC3B800AF0544 /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4F30262DC3B800AF0544 /* FavoriteCollectionViewCell.swift */; };
-		93FF4F36262DC3CD00AF0544 /* FavoriteCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF4F35262DC3CD00AF0544 /* FavoriteCollectionViewController.xib */; };
-		93FF4F90262DF7ED00AF0544 /* FavoriteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4F8F262DF7ED00AF0544 /* FavoriteCollectionViewController.swift */; };
 		93FF4FAB262E095C00AF0544 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4FAA262E095C00AF0544 /* CellViewModel.swift */; };
+		93FF5004262E4CA100AF0544 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF5002262E4CA100AF0544 /* FavoriteViewController.swift */; };
+		93FF5005262E4CA100AF0544 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF5003262E4CA100AF0544 /* FavoriteViewController.xib */; };
+		93FF501B262E514400AF0544 /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF5019262E514400AF0544 /* FavoritesCollectionViewCell.swift */; };
+		93FF501C262E514400AF0544 /* FavoritesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF501A262E514400AF0544 /* FavoritesCollectionViewCell.xib */; };
 		9A261FFEC569AED877E19A79 /* Pods_Moeda_Digital_Super_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFFD6C9C57F3BF6DEE5371 /* Pods_Moeda_Digital_Super_AppTests.framework */; };
 		9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */; };
 		9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F379E26275DA300D6042A /* CoinCell.swift */; };
@@ -55,11 +55,11 @@
 		44A5C2F4D1BA6DF2D32A11B5 /* Pods-Moeda Digital Super AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DD8E8BC09DA1013835F8A2F /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		800672FC906E1CE55E4C0B27 /* Pods-Moeda Digital Super AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super AppTests.release.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		93FF4F2B262DC3AB00AF0544 /* FavoriteCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavoriteCollectionViewCell.xib; path = ../../../../../Prototipo/Prototipo/FavoriteCollectionViewCell.xib; sourceTree = "<group>"; };
-		93FF4F30262DC3B800AF0544 /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteCollectionViewCell.swift; path = ../../../../../Prototipo/Prototipo/FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
-		93FF4F35262DC3CD00AF0544 /* FavoriteCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavoriteCollectionViewController.xib; path = ../../../../../Prototipo/Prototipo/FavoriteCollectionViewController.xib; sourceTree = "<group>"; };
-		93FF4F8F262DF7ED00AF0544 /* FavoriteCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewController.swift; sourceTree = "<group>"; };
 		93FF4FAA262E095C00AF0544 /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellViewModel.swift; path = ../../../../../../DataModels/DataModels/Classes/ViewModel/CellViewModel.swift; sourceTree = "<group>"; };
+		93FF5002262E4CA100AF0544 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		93FF5003262E4CA100AF0544 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		93FF5019262E514400AF0544 /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewCell.swift; sourceTree = "<group>"; };
+		93FF501A262E514400AF0544 /* FavoritesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesCollectionViewCell.xib; sourceTree = "<group>"; };
 		9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		9D7F379E26275DA300D6042A /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 		9D7F379F26275DA300D6042A /* CoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinCell.xib; sourceTree = "<group>"; };
@@ -114,6 +114,10 @@
 		93FF4FA7262E08DE00AF0544 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				93FF5002262E4CA100AF0544 /* FavoriteViewController.swift */,
+				93FF5003262E4CA100AF0544 /* FavoriteViewController.xib */,
+				93FF5019262E514400AF0544 /* FavoritesCollectionViewCell.swift */,
+				93FF501A262E514400AF0544 /* FavoritesCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,10 +173,6 @@
 				93FF4FA9262E090000AF0544 /* ViewModel */,
 				93FF4FA8262E08F800AF0544 /* Model */,
 				93FF4FA7262E08DE00AF0544 /* View */,
-				93FF4F8F262DF7ED00AF0544 /* FavoriteCollectionViewController.swift */,
-				93FF4F35262DC3CD00AF0544 /* FavoriteCollectionViewController.xib */,
-				93FF4F30262DC3B800AF0544 /* FavoriteCollectionViewCell.swift */,
-				93FF4F2B262DC3AB00AF0544 /* FavoriteCollectionViewCell.xib */,
 			);
 			path = FavoriteList;
 			sourceTree = "<group>";
@@ -380,12 +380,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDB0E3A26271DD600694E68 /* CoinListVC.xib in Resources */,
-				93FF4F36262DC3CD00AF0544 /* FavoriteCollectionViewController.xib in Resources */,
 				9DF420B7262B807500E240FC /* Main.storyboard in Resources */,
+				93FF5005262E4CA100AF0544 /* FavoriteViewController.xib in Resources */,
 				9DDB0E0D262716DB00694E68 /* LaunchScreen.storyboard in Resources */,
 				9DDB0E0A262716DB00694E68 /* Assets.xcassets in Resources */,
-				93FF4F2C262DC3AB00AF0544 /* FavoriteCollectionViewCell.xib in Resources */,
 				9D7F37A126275DA300D6042A /* CoinCell.xib in Resources */,
+				93FF501C262E514400AF0544 /* FavoritesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,13 +514,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDB0E08262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld in Sources */,
+				93FF501B262E514400AF0544 /* FavoritesCollectionViewCell.swift in Sources */,
 				9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */,
 				9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */,
-				93FF4F31262DC3B800AF0544 /* FavoriteCollectionViewCell.swift in Sources */,
+				93FF5004262E4CA100AF0544 /* FavoriteViewController.swift in Sources */,
 				93FF4FAB262E095C00AF0544 /* CellViewModel.swift in Sources */,
 				9DDB0E00262716DA00694E68 /* SceneDelegate.swift in Sources */,
 				9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */,
-				93FF4F90262DF7ED00AF0544 /* FavoriteCollectionViewController.swift in Sources */,
 				9DDB0E3926271DD600694E68 /* CoinListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

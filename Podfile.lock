@@ -61,7 +61,7 @@ CHECKOUT OPTIONS:
     :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
     :git: https://github.com/ssabrinasu/DataModels
   Details:
-    :commit: 49d62f2a7912ff16f315a053f23196285a2686cd
+    :commit: 509d46badbd6954d74b9b6b375e8670a9ecd1d7b
     :git: https://github.com/ssabrinasu/Details
   Utilities:
     :commit: 9fb15c75accd805b74db84d932869b3360988633
@@ -79,6 +79,6 @@ SPEC CHECKSUMS:
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   Utilities: 0581be06184fda3ab4fdac2d9a8d117e46d6429b
 
-PODFILE CHECKSUM: 72990e54915a204e44420f15cb7794ff0225ab14
+PODFILE CHECKSUM: ce98b2517adc6e68a00f82b0cc45cd7da899439c
 
 COCOAPODS: 1.10.1

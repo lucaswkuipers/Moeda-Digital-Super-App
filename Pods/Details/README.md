@@ -1,4 +1,5 @@
 # Details
+- modified (lucas)
 
 [![CI Status](https://img.shields.io/travis/ssabrinasu/Details.svg?style=flat)](https://travis-ci.org/ssabrinasu/Details)
 [![Version](https://img.shields.io/cocoapods/v/Details.svg?style=flat)](https://cocoapods.org/pods/Details)

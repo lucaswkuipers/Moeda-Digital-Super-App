@@ -38,7 +38,7 @@ class FavoriteListVC: UIViewController {
 		title = "Adicionadas"
 		self.navigationController?.isNavigationBarHidden = true
         
-        var viewController = FavoriteCollectionViewController(list: "BTC|USD|PLN")
+        let viewController = FavoriteViewController()
         self.navigationController?.pushViewController(viewController, animated: true)
 	}
 }
