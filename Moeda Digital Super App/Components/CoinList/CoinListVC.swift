@@ -104,6 +104,8 @@ class CoinListVC: UIViewController {
 	
 	override func viewWillAppear(_ animated: Bool) {
 		self.navigationController?.isNavigationBarHidden = true
+		retrieveFavoriteList()
+		tableView.reloadData()
 	}
 	
 	override func viewDidDisappear(_ animated: Bool) {
@@ -151,6 +153,12 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 			if let url = URL(string: urlStr ) {
 				cell?.coinIconImageView.af.setImage(withURL: url)
 			}
+		}
+		
+		if isFavorite(id: coinID) {
+			cell?.coinsFavoriteStarImageView.image = UIImage(named: "star")
+		} else {
+			cell?.coinsFavoriteStarImageView.image = UIImage()
 		}
 		
 		

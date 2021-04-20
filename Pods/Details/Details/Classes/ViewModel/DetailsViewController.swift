@@ -157,6 +157,8 @@ public class DetailsViewController: UIViewController {
 		let urlStr = "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_128/\(iconID).png"
 		if let url = URL(string: urlStr ) {
 			iconImage.af.setImage(withURL: url)
+		} else {
+			iconImage.image = UIImage(named: "coin")
 		}
 	}
 	
