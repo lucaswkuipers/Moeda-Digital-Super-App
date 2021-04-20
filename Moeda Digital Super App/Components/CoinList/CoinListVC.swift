@@ -22,28 +22,27 @@ class CoinListVC: UIViewController {
 	var coins: [Coin] = []
 	var allCoins: [Coin] = []
 	
-	// MARK: - Life Cycle
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-				
-		title = "Moedas"
-		self.navigationController?.isNavigationBarHidden = true
-		setupUI()
-		fetchData()
-        accessibilityCoinList()
-		print("Coin list loaded with a total of #\(coins.count) coins.")
-    }
+	// MARK: - Initialization
 	
-	override func viewWillAppear(_ animated: Bool) {
-		self.navigationController?.isNavigationBarHidden = true
+	public init(allCoins: [Coin]){
+		self.allCoins = allCoins
+		super.init(nibName:"CoinListVC", bundle: Bundle(for: CoinListVC.self))
+	}
+   
+	required init?(coder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
 	}
 	
-	override func viewDidDisappear(_ animated: Bool) {
-		self.navigationController?.isNavigationBarHidden = false
+	// MARK: - Functions
+	func setupNavigation() {
+		title = "Moedas"
+		self.navigationController?.isNavigationBarHidden = true
 	}
 	
 	func setupUI() {
+	
+		
+		setupNavigation()
 		
 		// Table cells
 		let nib = UINib(nibName: "CoinCell", bundle: nil)
@@ -65,19 +64,42 @@ class CoinListVC: UIViewController {
 		dateLabel.text = date.lowercased()
 	}
 	
+	func setupAccessibility(){
+		
+		dateLabel.isAccessibilityElement = true
+		dateLabel.accessibilityHint = "Data de hoje"
+		
+		coinSearchBar.isAccessibilityElement = true
+		coinSearchBar.accessibilityHint = "Barra de pesquisa"
+	}
+	
+	// MARK: - Life Cycle
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+		
+		setupUI()
+		fetchData()
+        setupAccessibility()
+		print("Coin list loaded with a total of #\(coins.count) coins.")
+    }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		self.navigationController?.isNavigationBarHidden = true
+	}
+	
+	override func viewDidDisappear(_ animated: Bool) {
+		self.navigationController?.isNavigationBarHidden = false
+	}
+	
+	
+	
 	func fetchData() {
-		allCoins = API.requestCoinList(on: self)
+//		allCoins = API.requestCoinList(on: self)
 		coins = allCoins
 	}
     
-    func accessibilityCoinList(){
-        
-        dateLabel.isAccessibilityElement = true
-        dateLabel.accessibilityHint = "Data de hoje"
-        
-        coinSearchBar.isAccessibilityElement = true
-        coinSearchBar.accessibilityHint = "Barra de pesquisa"
-    }
+
 }
 
 // MARK: - Table View
@@ -112,6 +134,9 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 				cell?.coinIconImageView.af.setImage(withURL: url)
 			}
 		}
+		
+		
+		
 		return cell ?? UITableViewCell()
 	}
 	
@@ -120,10 +145,9 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		
 		let selectedCoin = coins[indexPath.row]
 		let selectedCoinAssetID = selectedCoin.assetID
-		UserDefaults.standard.set(selectedCoinAssetID, forKey: "selectedCoinAssetID")
-		
 		let detailsVC = DetailsViewController(id: selectedCoinAssetID)
 
 		

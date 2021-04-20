@@ -45,7 +45,8 @@ class FavoriteViewController: UIViewController {
   
     //MARK: Init
   
-    public init(){
+	public init(allCoins: [Coin]){
+		self.allCoins = allCoins
         super.init(nibName: "FavoriteViewController", bundle: Bundle(for: FavoriteViewController.self))
     }
     
@@ -87,7 +88,7 @@ class FavoriteViewController: UIViewController {
 	}
 	
 	func fetchData() {
-		allCoins = API.requestCoinList(on: self)
+//		allCoins = API.requestCoinList(on: self)
 	}
 	
 	func setupUI() {
