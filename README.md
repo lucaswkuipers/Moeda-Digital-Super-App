@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Moeda Digital Super App is available through [CocoaPods](https://cocoapods.org). To install
+Moeda Digital Super App will be available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
