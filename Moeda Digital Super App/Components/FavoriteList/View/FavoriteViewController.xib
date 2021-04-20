@@ -3,6 +3,7 @@
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,21 +25,21 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moeda Digital" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHC-bf-zHK">
-                            <rect key="frame" x="0.0" y="50" width="414" height="30"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="oFf-eR-omM"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
-                            <color key="textColor" red="0.92549639939999995" green="0.92547899479999995" blue="0.9254907966" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                            <color key="textColor" name="TextGrey"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19 abr 2021" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlF-4Y-bIY">
-                            <rect key="frame" x="0.0" y="89" width="414" height="23"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22 abr. 2021" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlF-4Y-bIY">
+                            <rect key="frame" x="0.0" y="55" width="414" height="23"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="23" id="0K1-Dq-NYm"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                            <color key="textColor" red="0.92549639939999995" green="0.92547899479999995" blue="0.9254907966" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                            <color key="textColor" name="TextGrey"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -47,8 +48,7 @@
                         <constraint firstAttribute="trailing" secondItem="KlF-4Y-bIY" secondAttribute="trailing" id="4Fp-5V-GQq"/>
                         <constraint firstItem="JHC-bf-zHK" firstAttribute="leading" secondItem="IpQ-Lf-yC6" secondAttribute="leading" id="C6N-08-cW0"/>
                         <constraint firstItem="KlF-4Y-bIY" firstAttribute="leading" secondItem="IpQ-Lf-yC6" secondAttribute="leading" id="Qp1-LJ-PhQ"/>
-                        <constraint firstItem="KlF-4Y-bIY" firstAttribute="top" secondItem="JHC-bf-zHK" secondAttribute="bottom" constant="9" id="Rm4-OM-8Zh"/>
-                        <constraint firstItem="JHC-bf-zHK" firstAttribute="top" secondItem="IpQ-Lf-yC6" secondAttribute="top" constant="50" id="XVR-fg-HSl"/>
+                        <constraint firstItem="KlF-4Y-bIY" firstAttribute="top" secondItem="JHC-bf-zHK" secondAttribute="bottom" constant="5" id="Rm4-OM-8Zh"/>
                         <constraint firstAttribute="trailing" secondItem="JHC-bf-zHK" secondAttribute="trailing" id="egH-Bt-qAo"/>
                         <constraint firstItem="JHC-bf-zHK" firstAttribute="centerX" secondItem="IpQ-Lf-yC6" secondAttribute="centerX" id="iQM-ux-iC6"/>
                         <constraint firstItem="KlF-4Y-bIY" firstAttribute="centerX" secondItem="IpQ-Lf-yC6" secondAttribute="centerX" id="nz9-b8-9ZY"/>
@@ -56,7 +56,7 @@
                     </constraints>
                 </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="q9H-ev-M24">
-                    <rect key="frame" x="45" y="142" width="324" height="574"/>
+                    <rect key="frame" x="45" y="97" width="324" height="619"/>
                     <color key="backgroundColor" red="0.1019616351" green="0.097962893549999999" blue="0.10196136679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1os-DJ-GWx">
                         <size key="itemSize" width="128" height="128"/>
@@ -70,7 +70,8 @@
             <color key="backgroundColor" red="0.1019616351" green="0.097962893549999999" blue="0.10196136679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="q9H-ev-M24" secondAttribute="trailing" constant="45" id="1L4-In-dpD"/>
-                <constraint firstItem="q9H-ev-M24" firstAttribute="top" secondItem="IpQ-Lf-yC6" secondAttribute="bottom" id="CIf-gv-WwX"/>
+                <constraint firstItem="JHC-bf-zHK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="33C-sJ-GtU"/>
+                <constraint firstItem="q9H-ev-M24" firstAttribute="top" secondItem="IpQ-Lf-yC6" secondAttribute="bottom" constant="-45" id="CIf-gv-WwX"/>
                 <constraint firstItem="IpQ-Lf-yC6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Nch-vj-PNx"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="q9H-ev-M24" secondAttribute="bottom" constant="20" id="fcx-pS-53c"/>
                 <constraint firstItem="IpQ-Lf-yC6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nRY-6d-O19"/>
@@ -80,4 +81,9 @@
             <point key="canvasLocation" x="136.23188405797103" y="94.565217391304358"/>
         </view>
     </objects>
+    <resources>
+        <namedColor name="TextGrey">
+            <color red="0.62745098039215685" green="0.62352941176470589" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

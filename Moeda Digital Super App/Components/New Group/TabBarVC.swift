@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import API
+import LucasCoinAPI
 
 class TabBarVC: UITabBarController {
 

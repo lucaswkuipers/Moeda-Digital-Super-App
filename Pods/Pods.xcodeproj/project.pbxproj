@@ -109,7 +109,7 @@
 		D9EB6354425A77AFC8F3A3B051D55EFB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2315A5E422B5F9ACB3E4C6296C36C3F /* ImageCache.swift */; };
 		DADD20E4D5FE8602CE26984497316A1A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB1591A1DB88050E6805B7D00A524D /* ResponseSerialization.swift */; };
 		DEBF20C74BF5C45B99D43300B32985D9 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CAAAE9A7369022E99782CDEB8FA8 /* Alamofire-dummy.m */; };
-		DF23965DFEBF60F1A25BD60329714EB8 /* CellsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F6A1DE9018B072A04445C7EA7B801 /* CellsViewModel.swift */; };
+		DF23965DFEBF60F1A25BD60329714EB8 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F6A1DE9018B072A04445C7EA7B801 /* CellViewModel.swift */; };
 		E159E08CCBAFE3EE17B925D13DD9E00E /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BC51B8DB9DF35796EAA70BE80EBBF /* URLSessionConfiguration+Alamofire.swift */; };
 		E1E5FE791DB129C51FAEFB66244B8D84 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3670B37082A70955FE7F1A7DCBC56E4 /* NetworkReachabilityManager.swift */; };
 		E219D13444991DA882D4DE77EBC84F55 /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4E92AAE21322FA4F1FB8414A215A4 /* MultipartUpload.swift */; };
@@ -421,7 +421,7 @@
 		6F0FC0AC6FD8717C93BF4DB6D0DE26DA /* Pods-Moeda Digital Super AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Moeda Digital Super AppTests.modulemap"; sourceTree = "<group>"; };
 		6F2B48F9D9CDEEF40B40F3A051888C37 /* API-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "API-dummy.m"; sourceTree = "<group>"; };
 		71EC12A37BCCC9517207EEDF98ACA832 /* API-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "API-prefix.pch"; sourceTree = "<group>"; };
-		735F6A1DE9018B072A04445C7EA7B801 /* CellsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellsViewModel.swift; path = DataModels/Classes/ViewModel/CellsViewModel.swift; sourceTree = "<group>"; };
+		735F6A1DE9018B072A04445C7EA7B801 /* CellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellViewModel.swift; path = DataModels/Classes/ViewModel/CellViewModel.swift; sourceTree = "<group>"; };
 		73CB97EDD3B2814B20973BDB426A72CE /* Pods-Moeda Digital Super App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super App.release.xcconfig"; sourceTree = "<group>"; };
 		74E1C3EA47B752D9C48538047E20F688 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = LucasUtilities/Classes/Utilities.swift; sourceTree = "<group>"; };
 		7543C11A2123547B6914393AD18AA47D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
@@ -880,7 +880,7 @@
 		A265D03635C5DC85910B005E101896EB /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				735F6A1DE9018B072A04445C7EA7B801 /* CellsViewModel.swift */,
+				735F6A1DE9018B072A04445C7EA7B801 /* CellViewModel.swift */,
 				C90FB01595E5410F1566B27DEB4849EA /* DetailsViewModel.swift */,
 				CE2C4452D39AF8E389611996DC021D87 /* Support Files */,
 			);
@@ -1578,7 +1578,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF23965DFEBF60F1A25BD60329714EB8 /* CellsViewModel.swift in Sources */,
+				DF23965DFEBF60F1A25BD60329714EB8 /* CellViewModel.swift in Sources */,
 				F7AD6BAE8E53CFA621947019FD1471DE /* DataModels-dummy.m in Sources */,
 				1EF21F14324AD9C13E9168726BFB4F2C /* DetailsViewModel.swift in Sources */,
 			);

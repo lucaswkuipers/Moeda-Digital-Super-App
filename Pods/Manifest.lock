@@ -61,7 +61,7 @@ CHECKOUT OPTIONS:
     :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
     :git: https://github.com/ssabrinasu/DataModels
   Details:
-    :commit: 509d46badbd6954d74b9b6b375e8670a9ecd1d7b
+    :commit: 5ba60e27ce4a221e6e9d086d9ff5354d93e95891
     :git: https://github.com/ssabrinasu/Details
   Utilities:
     :commit: 9fb15c75accd805b74db84d932869b3360988633

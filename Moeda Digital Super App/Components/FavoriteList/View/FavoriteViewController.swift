@@ -7,7 +7,7 @@
 
 import UIKit
 import AlamofireImage
-import API
+import LucasCoinAPI
 import Commons
 import Utilities
 import Details
@@ -166,8 +166,8 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FavoritesCollectionViewCell", for: indexPath) as! FavoritesCollectionViewCell
         
-        cell.layer.cornerRadius = 10
-        cell.layer.masksToBounds = true
+		cell.cellBackgroundImage.layer.cornerRadius = 10
+		cell.cellBackgroundImage.layer.masksToBounds = true
   
         let favoriteCoin = favoriteCoins[indexPath.row]
         let favoriteCoinViewModel = CellViewModel(coin: favoriteCoin)
@@ -190,7 +190,7 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
         
         let favoriteCoin = favoriteCoins[indexPath.row]
         
-		let detailsVC = DetailsViewController(id: favoriteCoin.assetID)
+		let detailsVC = DetailsViewController(coin: favoriteCoin)
         self.navigationController?.pushViewController(detailsVC, animated: true)
     }
 }

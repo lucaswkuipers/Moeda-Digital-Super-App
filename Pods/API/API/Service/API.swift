@@ -161,6 +161,8 @@ extension URLSession {
 		dataTask.resume()
 
 		_ = semaphore.wait(timeout: .distantFuture)
+		_ = data
+		_ = error 
 		
 		return (response)
 	}

@@ -7,10 +7,10 @@
 
 import UIKit
 import AlamofireImage
-import API
 import Commons
 import Utilities
 import Details
+import LucasCoinAPI
 
 
 class CoinListVC: UIViewController {
@@ -147,8 +147,7 @@ extension CoinListVC: UITableViewDelegate, UITableViewDataSource {
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		
 		let selectedCoin = coins[indexPath.row]
-		let selectedCoinAssetID = selectedCoin.assetID
-		let detailsVC = DetailsViewController(id: selectedCoinAssetID)
+		let detailsVC = DetailsViewController(coin: selectedCoin)
 
 		
 
@@ -163,7 +162,7 @@ extension CoinListVC: UISearchBarDelegate {
 		if searchText == "" {
 			coins = allCoins
 		} else {
-			coins = try allCoins.filter {
+			coins = allCoins.filter {
 				$0.name!.lowercased().contains(searchText.lowercased())
 			}
 		}

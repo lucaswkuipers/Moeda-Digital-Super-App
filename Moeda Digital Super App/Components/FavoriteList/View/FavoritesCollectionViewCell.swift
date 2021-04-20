@@ -13,7 +13,8 @@ class FavoritesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var siglaCoin: UILabel!
     @IBOutlet weak var priceCoin: UILabel!
     @IBOutlet weak var imageIcon: UIImageView!
-    
+	@IBOutlet weak var cellBackgroundImage: UIView!
+	
     
     override func awakeFromNib() {
         super.awakeFromNib()
