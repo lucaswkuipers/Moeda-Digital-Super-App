@@ -13,7 +13,7 @@ import Utilities
 import Details
 
 
-public struct CellsViewModel{
+public struct CellViewModel{
 	
 	public var icon: String
 	public var name: String
@@ -40,39 +40,63 @@ class FavoriteViewController: UIViewController {
     @IBOutlet weak var dayLabel: UILabel!
     @IBOutlet weak var tituloLabel: UILabel!
     
-    var coinsResults: [Coin] = []
-
-    let defaults = UserDefaults.standard
-    var favoritesDefaults = ""
-    var arrayIds = [String]()
+    var allCoins = [Coin]()
+    var favoriteCoins = [Coin]()
+	var favoriteList = [String]()
     
   
     //MARK: Init
   
     public init(){
-        
         super.init(nibName: "FavoriteViewController", bundle: Bundle(for: FavoriteViewController.self))
-        
     }
     
     required init(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+	
+	// MARK: - Functions
+	
+	func getDecodedFavoriteList() -> [String] {
+		let favoriteList = UserDefaults.standard.value(forKey: "favoriteList")
+		let decodedFavoriteList = Utilities.decode(idListString: favoriteList as! String)
+		
+		return decodedFavoriteList
+	}
+	
+	func setLocalFavoriteList() {
+		favoriteList = getDecodedFavoriteList()
+	}
+	
+	func setLocalFavoriteCoins() {
+		setLocalFavoriteList()
+		favoriteCoins = allCoins.filter { favoriteList.contains($0.assetID) }
+	}
+	
+	func fetchData() {
+		allCoins = API.requestCoinList(on: self)
+	}
+	
+	func setupUI() {
+		setDate()
+		setLocalFavoriteCoins()
+
+	}
     
-    //MARK: Func
+    //MARK: Life Cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-		let defaults = UserDefaults.standard
-		favoritesDefaults = defaults.object(forKey: "favoriteList") as! String
-		arrayIds = Utilities.decode(idListString: favoritesDefaults)
+		
+		fetchData()
+		setupUI()
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         collection?.reloadData()
         setupCollectionView()
         collection?.reloadData()
-        setDate()
+
         accessibility()
         }
     
@@ -86,7 +110,7 @@ class FavoriteViewController: UIViewController {
     }
   
     
-    func setDate() -> String{
+    func setDate() {
         let now = Date()
 
         let formatter = DateFormatter()
@@ -95,21 +119,9 @@ class FavoriteViewController: UIViewController {
 
         let datetime = formatter.string(from: now)
         dayLabel.text = datetime
-        
-        return datetime
-    }
-    
-    func request(id: String) -> CellsViewModel{
-        
-        let coinsResult = API.requestCoinList(on: self, assetId: id)
-        let coin = coinsResult[0]
-        let model = CellsViewModel.init(coin: coin)
-        
-        return model
-    }
+	}
     
     func accessibility() {
-     
         dayLabel.isAccessibilityElement = true
         dayLabel.accessibilityTraits = .staticText
         dayLabel.accessibilityLabel = "\(setDate())"
@@ -117,7 +129,6 @@ class FavoriteViewController: UIViewController {
         tituloLabel.isAccessibilityElement = true
         tituloLabel.accessibilityTraits = .image
         tituloLabel.accessibilityLabel = "Moeda Digital"
-        
     }
 }
 
@@ -128,7 +139,7 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
   
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return arrayIds.count
+        return favoriteCoins.count
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -141,14 +152,14 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
         cell.layer.cornerRadius = 10
         cell.layer.masksToBounds = true
   
-        let favCoin = arrayIds[indexPath.row]
-        let model = request(id: favCoin)
+        let favoriteCoin = favoriteCoins[indexPath.row]
+        let favoriteCoinViewModel = CellViewModel(coin: favoriteCoin)
         
-        cell.nameCoin.text = model.name
-        cell.siglaCoin.text = model.identifier
-        cell.priceCoin.text = Utilities.formatCoin(coinAmount: model.price)
+        cell.nameCoin.text = favoriteCoinViewModel.name
+        cell.siglaCoin.text = favoriteCoinViewModel.identifier
+        cell.priceCoin.text = Utilities.formatCoin(coinAmount: favoriteCoinViewModel.price)
         
-        let urlModel = model.icon
+        let urlModel = favoriteCoinViewModel.icon
         let newUrl = urlModel.replacingOccurrences(of: "-", with: "")
         let urlStr = "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_128/\(newUrl).png"
         
@@ -160,12 +171,9 @@ extension FavoriteViewController: UICollectionViewDelegate, UICollectionViewData
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        let favCoin = arrayIds[indexPath.row]
+        let favoriteCoin = favoriteCoins[indexPath.row]
         
-        let detailsVC = DetailsViewController(id: favCoin)
+		let detailsVC = DetailsViewController(id: favoriteCoin.assetID)
         self.navigationController?.pushViewController(detailsVC, animated: true)
     }
-   
-    
-    
 }
