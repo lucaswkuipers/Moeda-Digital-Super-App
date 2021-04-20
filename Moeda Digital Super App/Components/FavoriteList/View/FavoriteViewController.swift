@@ -30,8 +30,6 @@ public struct CellViewModel{
 	}
 }
 
-
-
 class FavoriteViewController: UIViewController {
     
     //MARK: Var
@@ -67,8 +65,8 @@ class FavoriteViewController: UIViewController {
 	}
 	
 	func getDecodedFavoriteList() -> [String] {
-		let favoriteList = UserDefaults.standard.value(forKey: "favoriteList")
-		let decodedFavoriteList = Utilities.decode(idListString: favoriteList as! String)
+        let favoriteList = UserDefaults.standard.value(forKey: "favoriteList")
+        let decodedFavoriteList = Utilities.decode(idListString: favoriteList as! String)
 		
 		return decodedFavoriteList
 	}
@@ -113,9 +111,18 @@ class FavoriteViewController: UIViewController {
 		let datetime = formatter.string(from: now)
 		dayLabel.text = datetime
 	}
+    
+    func accessibilityFavorites(){
+            
+            dayLabel.isAccessibilityElement = true
+            dayLabel.accessibilityHint = "Data de hoje"
+            
+            tituloLabel.isAccessibilityElement = true
+            tituloLabel.accessibilityHint = "Moeda digital - Titulo da pagina"
+            
+        }
 	
 
-    
     //MARK: Life Cycle
 
     override func viewDidLoad() {
@@ -123,6 +130,7 @@ class FavoriteViewController: UIViewController {
 		
 		fetchData()
 		setupUI()
+        accessibilityFavorites()
     }
     
     public override func viewWillAppear(_ animated: Bool) {

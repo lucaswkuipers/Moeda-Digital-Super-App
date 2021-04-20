@@ -31,6 +31,7 @@ class CoinListVC: UIViewController {
 		self.navigationController?.isNavigationBarHidden = true
 		setupUI()
 		fetchData()
+        accessibilityCoinList()
 		print("Coin list loaded with a total of #\(coins.count) coins.")
     }
 	
@@ -68,6 +69,15 @@ class CoinListVC: UIViewController {
 		allCoins = API.requestCoinList(on: self)
 		coins = allCoins
 	}
+    
+    func accessibilityCoinList(){
+        
+        dateLabel.isAccessibilityElement = true
+        dateLabel.accessibilityHint = "Data de hoje"
+        
+        coinSearchBar.isAccessibilityElement = true
+        coinSearchBar.accessibilityHint = "Barra de pesquisa"
+    }
 }
 
 // MARK: - Table View
