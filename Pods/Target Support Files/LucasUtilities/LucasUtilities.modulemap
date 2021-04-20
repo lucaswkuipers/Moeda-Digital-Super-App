@@ -1,0 +1,6 @@
+framework module LucasUtilities {
+  umbrella header "LucasUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

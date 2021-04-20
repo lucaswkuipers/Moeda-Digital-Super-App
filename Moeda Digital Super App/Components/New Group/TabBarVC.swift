@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import API
 
 class TabBarVC: UITabBarController {
 
@@ -36,5 +37,8 @@ class FavoriteListVC: UIViewController {
 		view.backgroundColor = .gray
 		title = "Adicionadas"
 		self.navigationController?.isNavigationBarHidden = true
+        
+        let viewController = FavoriteViewController()
+        self.navigationController?.pushViewController(viewController, animated: true)
 	}
 }

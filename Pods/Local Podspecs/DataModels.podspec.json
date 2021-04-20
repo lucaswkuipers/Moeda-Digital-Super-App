@@ -1,0 +1,30 @@
+{
+  "name": "DataModels",
+  "version": "0.1.0",
+  "summary": "A short description of DataModels.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ssabrinasu/DataModels",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ssabrinasu": "ssabrinasutili@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ssabrinasu/DataModels.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DataModels/Classes/**/*",
+  "dependencies": {
+    "AlamofireImage": [
+
+    ],
+    "SwiftLint": [
+
+    ]
+  }
+}

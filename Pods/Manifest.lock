@@ -1,0 +1,84 @@
+PODS:
+  - Alamofire (5.4.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - API (0.0.1):
+    - AlamofireImage
+    - SwiftLint
+  - Commons (0.1.0)
+  - DataModels (0.1.0):
+    - AlamofireImage
+    - SwiftLint
+  - Details (0.1.0):
+    - AlamofireImage
+    - LucasCoinAPI
+    - LucasUtilities
+  - LucasCoinAPI (0.0.1):
+    - AlamofireImage
+    - SwiftLint
+  - LucasUtilities (0.0.1)
+  - SwiftLint (0.43.1)
+  - Utilities (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - API (from `https://github.com/lucaswkuipers/API`)
+  - Commons (from `https://github.com/ssabrinasu/Commons`)
+  - DataModels (from `https://github.com/ssabrinasu/DataModels`)
+  - Details (from `https://github.com/ssabrinasu/Details`)
+  - SwiftLint
+  - Utilities (from `https://github.com/lucaswkuipers/Utilities`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - LucasCoinAPI
+    - LucasUtilities
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  API:
+    :git: https://github.com/lucaswkuipers/API
+  Commons:
+    :git: https://github.com/ssabrinasu/Commons
+  DataModels:
+    :git: https://github.com/ssabrinasu/DataModels
+  Details:
+    :git: https://github.com/ssabrinasu/Details
+  Utilities:
+    :git: https://github.com/lucaswkuipers/Utilities
+
+CHECKOUT OPTIONS:
+  API:
+    :commit: 3913e95fd0d27eb7b4c87690d7b7c9af59168c0c
+    :git: https://github.com/lucaswkuipers/API
+  Commons:
+    :commit: 65972cdb2e4f88770330f4bbfc7aa47118446fae
+    :git: https://github.com/ssabrinasu/Commons
+  DataModels:
+    :commit: 848fc3bc2b52fada29941537ee4acc296fb613fa
+    :git: https://github.com/ssabrinasu/DataModels
+  Details:
+    :commit: 509d46badbd6954d74b9b6b375e8670a9ecd1d7b
+    :git: https://github.com/ssabrinasu/Details
+  Utilities:
+    :commit: 9fb15c75accd805b74db84d932869b3360988633
+    :git: https://github.com/lucaswkuipers/Utilities
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  API: 72054ef4be24a2d740cfbd6caa03cc7b9dbb9754
+  Commons: 2bc03655794d970a880bc1bbb3d434d65f08ec86
+  DataModels: b2f8c7025a553f5eafc14713f90b80d72753e35f
+  Details: 3659e3b5dc2a8faa5f72ed88add51457b5e01d79
+  LucasCoinAPI: 62d41fe08e88c4656279cd43093985810322ce8c
+  LucasUtilities: c73bbb97aedeca721933743b44dd6523d8266919
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Utilities: 0581be06184fda3ab4fdac2d9a8d117e46d6429b
+
+PODFILE CHECKSUM: ce98b2517adc6e68a00f82b0cc45cd7da899439c
+
+COCOAPODS: 1.10.1

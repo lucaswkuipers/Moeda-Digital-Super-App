@@ -1,0 +1,3041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6DE6CBE2C27A595B00C7D010BB5C6AB4 /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		040D04BBF7DE2CF83E0BFE02E9501203 /* Utilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D51ED7F1531B2C944716D640DBBCA2EF /* Utilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07C091126206F26DE3060158BC0F8490 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7B6DB309F40E0A35C946C40CB456EA /* DetailsViewController.swift */; };
+		08E5820D839877D40BAA7B8A224F22C1 /* API-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE30C2F26CF2560C94100D741921A4E5 /* API-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0933F4ED6A6FA6A3F42B04AB456FBC18 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB771552DF68C51E65AD263968BCD80 /* ReplaceMe.swift */; };
+		0E42936F245FBE5DB458FAA104A48479 /* LucasCoinAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA66CD4428A7ABF37934D498C5919A3 /* LucasCoinAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F817B979EFB230770364649C5AA813C /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293546672751A7A4A04B874F9CBFEED0 /* AlamofireImage-dummy.m */; };
+		0FFFE4A4DD74209AB402D4FC5317561B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608AC2B616C4F8182C4E78BEBF891DA /* Alamofire.swift */; };
+		119D0523AA975A2181E9B140E59D6ED5 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F940768CCB3E739CB293C018A851 /* AFIError.swift */; };
+		11AB52258904BE8887022AD44ED36C7B /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580F929D04C5BA340341DE9C2EF3D2A6 /* AlamofireImage.framework */; };
+		170C6E2D82450353D63524CF8C6FFCE9 /* ColorsCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FE0EA2E7AB8495336CB99C63B58C88 /* ColorsCommons.swift */; };
+		195E63929ED57D6CCC59402D7F882371 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57A087F306AC6A05DE288D55D3D5F9 /* CachedResponseHandler.swift */; };
+		1BB50A2AF9523866F8046DE6F7B6F4F5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF6CA07E53878BAD0B0340B51233C1 /* Image.swift */; };
+		1EF21F14324AD9C13E9168726BFB4F2C /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FB01595E5410F1566B27DEB4849EA /* DetailsViewModel.swift */; };
+		23BCD7275AC90B596AC2A67C21400D63 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B7B76595D25600E6AEBED605CA842 /* AFError.swift */; };
+		2508B17F2C3F8CE0E5719E9B02EBEC52 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE16436A7AEB20943667628474F224F /* RedirectHandler.swift */; };
+		254201C6282A5BE74F895CDF8104D02D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8A2BED229B0CC7CD5E109F699DFFE /* ReplaceMe.swift */; };
+		28313CE3E56E641A445C310761054C60 /* API-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B48F9D9CDEEF40B40F3A051888C37 /* API-dummy.m */; };
+		2BEB45331CAFC1F7CBF8F378F65C2077 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24601C29ECB1EE07C602338379A9A8AB /* Notifications.swift */; };
+		2CC8B9EDFF936844747AB69DE306DA02 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3842368628C698F4778A2C8E8E6 /* ServerTrustEvaluation.swift */; };
+		2D46B90C238B5FEFC5F12D8744B68861 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1024B81B683F3EEFBAA8AD80E2BDC6 /* RequestTaskMap.swift */; };
+		2E0A0E809CC159B20D8BC17D4DF3FD5F /* Details-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2DA66FB6694C387AAEA37557D7EF42 /* Details-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F464F1F8EEE0A254C2E3EA45A10ADE7 /* Pods-Moeda Digital Super App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BD861E52C61B618E37968A5A22A0FD /* Pods-Moeda Digital Super App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C967063F0D4350E24D746FD89D97D6 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154BEDF45232727AD8BA893F28F84BE /* Response.swift */; };
+		32CD5F29AE136C2C5A58CEB10DA708FE /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428082AA603099B9A473610426636EC6 /* MultipartFormData.swift */; };
+		33C454C0E17D6F48A286FD9D36ACA08E /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB241D8099C826085ECEF17B1BC785 /* RetryPolicy.swift */; };
+		34C67815ECFACBF954C7E933EF0EA181 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CCFBB2FD25AF2401B4B09044C8644 /* RequestInterceptor.swift */; };
+		3E43229EF9E55844FF9260E2F9119836 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580F929D04C5BA340341DE9C2EF3D2A6 /* AlamofireImage.framework */; };
+		40013DED600E9098DDFC502CD62066F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		43212BB73A96AC4582DD4A32E8A02757 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF969844929E5285C2E7DF6A757A83 /* URLEncodedFormEncoder.swift */; };
+		44BF8B392CDF92D4E61141F9E15BF053 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026853D465EDCC25E36A57A7D7C38F8 /* HTTPMethod.swift */; };
+		4514477F025988D43170DE5509CACDDD /* Search.xib in Sources */ = {isa = PBXBuildFile; fileRef = 474D160505A1945AE890BAC2058915D9 /* Search.xib */; };
+		4522C9E8E8A33F4EFCC621D78FAFB06D /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B332E8C1356BFEECEAE94EB0A7309 /* Coin.swift */; };
+		455F8176D053F6B1269AE1D905422032 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE79908BEB842287D861BA551F8015 /* DispatchQueue+Alamofire.swift */; };
+		486218167E3D1C2800A691B0542FEC76 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D153CD6B34980780231BBC422FF59F6 /* Session.swift */; };
+		4CA6C42E8DE296F59DA30B02D0F2A1F9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F04AF6920F45AC7BCEC8DD953FD1FB4 /* CFNetwork.framework */; };
+		55B25D8BEBE3179F14F9C5B39BD2EFD2 /* LucasUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D976E597FADA1EA3A32557DD1B43581E /* LucasUtilities.framework */; };
+		581E1CFCB74746C0061EC7E5EED8182C /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9C56CF7B03AD171897ECAE4A02D89 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-dummy.m */; };
+		5A35D685D759294CB52926B6A4855378 /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD2D7824EDEF4304AD6F5BD596F22F8 /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD7F3C605C28350648080DCAB3BC2AC /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EBC9D82425FF4C7095367C237A31DF /* AuthenticationInterceptor.swift */; };
+		5E460ACDC37ED8E0F4EBAC7515CA4384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		5FEADF872D52314F6C68FE5AF8C2CD16 /* Commons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E70CE8D26D9045F4B5EF6198BEC2843 /* Commons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606527A750FFBE97F39E8D01DC3E20E5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC9DFF83CAD8321D7EFBC3620FDB6 /* Request.swift */; };
+		721C51904BA713DDEA35B6305AD85C20 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F941ED7BAF5535B2C7655EE6FE83AAD /* StringEncoding+Alamofire.swift */; };
+		7604FC0A356110071A067D84FC300C3B /* Details-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FCE3D593B5077069272AB3D8FFCC4 /* Details-dummy.m */; };
+		7681D42502A209B81A29592CC79F7012 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D23B82B91D736DC330C9975CE18867 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770A54D2D2479A214C0CF8CC04DDE3B0 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6FA02C4CD176FF4BFDFAB70A682DFA /* AlamofireExtended.swift */; };
+		7BCF614F5DCCEAF533CD8FFE4F8C766C /* Utilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B833915E5C9CBA4601FACF7FC1924 /* Utilities-dummy.m */; };
+		7CB7EE21D52024178F3725A14412F6D8 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F248D3CECE1A42A72FD1F190C81CFA /* Coin.swift */; };
+		7D083EF163A59B1F993EED4C0DE144F7 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9351CF28C7CAD444B75EAC00174EC4 /* DetailsViewModel.swift */; };
+		7D9D1D9DA2F81B60529AE0F80F312D5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		86CCFAC9EB814F6309DF788F0A5D0D58 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67122928006882B313F864FE78106E6 /* Request+AlamofireImage.swift */; };
+		8F3AAD007C24AFA028C58789B50E191A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D4B3651EDA19E2FBC6B3A4ADF69E7 /* Search.swift */; };
+		8F91B9A00343A3BD75B424C29011CCBD /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34673D7E9D031A53471031DB9A9D36 /* Protected.swift */; };
+		903C6ED541B5DB86FC907702A5E9036C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220744F513898AE199E99997C7E245B8 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90A8AFC680E2E00EBC50AC3D05A020FE /* Pods-Moeda Digital Super App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBD7FA73B97947ECD14977BB8039056 /* Pods-Moeda Digital Super App-dummy.m */; };
+		9298C5AAEAAB2AAED4F0D155E460B015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		97AE8ADAAA35D531BD0EAC94529DBD7F /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872D43FD6DB61A82F5A422B98A577E9 /* HTTPHeaders.swift */; };
+		9AFF9E428F0CC6E70077015C04DEED6C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E054C8B0F83285593A19798D764624DD /* API.swift */; };
+		9B42FBDD681F50B0D48B59A9EECC6BD9 /* HearderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 236D3FF4211545A6586D8003042BAAEA /* HearderView.xib */; };
+		9DF6DF84D6A7DB5722536DF90DF8B0EC /* Commons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465034986C92740E78DE2614E4361C43 /* Commons-dummy.m */; };
+		9EAB312F90EBAD194629865454048A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		A1764352E639466C1BC727F0303327DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		A19853BB17FE24BFC6DAA87FFF564740 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265205239F3D1BCB45EBE6A02B390531 /* Validation.swift */; };
+		A2D8279511D06A52F6D15E84805DCCBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		ACBD06C7ED6092851CD1A46DCE76AA42 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C757B71B44E16C94D3EE5E155760F3 /* UIImage+AlamofireImage.swift */; };
+		AFE02F8D293DCD8B65839F89D3F16BB7 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF56E8053B30BD5C6D92CD2D4D7982 /* SessionDelegate.swift */; };
+		B064C0CFB1FC7951C164F544653829CA /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AB6001791B216D10C74990FDC7CBF /* ParameterEncoder.swift */; };
+		B1F2A57E2BDD29C4AAF0A3FBC9A6A51E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B675325AA25F3D915757AABC3D4AEA /* ImageDownloader.swift */; };
+		B2CD6BB088C49F1FBA9E61E2E964F061 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9D4D65090B0CA2C2B318E0108C86C /* EventMonitor.swift */; };
+		B99F5C6ADA4443A6451378A2DD11B298 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C902854DAB48D001FC0F672DA29BC38 /* UIButton+AlamofireImage.swift */; };
+		BD1AB39E356085D9470EFAF5C7A2DE00 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01E8AE084FAE4C1767588EEEA9C7F1 /* API.swift */; };
+		BE080717B3054BFF70A6FA5D364BADB4 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580F929D04C5BA340341DE9C2EF3D2A6 /* AlamofireImage.framework */; };
+		BF03A064F7A8D23F8DC0D887AD6AF1C1 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B237CE1B14537D4D0E82C8AE546B48 /* OperationQueue+Alamofire.swift */; };
+		C0478FC62686B89994DC9E42B28ABAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		C2352B80030ED4B725B611B418E2527F /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9547FBECE5E9B55DB7B8F0D1603BBD8 /* URLConvertible+URLRequestConvertible.swift */; };
+		C316A291BDABB9B42A0F91E40699C9D0 /* DataModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F44B34B74EBEC9A888446C6B817F821 /* DataModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42FA943571A3E15A8095DD7273F6823 /* Pods-Moeda Digital Super AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEEC33C7CDD42AA9012B899831D36C62 /* Pods-Moeda Digital Super AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4831D75A654BEF641725F501151278D /* LucasCoinAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CF9C5F6BC1B0F8DF5E65B7169192B /* LucasCoinAPI.framework */; };
+		C724942C382B8AD3EBF8EBC3072875D1 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2889C855C58D3DAE0C4F604DF80F386A /* URLRequest+Alamofire.swift */; };
+		CBB61D61D0FEC796502CBCA230DF0246 /* DetailsViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 07F8094D62CE2FDE49E585C68E8F9745 /* DetailsViewController.xib */; };
+		CEFD5BF5AE9A4FAE6D43BBF96A8C311A /* HearderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713F67ACD5DB1BFE908F435A5A2CB2B /* HearderView.swift */; };
+		CF9B4E199648D3D1CC799A0DBDCB4951 /* LucasUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8F8FBB337616B14E05F7128EEE441B /* LucasUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0806C1741E302A7BF8F1B95B6C92B5B /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DC598B13228BF23F0AFA0480FC35E /* UIImageView+AlamofireImage.swift */; };
+		D3E5450330445DD638141FDBB6936DCC /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C596009F0887F0C5243EB0A1A30610 /* ParameterEncoding.swift */; };
+		D4AD882C0E1F21F45A03B0DD95C4171B /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580F929D04C5BA340341DE9C2EF3D2A6 /* AlamofireImage.framework */; };
+		D6CD49698CB5F1CB7443C0CE7BFC7050 /* Pods-Moeda Digital Super AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803DD80B144859FDC78B3E62D9A8BF4 /* Pods-Moeda Digital Super AppTests-dummy.m */; };
+		D9EB6354425A77AFC8F3A3B051D55EFB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2315A5E422B5F9ACB3E4C6296C36C3F /* ImageCache.swift */; };
+		DADD20E4D5FE8602CE26984497316A1A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB1591A1DB88050E6805B7D00A524D /* ResponseSerialization.swift */; };
+		DEBF20C74BF5C45B99D43300B32985D9 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66CAAAE9A7369022E99782CDEB8FA8 /* Alamofire-dummy.m */; };
+		DF23965DFEBF60F1A25BD60329714EB8 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F6A1DE9018B072A04445C7EA7B801 /* CellViewModel.swift */; };
+		E159E08CCBAFE3EE17B925D13DD9E00E /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BC51B8DB9DF35796EAA70BE80EBBF /* URLSessionConfiguration+Alamofire.swift */; };
+		E1E5FE791DB129C51FAEFB66244B8D84 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3670B37082A70955FE7F1A7DCBC56E4 /* NetworkReachabilityManager.swift */; };
+		E219D13444991DA882D4DE77EBC84F55 /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4E92AAE21322FA4F1FB8414A215A4 /* MultipartUpload.swift */; };
+		E45AA86BD64E093C0E5F73B2867ABEEB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1C3EA47B752D9C48538047E20F688 /* Utilities.swift */; };
+		E5937B7058A71407D0BFBBA6BAB2EB5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		E6618596FE47E7CDA40E6154B020884A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		EC278F6CED65831EA00799AA67F89F0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		EDF3CB92F8C7EBF2F1DEED5EB8ED31F1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F6A2D7EB7C2F6A6D527A2D3230B471 /* Alamofire.framework */; };
+		EE428D4D4DDD4CB0ABB59AA57F50DD28 /* LucasCoinAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0135AB12DA1AE3290F8085FEAA06ABA /* LucasCoinAPI-dummy.m */; };
+		EE9B642C9C625C30112ED0B79B4145F7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394697A906B7F09801D71129FC4C2C3A /* Utilities.swift */; };
+		F7AD6BAE8E53CFA621947019FD1471DE /* DataModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8600520DBBC1707F61D49F80460BEF9E /* DataModels-dummy.m */; };
+		F8A6B57E7E1B3181A77ADD9C92EF71D3 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A50E50237FA685F2AD6F15C718253 /* Result+Alamofire.swift */; };
+		F8B8D54B75C622C4C63DA355439B4450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */; };
+		FAD954C067FC46712EA74820CF6AE47C /* LucasUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D95D5BBB4F45FF0AAB70F516882D30 /* LucasUtilities-dummy.m */; };
+		FE8895CCCE38CE110B2905C0031B8A5D /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544AB94A3D1D4E77D63A98823219CC6 /* ImageFilter.swift */; };
+		FEB4CDE23B93F566D8857891270DF6A0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6E0376C6FB7D4E6111C2AC0D57B96 /* Combine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0861002AB528E454BE67EC2899CCBAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13D9AA0997732D43A2F9AAB81885427;
+			remoteInfo = DataModels;
+		};
+		0A6D2C626C265749A093838EA8359FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE76486E33CA950218176D6D47DA98ED;
+			remoteInfo = LucasCoinAPI;
+		};
+		0BAEAB4491CBE50337FEB2A00F7E2772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 452515EFD98D6DC50CA481DAD2AB133F;
+			remoteInfo = Commons;
+		};
+		102101F8407AD9E733CE1BF7420DFB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43EBC6FAA403E67459D44742B7D3FFED;
+			remoteInfo = API;
+		};
+		1626AE3E3DFBF253C37256AC5D7CB149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		170270E5BB2CD89E72D711ECE24E683A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE76486E33CA950218176D6D47DA98ED;
+			remoteInfo = LucasCoinAPI;
+		};
+		22B3CD23B4DB6FFF2D78494730D8A49F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 452515EFD98D6DC50CA481DAD2AB133F;
+			remoteInfo = Commons;
+		};
+		2781F8F6BE84B0C5517EB1F03679BD43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		2ABCF28F410E9C6D617585F33E49B0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		2E0E1EA64BD4B0D2ADB616F9E422C5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		3599B7A67A2395B036BD6D9E4FD16773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13D9AA0997732D43A2F9AAB81885427;
+			remoteInfo = DataModels;
+		};
+		3C7C9AB6423B4C9786C0D8D24A6AB002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00201FD56DEC7E73B168B7D95993607E;
+			remoteInfo = LucasUtilities;
+		};
+		42E264618C78D0A87702981E3DC889B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDE3036DAA1813516BA4EF9F0655ABC;
+			remoteInfo = "Pods-Moeda Digital Super App";
+		};
+		4DDD588FBBEF28C6E053000B48182518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		5CF69E6C428B43902440C064CED06745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		63756609AF7B4FA970193996DCD4A29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53EA2D8AAAA389B3C9C01E9D1554FB6F;
+			remoteInfo = Details;
+		};
+		727533CD73E5892A51C860D508560AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		8CB3FC494518B77F6C576C8F68386A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00201FD56DEC7E73B168B7D95993607E;
+			remoteInfo = LucasUtilities;
+		};
+		93C5BF5FE68B6D67C7DC0372F14F2344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A89194DEE3ADE40D2A3C978661C517;
+			remoteInfo = Utilities;
+		};
+		A28ADD7B2760469F1CEC64EEAD203D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		B0584861E62052906AAB0F19C2466329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		B1DAA2FF680E15810959AA4E0EEE0F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43EBC6FAA403E67459D44742B7D3FFED;
+			remoteInfo = API;
+		};
+		B4E79910A4C9574578A87C0B8141C2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		B6DC2D9AAD7904EB3DCEE3FEE9715B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		BBB30812F1786E82C0BA0FA4A608920B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00201FD56DEC7E73B168B7D95993607E;
+			remoteInfo = LucasUtilities;
+		};
+		BEB564CCD583C221AE7C0CD46D2514ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		D4BC034E5280B2EF5F939A9530708365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A89194DEE3ADE40D2A3C978661C517;
+			remoteInfo = Utilities;
+		};
+		E4B08FF3C1B7779A1D9A412C9C32023E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9778AE8394BE451567650E0B239BA21;
+			remoteInfo = AlamofireImage;
+		};
+		F04EDEE636CABF53F1B8DFA9589971C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53EA2D8AAAA389B3C9C01E9D1554FB6F;
+			remoteInfo = Details;
+		};
+		F6B64583DEF3581C7B47D4D0FCFF79E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE76486E33CA950218176D6D47DA98ED;
+			remoteInfo = LucasCoinAPI;
+		};
+		F84FEE4626D510C4EEEDA7FFA0153DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DF56E8053B30BD5C6D92CD2D4D7982 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		02A014EA7E230CA2B62F20CAF76D10BC /* Commons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Commons.release.xcconfig; sourceTree = "<group>"; };
+		04AAA5AD1DBD5C9D4BE648329100A2B4 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04E9BD6A806C4C1A670C92A94ABC6429 /* Pods-Moeda Digital Super App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super App.debug.xcconfig"; sourceTree = "<group>"; };
+		07F8094D62CE2FDE49E585C68E8F9745 /* DetailsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DetailsViewController.xib; path = Details/Classes/View/DetailsViewController.xib; sourceTree = "<group>"; };
+		0DAB1591A1DB88050E6805B7D00A524D /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		1309734BC378770A51DE38DEF2793E0F /* Utilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Utilities-Info.plist"; sourceTree = "<group>"; };
+		1309F5D276FC1E980B0F721871E84701 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-Info.plist"; sourceTree = "<group>"; };
+		18D8A2BED229B0CC7CD5E109F699DFFE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Details/Classes/Model/ReplaceMe.swift; sourceTree = "<group>"; };
+		1AF86F3ADE6F76DB0CA6698D08E7DD3F /* AlamofireImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.release.xcconfig; sourceTree = "<group>"; };
+		1C40AF397A024CB102DECF88A2D5BA25 /* API-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "API-Info.plist"; sourceTree = "<group>"; };
+		1C496D2E6438C61554158A9F205A8C93 /* LucasUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LucasUtilities.release.xcconfig; sourceTree = "<group>"; };
+		1D56F177E09513FE31A842919B78ECE1 /* Details.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Details.release.xcconfig; sourceTree = "<group>"; };
+		2154BEDF45232727AD8BA893F28F84BE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		220744F513898AE199E99997C7E245B8 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		236755D232F6E58665F95199DA60439D /* API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = API.release.xcconfig; sourceTree = "<group>"; };
+		236D3FF4211545A6586D8003042BAAEA /* HearderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HearderView.xib; path = "Commons/Classes/Hearder /View/HearderView.xib"; sourceTree = "<group>"; };
+		23F549C09385559F8C30EAEE4B97D386 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		24601C29ECB1EE07C602338379A9A8AB /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		25FE0EA2E7AB8495336CB99C63B58C88 /* ColorsCommons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorsCommons.swift; path = Commons/Classes/Model/ColorsCommons.swift; sourceTree = "<group>"; };
+		265205239F3D1BCB45EBE6A02B390531 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		2872D43FD6DB61A82F5A422B98A577E9 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		2889C855C58D3DAE0C4F604DF80F386A /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		293546672751A7A4A04B874F9CBFEED0 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
+		2AE1AEA71FFAE6C88E532BAC05EA2E74 /* LucasCoinAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LucasCoinAPI.debug.xcconfig; sourceTree = "<group>"; };
+		2F44B34B74EBEC9A888446C6B817F821 /* DataModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DataModels-umbrella.h"; sourceTree = "<group>"; };
+		3298FF6CD27371C2DFED11C8A130A825 /* Pods-Moeda Digital Super App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Moeda Digital Super App.modulemap"; sourceTree = "<group>"; };
+		334FCE3D593B5077069272AB3D8FFCC4 /* Details-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Details-dummy.m"; sourceTree = "<group>"; };
+		3608AC2B616C4F8182C4E78BEBF891DA /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		380F441D0480597B8C33612AD23595E5 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		394697A906B7F09801D71129FC4C2C3A /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Utilities/Classes/Utilities.swift; sourceTree = "<group>"; };
+		3B3883F059299C91FB00C60053B590AA /* Commons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Commons.modulemap; sourceTree = "<group>"; };
+		3BCB96EC40F57BA9D519BC2B89F8CB38 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		3DFF3B9DA856E55FB2687DB3CDE18739 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Utilities.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F941ED7BAF5535B2C7655EE6FE83AAD /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		41D8395981F3C748F07621DBA23A0435 /* Pods-Moeda Digital Super App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moeda Digital Super App-acknowledgements.plist"; sourceTree = "<group>"; };
+		428082AA603099B9A473610426636EC6 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		465034986C92740E78DE2614E4361C43 /* Commons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Commons-dummy.m"; sourceTree = "<group>"; };
+		46A0A96E1B4AEE48390B28827E0DC38D /* Pods_Moeda_Digital_Super_App_Moeda_Digital_Super_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moeda_Digital_Super_App_Moeda_Digital_Super_AppUITests.framework; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B84762FBA5CB38C849C0187BF4FD61 /* LucasCoinAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LucasCoinAPI.modulemap; sourceTree = "<group>"; };
+		474D160505A1945AE890BAC2058915D9 /* Search.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = Search.xib; path = Commons/Classes/Search/View/Search.xib; sourceTree = "<group>"; };
+		49D23B82B91D736DC330C9975CE18867 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		49E7680FBC6669A9C3159B0CB5FE2517 /* LucasUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LucasUtilities-Info.plist"; sourceTree = "<group>"; };
+		4AAEAE0A3D045D07796DBC076E8556BC /* LucasUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LucasUtilities.framework; path = LucasUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D153CD6B34980780231BBC422FF59F6 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		535AB6001791B216D10C74990FDC7CBF /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		538826A9D232AF7A1ACDF1613A2B1930 /* LucasCoinAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LucasCoinAPI-Info.plist"; sourceTree = "<group>"; };
+		56511CD6B184BC2165CF1970E5586EA5 /* API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = API.debug.xcconfig; sourceTree = "<group>"; };
+		57B237CE1B14537D4D0E82C8AE546B48 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		580F929D04C5BA340341DE9C2EF3D2A6 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9253389067FFA537744EA61D143175 /* Utilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Utilities-prefix.pch"; sourceTree = "<group>"; };
+		5AC5DF6B20B98DB006D3B04A44A8F5E7 /* Details.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Details.modulemap; sourceTree = "<group>"; };
+		5B1B798F9600737601C9ACF8A171CCAA /* AlamofireImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.debug.xcconfig; sourceTree = "<group>"; };
+		5B68F9F63191AAF2355279AF9FEA9B44 /* Pods-Moeda Digital Super AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moeda Digital Super AppTests-Info.plist"; sourceTree = "<group>"; };
+		5C365B0C68817C783D3A316E9A216247 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		5C7B833915E5C9CBA4601FACF7FC1924 /* Utilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Utilities-dummy.m"; sourceTree = "<group>"; };
+		5D57A087F306AC6A05DE288D55D3D5F9 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECC156D048EF756214AD9D8870ADB04 /* Pods-Moeda Digital Super AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moeda Digital Super AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FB80D6D2EF284CCED1E68DCFDF0359A /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		61F9D4674F2E24C112CD6911C105C3DC /* DataModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DataModels-prefix.pch"; sourceTree = "<group>"; };
+		63DE79908BEB842287D861BA551F8015 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		6544AB94A3D1D4E77D63A98823219CC6 /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
+		6803DD80B144859FDC78B3E62D9A8BF4 /* Pods-Moeda Digital Super AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Moeda Digital Super AppTests-dummy.m"; sourceTree = "<group>"; };
+		6A88E600BE6618AD225E3832D751CD02 /* LucasCoinAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LucasCoinAPI-prefix.pch"; sourceTree = "<group>"; };
+		6BFDFA5D6011BDF5562754E0A7D8C7A5 /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
+		6C7B332E8C1356BFEECEAE94EB0A7309 /* Coin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coin.swift; path = LucasCoinAPI/Model/Coin.swift; sourceTree = "<group>"; };
+		6C902854DAB48D001FC0F672DA29BC38 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		6F04AF6920F45AC7BCEC8DD953FD1FB4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6F0FC0AC6FD8717C93BF4DB6D0DE26DA /* Pods-Moeda Digital Super AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Moeda Digital Super AppTests.modulemap"; sourceTree = "<group>"; };
+		6F2B48F9D9CDEEF40B40F3A051888C37 /* API-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "API-dummy.m"; sourceTree = "<group>"; };
+		71EC12A37BCCC9517207EEDF98ACA832 /* API-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "API-prefix.pch"; sourceTree = "<group>"; };
+		735F6A1DE9018B072A04445C7EA7B801 /* CellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellViewModel.swift; path = DataModels/Classes/ViewModel/CellViewModel.swift; sourceTree = "<group>"; };
+		73CB97EDD3B2814B20973BDB426A72CE /* Pods-Moeda Digital Super App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super App.release.xcconfig"; sourceTree = "<group>"; };
+		74E1C3EA47B752D9C48538047E20F688 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = LucasUtilities/Classes/Utilities.swift; sourceTree = "<group>"; };
+		7543C11A2123547B6914393AD18AA47D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		76F721BA3652746502EE98BC47969F72 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.modulemap"; sourceTree = "<group>"; };
+		7978F0445E301E0E4A8B35C4FE0BFE60 /* LucasCoinAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LucasCoinAPI.framework; path = LucasCoinAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2DA66FB6694C387AAEA37557D7EF42 /* Details-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Details-umbrella.h"; sourceTree = "<group>"; };
+		7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F5DC598B13228BF23F0AFA0480FC35E /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		80C596009F0887F0C5243EB0A1A30610 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		80C757B71B44E16C94D3EE5E155760F3 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		8269FFC66ADF421FA711BF8D79C55B43 /* Pods_Moeda_Digital_Super_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moeda_Digital_Super_App.framework; path = "Pods-Moeda Digital Super App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B69843767D578906879B52E567F0A3 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84BD861E52C61B618E37968A5A22A0FD /* Pods-Moeda Digital Super App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Moeda Digital Super App-umbrella.h"; sourceTree = "<group>"; };
+		8600520DBBC1707F61D49F80460BEF9E /* DataModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DataModels-dummy.m"; sourceTree = "<group>"; };
+		87F6E0376C6FB7D4E6111C2AC0D57B96 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		8957301976C52E7EFE1C97E1BAD5C7A0 /* DataModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DataModels.framework; path = DataModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABB8EC56387A1F38DCDFA50AAB39D1C /* Pods_Moeda_Digital_Super_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moeda_Digital_Super_AppTests.framework; path = "Pods-Moeda Digital Super AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB771552DF68C51E65AD263968BCD80 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Commons/Classes/Model/ReplaceMe.swift; sourceTree = "<group>"; };
+		8C0CC9DFF83CAD8321D7EFBC3620FDB6 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		8C32BAE7EC55D7DDA6E5DEDA73CA8496 /* Pods-Moeda Digital Super AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Moeda Digital Super AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E4DCFF08C580F14ECCE75C52CAA7F90 /* Commons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Commons.debug.xcconfig; sourceTree = "<group>"; };
+		8E70CE8D26D9045F4B5EF6198BEC2843 /* Commons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Commons-umbrella.h"; sourceTree = "<group>"; };
+		8F01E8AE084FAE4C1767588EEEA9C7F1 /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = LucasCoinAPI/Service/API.swift; sourceTree = "<group>"; };
+		8F8A50E50237FA685F2AD6F15C718253 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		916D62390B1250E2032EEC3BFCF29348 /* Utilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Utilities.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2CFEA942A8A57CADD7FCEF0701FC0AA /* LucasUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LucasUtilities.modulemap; sourceTree = "<group>"; };
+		A2F6A2D7EB7C2F6A6D527A2D3230B471 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B4B92C341188BCCDCC51D7C9F5B3F2 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		A3F8223D44BBD1100C9993EB8F5D53D5 /* Commons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Commons-prefix.pch"; sourceTree = "<group>"; };
+		A5273011EDE876B224D3C4710B9B88A0 /* Details-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Details-prefix.pch"; sourceTree = "<group>"; };
+		A5EBC9D82425FF4C7095367C237A31DF /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		A6A99C4D695D6BEBCF3F425F2CCB2E82 /* Pods-Moeda Digital Super App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moeda Digital Super App-Info.plist"; sourceTree = "<group>"; };
+		AA3108B70985DCD679EC1591B56A2985 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		AAE16436A7AEB20943667628474F224F /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		AB5B915B8FF58F730FA70C9A66324EEE /* Pods-Moeda Digital Super AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD66CAAAE9A7369022E99782CDEB8FA8 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		AD9351CF28C7CAD444B75EAC00174EC4 /* DetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailsViewModel.swift; path = Details/Classes/Model/DetailsViewModel.swift; sourceTree = "<group>"; };
+		B2315A5E422B5F9ACB3E4C6296C36C3F /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		B26BC51B8DB9DF35796EAA70BE80EBBF /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		B2A9C56CF7B03AD171897ECAE4A02D89 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-dummy.m"; sourceTree = "<group>"; };
+		B319511D4F3AD44CA75BCBE313427C86 /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
+		B53CE7DF74BA6CCCEE768554EDBBC435 /* DataModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DataModels.debug.xcconfig; sourceTree = "<group>"; };
+		B6A0DF128E0B251719CE8F00004AC347 /* API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = API.framework; path = API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78CF9C5F6BC1B0F8DF5E65B7169192B /* LucasCoinAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LucasCoinAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D5F940768CCB3E739CB293C018A851 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		B9B6878E5B39B584F925789D1A887613 /* Details.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Details.framework; path = Details.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7723D90CF1394D4364C8498849C301 /* API.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = API.modulemap; sourceTree = "<group>"; };
+		C240B3842368628C698F4778A2C8E8E6 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		C361609FC9469EC856AC633B235C71FA /* LucasUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LucasUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		C3670B37082A70955FE7F1A7DCBC56E4 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		C45D25FA9AE7C0F5F81D7615DB92ADF7 /* LucasCoinAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LucasCoinAPI.release.xcconfig; sourceTree = "<group>"; };
+		C46EA46C2AC7D0CFB030CD8A516487F1 /* DataModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DataModels-Info.plist"; sourceTree = "<group>"; };
+		C67122928006882B313F864FE78106E6 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		C7987437790D25B562E0DD75B94ADECB /* Details-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Details-Info.plist"; sourceTree = "<group>"; };
+		C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90FB01595E5410F1566B27DEB4849EA /* DetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailsViewModel.swift; path = DataModels/Classes/ViewModel/DetailsViewModel.swift; sourceTree = "<group>"; };
+		CAA66CD4428A7ABF37934D498C5919A3 /* LucasCoinAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LucasCoinAPI-umbrella.h"; sourceTree = "<group>"; };
+		CAD2D7824EDEF4304AD6F5BD596F22F8 /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
+		CBCA420786243BE898D05B77F6848A51 /* DataModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DataModels.release.xcconfig; sourceTree = "<group>"; };
+		CE30C2F26CF2560C94100D741921A4E5 /* API-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "API-umbrella.h"; sourceTree = "<group>"; };
+		D0ED8F2705BE721D8773BBEFC4CF108C /* Utilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Utilities.modulemap; sourceTree = "<group>"; };
+		D3B675325AA25F3D915757AABC3D4AEA /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
+		D51ED7F1531B2C944716D640DBBCA2EF /* Utilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Utilities-umbrella.h"; sourceTree = "<group>"; };
+		D5C11C7D586D0027E08F855B7FACB268 /* AlamofireImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlamofireImage-Info.plist"; sourceTree = "<group>"; };
+		D9547FBECE5E9B55DB7B8F0D1603BBD8 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		D976E597FADA1EA3A32557DD1B43581E /* LucasUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LucasUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6FA02C4CD176FF4BFDFAB70A682DFA /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		DBAF969844929E5285C2E7DF6A757A83 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		DCBD7FA73B97947ECD14977BB8039056 /* Pods-Moeda Digital Super App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Moeda Digital Super App-dummy.m"; sourceTree = "<group>"; };
+		DF1024B81B683F3EEFBAA8AD80E2BDC6 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		DF6478C736B81DFF38D576DFBEB05332 /* Pods-Moeda Digital Super AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFBF6CA07E53878BAD0B0340B51233C1 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		E02B7B76595D25600E6AEBED605CA842 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		E02B9A6A1521F915A32B5AA94E9DF696 /* Details.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Details.debug.xcconfig; sourceTree = "<group>"; };
+		E054C8B0F83285593A19798D764624DD /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = API/Service/API.swift; sourceTree = "<group>"; };
+		E06137B7C23DE8826A1FB69D8251CA50 /* Utilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Utilities.debug.xcconfig; sourceTree = "<group>"; };
+		E0F248D3CECE1A42A72FD1F190C81CFA /* Coin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coin.swift; path = API/Model/Coin.swift; sourceTree = "<group>"; };
+		E1E598E0A9A7707D11A666CFF50D236B /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		E23E818BD06F97BBB7647353F93AEA7E /* DataModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DataModels.modulemap; sourceTree = "<group>"; };
+		E2710AFCA28A083848B3DE25A517807D /* Pods-Moeda Digital Super App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Moeda Digital Super App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E27F793316616ADBDA56AEA89C5E1D24 /* LucasUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LucasUtilities-prefix.pch"; sourceTree = "<group>"; };
+		E58CCFBB2FD25AF2401B4B09044C8644 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		E6499DCE00C27A619D52871DEC8F31F3 /* Commons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Commons-Info.plist"; sourceTree = "<group>"; };
+		E713F67ACD5DB1BFE908F435A5A2CB2B /* HearderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearderView.swift; path = "Commons/Classes/Hearder /View/HearderView.swift"; sourceTree = "<group>"; };
+		E7FEC60AC5F30530F8B77FE30600893F /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Commons.framework; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D95D5BBB4F45FF0AAB70F516882D30 /* LucasUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LucasUtilities-dummy.m"; sourceTree = "<group>"; };
+		EA7B6DB309F40E0A35C946C40CB456EA /* DetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = Details/Classes/ViewModel/DetailsViewController.swift; sourceTree = "<group>"; };
+		ECDC215A95C54EE4B889C538FA23639B /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEEC33C7CDD42AA9012B899831D36C62 /* Pods-Moeda Digital Super AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Moeda Digital Super AppTests-umbrella.h"; sourceTree = "<group>"; };
+		EF8F8FBB337616B14E05F7128EEE441B /* LucasUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LucasUtilities-umbrella.h"; sourceTree = "<group>"; };
+		F0135AB12DA1AE3290F8085FEAA06ABA /* LucasCoinAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LucasCoinAPI-dummy.m"; sourceTree = "<group>"; };
+		F026853D465EDCC25E36A57A7D7C38F8 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		F0B9D4D65090B0CA2C2B318E0108C86C /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		F2BB241D8099C826085ECEF17B1BC785 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		F7E63EB3DF59F04046FA46BF304BC3B2 /* Pods-Moeda Digital Super App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Moeda Digital Super App-frameworks.sh"; sourceTree = "<group>"; };
+		FB8D4B3651EDA19E2FBC6B3A4ADF69E7 /* Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Search.swift; path = Commons/Classes/Search/View/Search.swift; sourceTree = "<group>"; };
+		FF34673D7E9D031A53471031DB9A9D36 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		FFE4E92AAE21322FA4F1FB8414A215A4 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1131423322C8A60344F5D32F44989AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5937B7058A71407D0BFBBA6BAB2EB5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D262CD3B24D17EE3B67CA055A2926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AB52258904BE8887022AD44ED36C7B /* AlamofireImage.framework in Frameworks */,
+				F8B8D54B75C622C4C63DA355439B4450 /* Foundation.framework in Frameworks */,
+				C4831D75A654BEF641725F501151278D /* LucasCoinAPI.framework in Frameworks */,
+				55B25D8BEBE3179F14F9C5B39BD2EFD2 /* LucasUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AEF6D1795D852AD427079CB7AEA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA6C42E8DE296F59DA30B02D0F2A1F9 /* CFNetwork.framework in Frameworks */,
+				C0478FC62686B89994DC9E42B28ABAEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFE98F70BD283B3019101333382559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE080717B3054BFF70A6FA5D364BADB4 /* AlamofireImage.framework in Frameworks */,
+				5E460ACDC37ED8E0F4EBAC7515CA4384 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A3D75EF593ABB51F4FDE27E3376B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E43229EF9E55844FF9260E2F9119836 /* AlamofireImage.framework in Frameworks */,
+				E6618596FE47E7CDA40E6154B020884A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A23B248631FA7DF153B7B64DB43451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40013DED600E9098DDFC502CD62066F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DDEC1A4DFF4150CAF82124F007EEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AD882C0E1F21F45A03B0DD95C4171B /* AlamofireImage.framework in Frameworks */,
+				9298C5AAEAAB2AAED4F0D155E460B015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BEF6FEBDF366F30BC302997FBB358B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAB312F90EBAD194629865454048A8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB858E9805E02DC1173C288D6FD9B0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3CB92F8C7EBF2F1DEED5EB8ED31F1 /* Alamofire.framework in Frameworks */,
+				A2D8279511D06A52F6D15E84805DCCBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B52044DC498B6CE7E62AC2FDEB008B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9D1D9DA2F81B60529AE0F80F312D5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF97F7923BBC33CF7B422849C6E0B460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1764352E639466C1BC727F0303327DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD663D249E6A317AF5DA99359704CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC278F6CED65831EA00799AA67F89F0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB0A56F61537D81120C3A674D7D124A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AC5DF6B20B98DB006D3B04A44A8F5E7 /* Details.modulemap */,
+				334FCE3D593B5077069272AB3D8FFCC4 /* Details-dummy.m */,
+				C7987437790D25B562E0DD75B94ADECB /* Details-Info.plist */,
+				A5273011EDE876B224D3C4710B9B88A0 /* Details-prefix.pch */,
+				7B2DA66FB6694C387AAEA37557D7EF42 /* Details-umbrella.h */,
+				E02B9A6A1521F915A32B5AA94E9DF696 /* Details.debug.xcconfig */,
+				1D56F177E09513FE31A842919B78ECE1 /* Details.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Details";
+			sourceTree = "<group>";
+		};
+		0EE0A04FB5F91F0DB03ED4BE1175754A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E4B1413B4FA5D14F42B7216F2E515A /* Pods-Moeda Digital Super App */,
+				332F346BADB297007D7E9CD64A652293 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests */,
+				456A1126B14255012DBD26A3DAAC9034 /* Pods-Moeda Digital Super AppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		126909F7727F7FF873740A244E6CCB5B /* AlamofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				B7D5F940768CCB3E739CB293C018A851 /* AFIError.swift */,
+				DFBF6CA07E53878BAD0B0340B51233C1 /* Image.swift */,
+				B2315A5E422B5F9ACB3E4C6296C36C3F /* ImageCache.swift */,
+				D3B675325AA25F3D915757AABC3D4AEA /* ImageDownloader.swift */,
+				6544AB94A3D1D4E77D63A98823219CC6 /* ImageFilter.swift */,
+				C67122928006882B313F864FE78106E6 /* Request+AlamofireImage.swift */,
+				6C902854DAB48D001FC0F672DA29BC38 /* UIButton+AlamofireImage.swift */,
+				80C757B71B44E16C94D3EE5E155760F3 /* UIImage+AlamofireImage.swift */,
+				7F5DC598B13228BF23F0AFA0480FC35E /* UIImageView+AlamofireImage.swift */,
+				D8B12AE229E2A855153642F68DA85663 /* Support Files */,
+			);
+			name = AlamofireImage;
+			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		1B66983DE8D2B9524DD8504E0E565395 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				25FE0EA2E7AB8495336CB99C63B58C88 /* ColorsCommons.swift */,
+				E713F67ACD5DB1BFE908F435A5A2CB2B /* HearderView.swift */,
+				236D3FF4211545A6586D8003042BAAEA /* HearderView.xib */,
+				8BB771552DF68C51E65AD263968BCD80 /* ReplaceMe.swift */,
+				FB8D4B3651EDA19E2FBC6B3A4ADF69E7 /* Search.swift */,
+				474D160505A1945AE890BAC2058915D9 /* Search.xib */,
+				C504AABC2C3A7C85433C66C09561AB6A /* Support Files */,
+			);
+			name = Commons;
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		1C6449F16ACB73782E4F79902F82A813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2589D17D4BC796F71710AE6DDE737139 /* Alamofire */,
+				126909F7727F7FF873740A244E6CCB5B /* AlamofireImage */,
+				F54771DC112876BD5391747D4B3C6EDC /* API */,
+				1B66983DE8D2B9524DD8504E0E565395 /* Commons */,
+				A265D03635C5DC85910B005E101896EB /* DataModels */,
+				32730AB503CC6D01A20829B28FE7E218 /* Details */,
+				F7147C423213C55E09AA4AE8CB75077D /* LucasCoinAPI */,
+				EBFD2FB0915939DDFEE1F5B86BA65868 /* LucasUtilities */,
+				B5A89D680EC33424F6D39C01080B518C /* SwiftLint */,
+				987BB994A71CB956BC62B13B25C7D036 /* Utilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2589D17D4BC796F71710AE6DDE737139 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E02B7B76595D25600E6AEBED605CA842 /* AFError.swift */,
+				3608AC2B616C4F8182C4E78BEBF891DA /* Alamofire.swift */,
+				DB6FA02C4CD176FF4BFDFAB70A682DFA /* AlamofireExtended.swift */,
+				A5EBC9D82425FF4C7095367C237A31DF /* AuthenticationInterceptor.swift */,
+				5D57A087F306AC6A05DE288D55D3D5F9 /* CachedResponseHandler.swift */,
+				87F6E0376C6FB7D4E6111C2AC0D57B96 /* Combine.swift */,
+				63DE79908BEB842287D861BA551F8015 /* DispatchQueue+Alamofire.swift */,
+				F0B9D4D65090B0CA2C2B318E0108C86C /* EventMonitor.swift */,
+				2872D43FD6DB61A82F5A422B98A577E9 /* HTTPHeaders.swift */,
+				F026853D465EDCC25E36A57A7D7C38F8 /* HTTPMethod.swift */,
+				428082AA603099B9A473610426636EC6 /* MultipartFormData.swift */,
+				FFE4E92AAE21322FA4F1FB8414A215A4 /* MultipartUpload.swift */,
+				C3670B37082A70955FE7F1A7DCBC56E4 /* NetworkReachabilityManager.swift */,
+				24601C29ECB1EE07C602338379A9A8AB /* Notifications.swift */,
+				57B237CE1B14537D4D0E82C8AE546B48 /* OperationQueue+Alamofire.swift */,
+				535AB6001791B216D10C74990FDC7CBF /* ParameterEncoder.swift */,
+				80C596009F0887F0C5243EB0A1A30610 /* ParameterEncoding.swift */,
+				FF34673D7E9D031A53471031DB9A9D36 /* Protected.swift */,
+				AAE16436A7AEB20943667628474F224F /* RedirectHandler.swift */,
+				8C0CC9DFF83CAD8321D7EFBC3620FDB6 /* Request.swift */,
+				E58CCFBB2FD25AF2401B4B09044C8644 /* RequestInterceptor.swift */,
+				DF1024B81B683F3EEFBAA8AD80E2BDC6 /* RequestTaskMap.swift */,
+				2154BEDF45232727AD8BA893F28F84BE /* Response.swift */,
+				0DAB1591A1DB88050E6805B7D00A524D /* ResponseSerialization.swift */,
+				8F8A50E50237FA685F2AD6F15C718253 /* Result+Alamofire.swift */,
+				F2BB241D8099C826085ECEF17B1BC785 /* RetryPolicy.swift */,
+				C240B3842368628C698F4778A2C8E8E6 /* ServerTrustEvaluation.swift */,
+				4D153CD6B34980780231BBC422FF59F6 /* Session.swift */,
+				01DF56E8053B30BD5C6D92CD2D4D7982 /* SessionDelegate.swift */,
+				3F941ED7BAF5535B2C7655EE6FE83AAD /* StringEncoding+Alamofire.swift */,
+				D9547FBECE5E9B55DB7B8F0D1603BBD8 /* URLConvertible+URLRequestConvertible.swift */,
+				DBAF969844929E5285C2E7DF6A757A83 /* URLEncodedFormEncoder.swift */,
+				2889C855C58D3DAE0C4F604DF80F386A /* URLRequest+Alamofire.swift */,
+				B26BC51B8DB9DF35796EAA70BE80EBBF /* URLSessionConfiguration+Alamofire.swift */,
+				265205239F3D1BCB45EBE6A02B390531 /* Validation.swift */,
+				4FDC2139863FC1436C6956373016A37F /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		2AF033C00AF5A0F236C0C8BEB6952245 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F04AF6920F45AC7BCEC8DD953FD1FB4 /* CFNetwork.framework */,
+				7EA6B9999FC4DA22E9BDDC1A16C069A5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2F7D1184870AB3C2DE42DFD3720E4E0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46B84762FBA5CB38C849C0187BF4FD61 /* LucasCoinAPI.modulemap */,
+				F0135AB12DA1AE3290F8085FEAA06ABA /* LucasCoinAPI-dummy.m */,
+				538826A9D232AF7A1ACDF1613A2B1930 /* LucasCoinAPI-Info.plist */,
+				6A88E600BE6618AD225E3832D751CD02 /* LucasCoinAPI-prefix.pch */,
+				CAA66CD4428A7ABF37934D498C5919A3 /* LucasCoinAPI-umbrella.h */,
+				2AE1AEA71FFAE6C88E532BAC05EA2E74 /* LucasCoinAPI.debug.xcconfig */,
+				C45D25FA9AE7C0F5F81D7615DB92ADF7 /* LucasCoinAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LucasCoinAPI";
+			sourceTree = "<group>";
+		};
+		32730AB503CC6D01A20829B28FE7E218 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				EA7B6DB309F40E0A35C946C40CB456EA /* DetailsViewController.swift */,
+				07F8094D62CE2FDE49E585C68E8F9745 /* DetailsViewController.xib */,
+				AD9351CF28C7CAD444B75EAC00174EC4 /* DetailsViewModel.swift */,
+				18D8A2BED229B0CC7CD5E109F699DFFE /* ReplaceMe.swift */,
+				0EB0A56F61537D81120C3A674D7D124A /* Support Files */,
+			);
+			name = Details;
+			path = Details;
+			sourceTree = "<group>";
+		};
+		332F346BADB297007D7E9CD64A652293 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76F721BA3652746502EE98BC47969F72 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.modulemap */,
+				380F441D0480597B8C33612AD23595E5 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-acknowledgements.markdown */,
+				84B69843767D578906879B52E567F0A3 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-acknowledgements.plist */,
+				B2A9C56CF7B03AD171897ECAE4A02D89 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-dummy.m */,
+				5FB80D6D2EF284CCED1E68DCFDF0359A /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-frameworks.sh */,
+				1309F5D276FC1E980B0F721871E84701 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-Info.plist */,
+				49D23B82B91D736DC330C9975CE18867 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-umbrella.h */,
+				ECDC215A95C54EE4B889C538FA23639B /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig */,
+				04AAA5AD1DBD5C9D4BE648329100A2B4 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.release.xcconfig */,
+			);
+			name = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests";
+			path = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests";
+			sourceTree = "<group>";
+		};
+		456A1126B14255012DBD26A3DAAC9034 /* Pods-Moeda Digital Super AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FC0AC6FD8717C93BF4DB6D0DE26DA /* Pods-Moeda Digital Super AppTests.modulemap */,
+				8C32BAE7EC55D7DDA6E5DEDA73CA8496 /* Pods-Moeda Digital Super AppTests-acknowledgements.markdown */,
+				5ECC156D048EF756214AD9D8870ADB04 /* Pods-Moeda Digital Super AppTests-acknowledgements.plist */,
+				6803DD80B144859FDC78B3E62D9A8BF4 /* Pods-Moeda Digital Super AppTests-dummy.m */,
+				5B68F9F63191AAF2355279AF9FEA9B44 /* Pods-Moeda Digital Super AppTests-Info.plist */,
+				EEEC33C7CDD42AA9012B899831D36C62 /* Pods-Moeda Digital Super AppTests-umbrella.h */,
+				AB5B915B8FF58F730FA70C9A66324EEE /* Pods-Moeda Digital Super AppTests.debug.xcconfig */,
+				DF6478C736B81DFF38D576DFBEB05332 /* Pods-Moeda Digital Super AppTests.release.xcconfig */,
+			);
+			name = "Pods-Moeda Digital Super AppTests";
+			path = "Target Support Files/Pods-Moeda Digital Super AppTests";
+			sourceTree = "<group>";
+		};
+		4FDC2139863FC1436C6956373016A37F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7543C11A2123547B6914393AD18AA47D /* Alamofire.modulemap */,
+				AD66CAAAE9A7369022E99782CDEB8FA8 /* Alamofire-dummy.m */,
+				AA3108B70985DCD679EC1591B56A2985 /* Alamofire-Info.plist */,
+				5C365B0C68817C783D3A316E9A216247 /* Alamofire-prefix.pch */,
+				220744F513898AE199E99997C7E245B8 /* Alamofire-umbrella.h */,
+				A3B4B92C341188BCCDCC51D7C9F5B3F2 /* Alamofire.debug.xcconfig */,
+				3BCB96EC40F57BA9D519BC2B89F8CB38 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		516036C041F4B7BFF272699B089DB33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F6A2D7EB7C2F6A6D527A2D3230B471 /* Alamofire.framework */,
+				580F929D04C5BA340341DE9C2EF3D2A6 /* AlamofireImage.framework */,
+				B78CF9C5F6BC1B0F8DF5E65B7169192B /* LucasCoinAPI.framework */,
+				D976E597FADA1EA3A32557DD1B43581E /* LucasUtilities.framework */,
+				2AF033C00AF5A0F236C0C8BEB6952245 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		813579F26DA9FFE6FC76A1D221180CFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED8F2705BE721D8773BBEFC4CF108C /* Utilities.modulemap */,
+				5C7B833915E5C9CBA4601FACF7FC1924 /* Utilities-dummy.m */,
+				1309734BC378770A51DE38DEF2793E0F /* Utilities-Info.plist */,
+				5A9253389067FFA537744EA61D143175 /* Utilities-prefix.pch */,
+				D51ED7F1531B2C944716D640DBBCA2EF /* Utilities-umbrella.h */,
+				E06137B7C23DE8826A1FB69D8251CA50 /* Utilities.debug.xcconfig */,
+				916D62390B1250E2032EEC3BFCF29348 /* Utilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Utilities";
+			sourceTree = "<group>";
+		};
+		86396426FD69346A4125CF0E4990CB6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E598E0A9A7707D11A666CFF50D236B /* SwiftLint.debug.xcconfig */,
+				23F549C09385559F8C30EAEE4B97D386 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		987BB994A71CB956BC62B13B25C7D036 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				394697A906B7F09801D71129FC4C2C3A /* Utilities.swift */,
+				813579F26DA9FFE6FC76A1D221180CFA /* Support Files */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A265D03635C5DC85910B005E101896EB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				735F6A1DE9018B072A04445C7EA7B801 /* CellViewModel.swift */,
+				C90FB01595E5410F1566B27DEB4849EA /* DetailsViewModel.swift */,
+				CE2C4452D39AF8E389611996DC021D87 /* Support Files */,
+			);
+			name = DataModels;
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		B5A89D680EC33424F6D39C01080B518C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				86396426FD69346A4125CF0E4990CB6C /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		C504AABC2C3A7C85433C66C09561AB6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3883F059299C91FB00C60053B590AA /* Commons.modulemap */,
+				465034986C92740E78DE2614E4361C43 /* Commons-dummy.m */,
+				E6499DCE00C27A619D52871DEC8F31F3 /* Commons-Info.plist */,
+				A3F8223D44BBD1100C9993EB8F5D53D5 /* Commons-prefix.pch */,
+				8E70CE8D26D9045F4B5EF6198BEC2843 /* Commons-umbrella.h */,
+				8E4DCFF08C580F14ECCE75C52CAA7F90 /* Commons.debug.xcconfig */,
+				02A014EA7E230CA2B62F20CAF76D10BC /* Commons.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Commons";
+			sourceTree = "<group>";
+		};
+		C8E4B1413B4FA5D14F42B7216F2E515A /* Pods-Moeda Digital Super App */ = {
+			isa = PBXGroup;
+			children = (
+				3298FF6CD27371C2DFED11C8A130A825 /* Pods-Moeda Digital Super App.modulemap */,
+				E2710AFCA28A083848B3DE25A517807D /* Pods-Moeda Digital Super App-acknowledgements.markdown */,
+				41D8395981F3C748F07621DBA23A0435 /* Pods-Moeda Digital Super App-acknowledgements.plist */,
+				DCBD7FA73B97947ECD14977BB8039056 /* Pods-Moeda Digital Super App-dummy.m */,
+				F7E63EB3DF59F04046FA46BF304BC3B2 /* Pods-Moeda Digital Super App-frameworks.sh */,
+				A6A99C4D695D6BEBCF3F425F2CCB2E82 /* Pods-Moeda Digital Super App-Info.plist */,
+				84BD861E52C61B618E37968A5A22A0FD /* Pods-Moeda Digital Super App-umbrella.h */,
+				04E9BD6A806C4C1A670C92A94ABC6429 /* Pods-Moeda Digital Super App.debug.xcconfig */,
+				73CB97EDD3B2814B20973BDB426A72CE /* Pods-Moeda Digital Super App.release.xcconfig */,
+			);
+			name = "Pods-Moeda Digital Super App";
+			path = "Target Support Files/Pods-Moeda Digital Super App";
+			sourceTree = "<group>";
+		};
+		CB99C703507D6EB3B91611C7A4C1F3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */,
+				B6A0DF128E0B251719CE8F00004AC347 /* API.framework */,
+				E7FEC60AC5F30530F8B77FE30600893F /* Commons.framework */,
+				8957301976C52E7EFE1C97E1BAD5C7A0 /* DataModels.framework */,
+				B9B6878E5B39B584F925789D1A887613 /* Details.framework */,
+				7978F0445E301E0E4A8B35C4FE0BFE60 /* LucasCoinAPI.framework */,
+				4AAEAE0A3D045D07796DBC076E8556BC /* LucasUtilities.framework */,
+				8269FFC66ADF421FA711BF8D79C55B43 /* Pods_Moeda_Digital_Super_App.framework */,
+				46A0A96E1B4AEE48390B28827E0DC38D /* Pods_Moeda_Digital_Super_App_Moeda_Digital_Super_AppUITests.framework */,
+				8ABB8EC56387A1F38DCDFA50AAB39D1C /* Pods_Moeda_Digital_Super_AppTests.framework */,
+				3DFF3B9DA856E55FB2687DB3CDE18739 /* Utilities.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2C4452D39AF8E389611996DC021D87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23E818BD06F97BBB7647353F93AEA7E /* DataModels.modulemap */,
+				8600520DBBC1707F61D49F80460BEF9E /* DataModels-dummy.m */,
+				C46EA46C2AC7D0CFB030CD8A516487F1 /* DataModels-Info.plist */,
+				61F9D4674F2E24C112CD6911C105C3DC /* DataModels-prefix.pch */,
+				2F44B34B74EBEC9A888446C6B817F821 /* DataModels-umbrella.h */,
+				B53CE7DF74BA6CCCEE768554EDBBC435 /* DataModels.debug.xcconfig */,
+				CBCA420786243BE898D05B77F6848A51 /* DataModels.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DataModels";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				516036C041F4B7BFF272699B089DB33E /* Frameworks */,
+				1C6449F16ACB73782E4F79902F82A813 /* Pods */,
+				CB99C703507D6EB3B91611C7A4C1F3F8 /* Products */,
+				0EE0A04FB5F91F0DB03ED4BE1175754A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B12AE229E2A855153642F68DA85663 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B319511D4F3AD44CA75BCBE313427C86 /* AlamofireImage.modulemap */,
+				293546672751A7A4A04B874F9CBFEED0 /* AlamofireImage-dummy.m */,
+				D5C11C7D586D0027E08F855B7FACB268 /* AlamofireImage-Info.plist */,
+				6BFDFA5D6011BDF5562754E0A7D8C7A5 /* AlamofireImage-prefix.pch */,
+				CAD2D7824EDEF4304AD6F5BD596F22F8 /* AlamofireImage-umbrella.h */,
+				5B1B798F9600737601C9ACF8A171CCAA /* AlamofireImage.debug.xcconfig */,
+				1AF86F3ADE6F76DB0CA6698D08E7DD3F /* AlamofireImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlamofireImage";
+			sourceTree = "<group>";
+		};
+		EBFD2FB0915939DDFEE1F5B86BA65868 /* LucasUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				74E1C3EA47B752D9C48538047E20F688 /* Utilities.swift */,
+				FF3CDBD144DA92294ACC39008BD8EE20 /* Support Files */,
+			);
+			name = LucasUtilities;
+			path = LucasUtilities;
+			sourceTree = "<group>";
+		};
+		F54771DC112876BD5391747D4B3C6EDC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E054C8B0F83285593A19798D764624DD /* API.swift */,
+				E0F248D3CECE1A42A72FD1F190C81CFA /* Coin.swift */,
+				F920034038EB663FF547155E7A8ADC85 /* Support Files */,
+			);
+			name = API;
+			path = API;
+			sourceTree = "<group>";
+		};
+		F7147C423213C55E09AA4AE8CB75077D /* LucasCoinAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8F01E8AE084FAE4C1767588EEEA9C7F1 /* API.swift */,
+				6C7B332E8C1356BFEECEAE94EB0A7309 /* Coin.swift */,
+				2F7D1184870AB3C2DE42DFD3720E4E0B /* Support Files */,
+			);
+			name = LucasCoinAPI;
+			path = LucasCoinAPI;
+			sourceTree = "<group>";
+		};
+		F920034038EB663FF547155E7A8ADC85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7723D90CF1394D4364C8498849C301 /* API.modulemap */,
+				6F2B48F9D9CDEEF40B40F3A051888C37 /* API-dummy.m */,
+				1C40AF397A024CB102DECF88A2D5BA25 /* API-Info.plist */,
+				71EC12A37BCCC9517207EEDF98ACA832 /* API-prefix.pch */,
+				CE30C2F26CF2560C94100D741921A4E5 /* API-umbrella.h */,
+				56511CD6B184BC2165CF1970E5586EA5 /* API.debug.xcconfig */,
+				236755D232F6E58665F95199DA60439D /* API.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/API";
+			sourceTree = "<group>";
+		};
+		FF3CDBD144DA92294ACC39008BD8EE20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2CFEA942A8A57CADD7FCEF0701FC0AA /* LucasUtilities.modulemap */,
+				E8D95D5BBB4F45FF0AAB70F516882D30 /* LucasUtilities-dummy.m */,
+				49E7680FBC6669A9C3159B0CB5FE2517 /* LucasUtilities-Info.plist */,
+				E27F793316616ADBDA56AEA89C5E1D24 /* LucasUtilities-prefix.pch */,
+				EF8F8FBB337616B14E05F7128EEE441B /* LucasUtilities-umbrella.h */,
+				C361609FC9469EC856AC633B235C71FA /* LucasUtilities.debug.xcconfig */,
+				1C496D2E6438C61554158A9F205A8C93 /* LucasUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LucasUtilities";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A65D7DC59C85F4E74D1E14E0C9925DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9B4E199648D3D1CC799A0DBDCB4951 /* LucasUtilities-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E5DBA694BFEC98FF75972C15065A42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A35D685D759294CB52926B6A4855378 /* AlamofireImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B051AB06F81E9D03B310F87240075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7681D42502A209B81A29592CC79F7012 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4183A6648A2BB2EB5C4E159DC87A179A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEADF872D52314F6C68FE5AF8C2CD16 /* Commons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529C7938D5BC79FFDE3D62ADA3C51EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F464F1F8EEE0A254C2E3EA45A10ADE7 /* Pods-Moeda Digital Super App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF4B0B36F6C4BD715728142F0A8DEB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040D04BBF7DE2CF83E0BFE02E9501203 /* Utilities-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956B3D2EBF41F39B536EB791BA855D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E5820D839877D40BAA7B8A224F22C1 /* API-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D04127621A31D844CACD0C80A26CB13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903C6ED541B5DB86FC907702A5E9036C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00130266E5A8B2AB17AC76C48AB4D58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C316A291BDABB9B42A0F91E40699C9D0 /* DataModels-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67711E7186B0349B5B477661338902B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E42936F245FBE5DB458FAA104A48479 /* LucasCoinAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD87FB153F461B3B9B17A0A4D49F444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0A0E809CC159B20D8BC17D4DF3FD5F /* Details-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE84F3BD655B12743337FF99446F7BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42FA943571A3E15A8095DD7273F6823 /* Pods-Moeda Digital Super AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00201FD56DEC7E73B168B7D95993607E /* LucasUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A444F25582099C4752D9E224B5BE13 /* Build configuration list for PBXNativeTarget "LucasUtilities" */;
+			buildPhases = (
+				0A65D7DC59C85F4E74D1E14E0C9925DA /* Headers */,
+				1C027EB8DF310A0ADC65A38B120D336A /* Sources */,
+				88BEF6FEBDF366F30BC302997FBB358B /* Frameworks */,
+				F5902C3CF3D7697A9E6A717267D4243A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LucasUtilities;
+			productName = LucasUtilities;
+			productReference = 4AAEAE0A3D045D07796DBC076E8556BC /* LucasUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		06A866AF8C90AF1093B4FEE39DA6E733 /* Pods-Moeda Digital Super AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A610CD30EDD1D618C554F2FD19B43 /* Build configuration list for PBXNativeTarget "Pods-Moeda Digital Super AppTests" */;
+			buildPhases = (
+				FDE84F3BD655B12743337FF99446F7BE /* Headers */,
+				9F86D7977710B3854B8CDD0ED029F98A /* Sources */,
+				FBD663D249E6A317AF5DA99359704CD4 /* Frameworks */,
+				50410DABA0C299B901FC84943606B84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199C6E748C769C5EE2608F53977033E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Moeda Digital Super AppTests";
+			productName = "Pods-Moeda Digital Super AppTests";
+			productReference = 8ABB8EC56387A1F38DCDFA50AAB39D1C /* Pods_Moeda_Digital_Super_AppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08A89194DEE3ADE40D2A3C978661C517 /* Utilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214C047FB90076607FC6E6E0AC475195 /* Build configuration list for PBXNativeTarget "Utilities" */;
+			buildPhases = (
+				8AF4B0B36F6C4BD715728142F0A8DEB9 /* Headers */,
+				FD1017724A2FC2E9B6F9D64A6F47BA38 /* Sources */,
+				B8B52044DC498B6CE7E62AC2FDEB008B /* Frameworks */,
+				541F1A9AE1B4A643B26EF60E0203032D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utilities;
+			productName = Utilities;
+			productReference = 3DFF3B9DA856E55FB2687DB3CDE18739 /* Utilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43EBC6FAA403E67459D44742B7D3FFED /* API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC1568B3FF10C280F66DA39DC8D5552 /* Build configuration list for PBXNativeTarget "API" */;
+			buildPhases = (
+				956B3D2EBF41F39B536EB791BA855D8E /* Headers */,
+				97AC1A1D1FCEA94720AAF67CFF6C3507 /* Sources */,
+				54A3D75EF593ABB51F4FDE27E3376B44 /* Frameworks */,
+				55E332F84C261998CA98E436446A80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533AF25EA579C059AFA9DBF801A4F348 /* PBXTargetDependency */,
+				2825D586496523747EB5FF4C00287F39 /* PBXTargetDependency */,
+			);
+			name = API;
+			productName = API;
+			productReference = B6A0DF128E0B251719CE8F00004AC347 /* API.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		452515EFD98D6DC50CA481DAD2AB133F /* Commons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F9D04FE515B795AB3CD0BF074336F9 /* Build configuration list for PBXNativeTarget "Commons" */;
+			buildPhases = (
+				4183A6648A2BB2EB5C4E159DC87A179A /* Headers */,
+				55E283A0F623EFBAE01B7059F352CABA /* Sources */,
+				5A23B248631FA7DF153B7B64DB43451A /* Frameworks */,
+				3CEAC72D4DD9AE857147C5D4E10DE489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Commons;
+			productName = Commons;
+			productReference = E7FEC60AC5F30530F8B77FE30600893F /* Commons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53EA2D8AAAA389B3C9C01E9D1554FB6F /* Details */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993757090A107A5B885BC56314F6810B /* Build configuration list for PBXNativeTarget "Details" */;
+			buildPhases = (
+				EDD87FB153F461B3B9B17A0A4D49F444 /* Headers */,
+				37418F2DF632F3C02766591E6DB7CDF3 /* Sources */,
+				3D8D262CD3B24D17EE3B67CA055A2926 /* Frameworks */,
+				6F1DB5D947508EA8BF64D790322C844F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70C6B5438DE1C4330C6869CCDF4452B /* PBXTargetDependency */,
+				A0281C0DBC4A20A094CC95BB31412767 /* PBXTargetDependency */,
+				43F9EC9786B50DD11F3927096FA7215D /* PBXTargetDependency */,
+			);
+			name = Details;
+			productName = Details;
+			productReference = B9B6878E5B39B584F925789D1A887613 /* Details.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EDE3036DAA1813516BA4EF9F0655ABC /* Pods-Moeda Digital Super App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ECA84A874E96F80F7260516ED3BF81 /* Build configuration list for PBXNativeTarget "Pods-Moeda Digital Super App" */;
+			buildPhases = (
+				529C7938D5BC79FFDE3D62ADA3C51EC4 /* Headers */,
+				D068C5912A5C7F77336AFA477C834270 /* Sources */,
+				BF97F7923BBC33CF7B422849C6E0B460 /* Frameworks */,
+				72622E8AE168CC9D517F4196832D6AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421A18E6362413147201C209EC1F89E4 /* PBXTargetDependency */,
+				462B856A26D58700938C1867BF1F0208 /* PBXTargetDependency */,
+				0EBAA22F1E31CC68CE57A13D61699B44 /* PBXTargetDependency */,
+				C5CA7EF72A4E247D3C6EC84E23BF0BBB /* PBXTargetDependency */,
+				7C3362D9A0266F25D6ECDECA5C4DE25C /* PBXTargetDependency */,
+				7DB913B1B7AE9DEE4E643D184EC23448 /* PBXTargetDependency */,
+				0D8CF5555D851228612F885ABC499320 /* PBXTargetDependency */,
+				7B754D4E49C6658E9A9A64F524A7C6A1 /* PBXTargetDependency */,
+				0562EFBB9A78FF130AB921DDC173BB9C /* PBXTargetDependency */,
+				56007494B9462015982F83A67F439898 /* PBXTargetDependency */,
+			);
+			name = "Pods-Moeda Digital Super App";
+			productName = "Pods-Moeda Digital Super App";
+			productReference = 8269FFC66ADF421FA711BF8D79C55B43 /* Pods_Moeda_Digital_Super_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD9583BC59E901ADEDF089E470A4BD2 /* Build configuration list for PBXNativeTarget "AlamofireImage" */;
+			buildPhases = (
+				34E5DBA694BFEC98FF75972C15065A42 /* Headers */,
+				1426B5988DE71AF3EA70B0403BD8F5A7 /* Sources */,
+				AB858E9805E02DC1173C288D6FD9B0E5 /* Frameworks */,
+				1CFB2CA30D03091AFD4EC0FD32901730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BEC4FB2BB8768F97505B94E1C8D702 /* PBXTargetDependency */,
+			);
+			name = AlamofireImage;
+			productName = AlamofireImage;
+			productReference = C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D13D9AA0997732D43A2F9AAB81885427 /* DataModels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5950BC150D90E1729FED0861D1AFAC /* Build configuration list for PBXNativeTarget "DataModels" */;
+			buildPhases = (
+				C00130266E5A8B2AB17AC76C48AB4D58 /* Headers */,
+				740B6FF3444371163EC4E87666EA2C48 /* Sources */,
+				4EAFE98F70BD283B3019101333382559 /* Frameworks */,
+				B1060897794ED5DC6ADF630BA909A729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				119BD02EE10FD8B764791768A57CB31C /* PBXTargetDependency */,
+				F0FE9EB6DEEC57952D128D518A125815 /* PBXTargetDependency */,
+			);
+			name = DataModels;
+			productName = DataModels;
+			productReference = 8957301976C52E7EFE1C97E1BAD5C7A0 /* DataModels.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE76486E33CA950218176D6D47DA98ED /* LucasCoinAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3D2DE968D44C57AB8A00236551CC75 /* Build configuration list for PBXNativeTarget "LucasCoinAPI" */;
+			buildPhases = (
+				E67711E7186B0349B5B477661338902B /* Headers */,
+				CA7F586A5550BC619FF3070B05BDE752 /* Sources */,
+				80DDEC1A4DFF4150CAF82124F007EEA1 /* Frameworks */,
+				0D3F7F80ECF989353C33D55FDC5483BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D2E3C8B454F6A3B7799392C131763E /* PBXTargetDependency */,
+				47545EBB5EF4E7684F526099B1C892F7 /* PBXTargetDependency */,
+			);
+			name = LucasCoinAPI;
+			productName = LucasCoinAPI;
+			productReference = 7978F0445E301E0E4A8B35C4FE0BFE60 /* LucasCoinAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0D2B2EEB40F72404EBAC513EEDEF4FE /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1273D41EB53307BCDC2CD3B572B54308 /* Build configuration list for PBXNativeTarget "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests" */;
+			buildPhases = (
+				371B051AB06F81E9D03B310F87240075 /* Headers */,
+				CD6A6F0B826B39BFE8E11B3D3B8DBBB8 /* Sources */,
+				1131423322C8A60344F5D32F44989AF2 /* Frameworks */,
+				8FF533509145358B7C44245DDBA8A17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29291B099F67C8F2A9E6EFE4D5F532F /* PBXTargetDependency */,
+				A363F58C798D4719E3508D5051A097F8 /* PBXTargetDependency */,
+				9D31A77869CF5D6D4E2D74149FCE4286 /* PBXTargetDependency */,
+				462455E83E454C1CF454903D64189C98 /* PBXTargetDependency */,
+				A7415CCEEA90F5A87D1CB63270F668E6 /* PBXTargetDependency */,
+				1028C65D831A5E781EFB60FA7D365C88 /* PBXTargetDependency */,
+				1EF414CDBBD16005AD76A2EBBE52ABE7 /* PBXTargetDependency */,
+				C71F1DF8A4332B035DC8A7F0064181AC /* PBXTargetDependency */,
+				51D54628B489992744C664596F484551 /* PBXTargetDependency */,
+				698303BA34D90A43D746D2BABAB71BD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests";
+			productName = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests";
+			productReference = 46A0A96E1B4AEE48390B28827E0DC38D /* Pods_Moeda_Digital_Super_App_Moeda_Digital_Super_AppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D140F4D7C209B65E40BA4ABA13E4D9EE /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				9D04127621A31D844CACD0C80A26CB13 /* Headers */,
+				99596722F530B6EF94E8699665574722 /* Sources */,
+				4B8AEF6D1795D852AD427079CB7AEA3B /* Frameworks */,
+				F078659F496C85E6AE99CC6C9948A63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CB99C703507D6EB3B91611C7A4C1F3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */,
+				43EBC6FAA403E67459D44742B7D3FFED /* API */,
+				452515EFD98D6DC50CA481DAD2AB133F /* Commons */,
+				D13D9AA0997732D43A2F9AAB81885427 /* DataModels */,
+				53EA2D8AAAA389B3C9C01E9D1554FB6F /* Details */,
+				DE76486E33CA950218176D6D47DA98ED /* LucasCoinAPI */,
+				00201FD56DEC7E73B168B7D95993607E /* LucasUtilities */,
+				5EDE3036DAA1813516BA4EF9F0655ABC /* Pods-Moeda Digital Super App */,
+				E0D2B2EEB40F72404EBAC513EEDEF4FE /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests */,
+				06A866AF8C90AF1093B4FEE39DA6E733 /* Pods-Moeda Digital Super AppTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				08A89194DEE3ADE40D2A3C978661C517 /* Utilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D3F7F80ECF989353C33D55FDC5483BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFB2CA30D03091AFD4EC0FD32901730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEAC72D4DD9AE857147C5D4E10DE489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50410DABA0C299B901FC84943606B84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541F1A9AE1B4A643B26EF60E0203032D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E332F84C261998CA98E436446A80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1DB5D947508EA8BF64D790322C844F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72622E8AE168CC9D517F4196832D6AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF533509145358B7C44245DDBA8A17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1060897794ED5DC6ADF630BA909A729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F078659F496C85E6AE99CC6C9948A63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5902C3CF3D7697A9E6A717267D4243A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1426B5988DE71AF3EA70B0403BD8F5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119D0523AA975A2181E9B140E59D6ED5 /* AFIError.swift in Sources */,
+				0F817B979EFB230770364649C5AA813C /* AlamofireImage-dummy.m in Sources */,
+				1BB50A2AF9523866F8046DE6F7B6F4F5 /* Image.swift in Sources */,
+				D9EB6354425A77AFC8F3A3B051D55EFB /* ImageCache.swift in Sources */,
+				B1F2A57E2BDD29C4AAF0A3FBC9A6A51E /* ImageDownloader.swift in Sources */,
+				FE8895CCCE38CE110B2905C0031B8A5D /* ImageFilter.swift in Sources */,
+				86CCFAC9EB814F6309DF788F0A5D0D58 /* Request+AlamofireImage.swift in Sources */,
+				B99F5C6ADA4443A6451378A2DD11B298 /* UIButton+AlamofireImage.swift in Sources */,
+				ACBD06C7ED6092851CD1A46DCE76AA42 /* UIImage+AlamofireImage.swift in Sources */,
+				D0806C1741E302A7BF8F1B95B6C92B5B /* UIImageView+AlamofireImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C027EB8DF310A0ADC65A38B120D336A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD954C067FC46712EA74820CF6AE47C /* LucasUtilities-dummy.m in Sources */,
+				E45AA86BD64E093C0E5F73B2867ABEEB /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37418F2DF632F3C02766591E6DB7CDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7604FC0A356110071A067D84FC300C3B /* Details-dummy.m in Sources */,
+				07C091126206F26DE3060158BC0F8490 /* DetailsViewController.swift in Sources */,
+				CBB61D61D0FEC796502CBCA230DF0246 /* DetailsViewController.xib in Sources */,
+				7D083EF163A59B1F993EED4C0DE144F7 /* DetailsViewModel.swift in Sources */,
+				254201C6282A5BE74F895CDF8104D02D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E283A0F623EFBAE01B7059F352CABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C6E2D82450353D63524CF8C6FFCE9 /* ColorsCommons.swift in Sources */,
+				9DF6DF84D6A7DB5722536DF90DF8B0EC /* Commons-dummy.m in Sources */,
+				CEFD5BF5AE9A4FAE6D43BBF96A8C311A /* HearderView.swift in Sources */,
+				9B42FBDD681F50B0D48B59A9EECC6BD9 /* HearderView.xib in Sources */,
+				0933F4ED6A6FA6A3F42B04AB456FBC18 /* ReplaceMe.swift in Sources */,
+				8F3AAD007C24AFA028C58789B50E191A /* Search.swift in Sources */,
+				4514477F025988D43170DE5509CACDDD /* Search.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740B6FF3444371163EC4E87666EA2C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF23965DFEBF60F1A25BD60329714EB8 /* CellViewModel.swift in Sources */,
+				F7AD6BAE8E53CFA621947019FD1471DE /* DataModels-dummy.m in Sources */,
+				1EF21F14324AD9C13E9168726BFB4F2C /* DetailsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AC1A1D1FCEA94720AAF67CFF6C3507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28313CE3E56E641A445C310761054C60 /* API-dummy.m in Sources */,
+				9AFF9E428F0CC6E70077015C04DEED6C /* API.swift in Sources */,
+				7CB7EE21D52024178F3725A14412F6D8 /* Coin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99596722F530B6EF94E8699665574722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BCD7275AC90B596AC2A67C21400D63 /* AFError.swift in Sources */,
+				DEBF20C74BF5C45B99D43300B32985D9 /* Alamofire-dummy.m in Sources */,
+				0FFFE4A4DD74209AB402D4FC5317561B /* Alamofire.swift in Sources */,
+				770A54D2D2479A214C0CF8CC04DDE3B0 /* AlamofireExtended.swift in Sources */,
+				5AD7F3C605C28350648080DCAB3BC2AC /* AuthenticationInterceptor.swift in Sources */,
+				195E63929ED57D6CCC59402D7F882371 /* CachedResponseHandler.swift in Sources */,
+				FEB4CDE23B93F566D8857891270DF6A0 /* Combine.swift in Sources */,
+				455F8176D053F6B1269AE1D905422032 /* DispatchQueue+Alamofire.swift in Sources */,
+				B2CD6BB088C49F1FBA9E61E2E964F061 /* EventMonitor.swift in Sources */,
+				97AE8ADAAA35D531BD0EAC94529DBD7F /* HTTPHeaders.swift in Sources */,
+				44BF8B392CDF92D4E61141F9E15BF053 /* HTTPMethod.swift in Sources */,
+				32CD5F29AE136C2C5A58CEB10DA708FE /* MultipartFormData.swift in Sources */,
+				E219D13444991DA882D4DE77EBC84F55 /* MultipartUpload.swift in Sources */,
+				E1E5FE791DB129C51FAEFB66244B8D84 /* NetworkReachabilityManager.swift in Sources */,
+				2BEB45331CAFC1F7CBF8F378F65C2077 /* Notifications.swift in Sources */,
+				BF03A064F7A8D23F8DC0D887AD6AF1C1 /* OperationQueue+Alamofire.swift in Sources */,
+				B064C0CFB1FC7951C164F544653829CA /* ParameterEncoder.swift in Sources */,
+				D3E5450330445DD638141FDBB6936DCC /* ParameterEncoding.swift in Sources */,
+				8F91B9A00343A3BD75B424C29011CCBD /* Protected.swift in Sources */,
+				2508B17F2C3F8CE0E5719E9B02EBEC52 /* RedirectHandler.swift in Sources */,
+				606527A750FFBE97F39E8D01DC3E20E5 /* Request.swift in Sources */,
+				34C67815ECFACBF954C7E933EF0EA181 /* RequestInterceptor.swift in Sources */,
+				2D46B90C238B5FEFC5F12D8744B68861 /* RequestTaskMap.swift in Sources */,
+				31C967063F0D4350E24D746FD89D97D6 /* Response.swift in Sources */,
+				DADD20E4D5FE8602CE26984497316A1A /* ResponseSerialization.swift in Sources */,
+				F8A6B57E7E1B3181A77ADD9C92EF71D3 /* Result+Alamofire.swift in Sources */,
+				33C454C0E17D6F48A286FD9D36ACA08E /* RetryPolicy.swift in Sources */,
+				2CC8B9EDFF936844747AB69DE306DA02 /* ServerTrustEvaluation.swift in Sources */,
+				486218167E3D1C2800A691B0542FEC76 /* Session.swift in Sources */,
+				AFE02F8D293DCD8B65839F89D3F16BB7 /* SessionDelegate.swift in Sources */,
+				721C51904BA713DDEA35B6305AD85C20 /* StringEncoding+Alamofire.swift in Sources */,
+				C2352B80030ED4B725B611B418E2527F /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				43212BB73A96AC4582DD4A32E8A02757 /* URLEncodedFormEncoder.swift in Sources */,
+				C724942C382B8AD3EBF8EBC3072875D1 /* URLRequest+Alamofire.swift in Sources */,
+				E159E08CCBAFE3EE17B925D13DD9E00E /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				A19853BB17FE24BFC6DAA87FFF564740 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F86D7977710B3854B8CDD0ED029F98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD49698CB5F1CB7443C0CE7BFC7050 /* Pods-Moeda Digital Super AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F586A5550BC619FF3070B05BDE752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1AB39E356085D9470EFAF5C7A2DE00 /* API.swift in Sources */,
+				4522C9E8E8A33F4EFCC621D78FAFB06D /* Coin.swift in Sources */,
+				EE428D4D4DDD4CB0ABB59AA57F50DD28 /* LucasCoinAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A6F0B826B39BFE8E11B3D3B8DBBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581E1CFCB74746C0061EC7E5EED8182C /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D068C5912A5C7F77336AFA477C834270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A8AFC680E2E00EBC50AC3D05A020FE /* Pods-Moeda Digital Super App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1017724A2FC2E9B6F9D64A6F47BA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCF614F5DCCEAF533CD8FFE4F8C766C /* Utilities-dummy.m in Sources */,
+				EE9B642C9C625C30112ED0B79B4145F7 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0562EFBB9A78FF130AB921DDC173BB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = B4E79910A4C9574578A87C0B8141C2A7 /* PBXContainerItemProxy */;
+		};
+		0D8CF5555D851228612F885ABC499320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LucasCoinAPI;
+			target = DE76486E33CA950218176D6D47DA98ED /* LucasCoinAPI */;
+			targetProxy = 170270E5BB2CD89E72D711ECE24E683A /* PBXContainerItemProxy */;
+		};
+		0EBAA22F1E31CC68CE57A13D61699B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = B6DC2D9AAD7904EB3DCEE3FEE9715B2B /* PBXContainerItemProxy */;
+		};
+		1028C65D831A5E781EFB60FA7D365C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Details;
+			target = 53EA2D8AAAA389B3C9C01E9D1554FB6F /* Details */;
+			targetProxy = F04EDEE636CABF53F1B8DFA9589971C2 /* PBXContainerItemProxy */;
+		};
+		119BD02EE10FD8B764791768A57CB31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = B0584861E62052906AAB0F19C2466329 /* PBXContainerItemProxy */;
+		};
+		199C6E748C769C5EE2608F53977033E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Moeda Digital Super App";
+			target = 5EDE3036DAA1813516BA4EF9F0655ABC /* Pods-Moeda Digital Super App */;
+			targetProxy = 42E264618C78D0A87702981E3DC889B3 /* PBXContainerItemProxy */;
+		};
+		1EF414CDBBD16005AD76A2EBBE52ABE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LucasCoinAPI;
+			target = DE76486E33CA950218176D6D47DA98ED /* LucasCoinAPI */;
+			targetProxy = F6B64583DEF3581C7B47D4D0FCFF79E3 /* PBXContainerItemProxy */;
+		};
+		2825D586496523747EB5FF4C00287F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 2ABCF28F410E9C6D617585F33E49B0B8 /* PBXContainerItemProxy */;
+		};
+		421A18E6362413147201C209EC1F89E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = API;
+			target = 43EBC6FAA403E67459D44742B7D3FFED /* API */;
+			targetProxy = B1DAA2FF680E15810959AA4E0EEE0F5A /* PBXContainerItemProxy */;
+		};
+		43F9EC9786B50DD11F3927096FA7215D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LucasUtilities;
+			target = 00201FD56DEC7E73B168B7D95993607E /* LucasUtilities */;
+			targetProxy = 8CB3FC494518B77F6C576C8F68386A86 /* PBXContainerItemProxy */;
+		};
+		462455E83E454C1CF454903D64189C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Commons;
+			target = 452515EFD98D6DC50CA481DAD2AB133F /* Commons */;
+			targetProxy = 0BAEAB4491CBE50337FEB2A00F7E2772 /* PBXContainerItemProxy */;
+		};
+		462B856A26D58700938C1867BF1F0208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = F84FEE4626D510C4EEEDA7FFA0153DA4 /* PBXContainerItemProxy */;
+		};
+		47545EBB5EF4E7684F526099B1C892F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 2781F8F6BE84B0C5517EB1F03679BD43 /* PBXContainerItemProxy */;
+		};
+		51D54628B489992744C664596F484551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 727533CD73E5892A51C860D508560AD9 /* PBXContainerItemProxy */;
+		};
+		533AF25EA579C059AFA9DBF801A4F348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = E4B08FF3C1B7779A1D9A412C9C32023E /* PBXContainerItemProxy */;
+		};
+		56007494B9462015982F83A67F439898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Utilities;
+			target = 08A89194DEE3ADE40D2A3C978661C517 /* Utilities */;
+			targetProxy = D4BC034E5280B2EF5F939A9530708365 /* PBXContainerItemProxy */;
+		};
+		698303BA34D90A43D746D2BABAB71BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Utilities;
+			target = 08A89194DEE3ADE40D2A3C978661C517 /* Utilities */;
+			targetProxy = 93C5BF5FE68B6D67C7DC0372F14F2344 /* PBXContainerItemProxy */;
+		};
+		75D2E3C8B454F6A3B7799392C131763E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = 4DDD588FBBEF28C6E053000B48182518 /* PBXContainerItemProxy */;
+		};
+		7B754D4E49C6658E9A9A64F524A7C6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LucasUtilities;
+			target = 00201FD56DEC7E73B168B7D95993607E /* LucasUtilities */;
+			targetProxy = 3C7C9AB6423B4C9786C0D8D24A6AB002 /* PBXContainerItemProxy */;
+		};
+		7C3362D9A0266F25D6ECDECA5C4DE25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DataModels;
+			target = D13D9AA0997732D43A2F9AAB81885427 /* DataModels */;
+			targetProxy = 0861002AB528E454BE67EC2899CCBAE0 /* PBXContainerItemProxy */;
+		};
+		7DB913B1B7AE9DEE4E643D184EC23448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Details;
+			target = 53EA2D8AAAA389B3C9C01E9D1554FB6F /* Details */;
+			targetProxy = 63756609AF7B4FA970193996DCD4A29F /* PBXContainerItemProxy */;
+		};
+		9D31A77869CF5D6D4E2D74149FCE4286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = 1626AE3E3DFBF253C37256AC5D7CB149 /* PBXContainerItemProxy */;
+		};
+		A0281C0DBC4A20A094CC95BB31412767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LucasCoinAPI;
+			target = DE76486E33CA950218176D6D47DA98ED /* LucasCoinAPI */;
+			targetProxy = 0A6D2C626C265749A093838EA8359FD7 /* PBXContainerItemProxy */;
+		};
+		A363F58C798D4719E3508D5051A097F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = A28ADD7B2760469F1CEC64EEAD203D20 /* PBXContainerItemProxy */;
+		};
+		A7415CCEEA90F5A87D1CB63270F668E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DataModels;
+			target = D13D9AA0997732D43A2F9AAB81885427 /* DataModels */;
+			targetProxy = 3599B7A67A2395B036BD6D9E4FD16773 /* PBXContainerItemProxy */;
+		};
+		C5CA7EF72A4E247D3C6EC84E23BF0BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Commons;
+			target = 452515EFD98D6DC50CA481DAD2AB133F /* Commons */;
+			targetProxy = 22B3CD23B4DB6FFF2D78494730D8A49F /* PBXContainerItemProxy */;
+		};
+		C71F1DF8A4332B035DC8A7F0064181AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LucasUtilities;
+			target = 00201FD56DEC7E73B168B7D95993607E /* LucasUtilities */;
+			targetProxy = BBB30812F1786E82C0BA0FA4A608920B /* PBXContainerItemProxy */;
+		};
+		E70C6B5438DE1C4330C6869CCDF4452B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
+			targetProxy = 5CF69E6C428B43902440C064CED06745 /* PBXContainerItemProxy */;
+		};
+		E7BEC4FB2BB8768F97505B94E1C8D702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = BEB564CCD583C221AE7C0CD46D2514ED /* PBXContainerItemProxy */;
+		};
+		F0FE9EB6DEEC57952D128D518A125815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 2E0E1EA64BD4B0D2ADB616F9E422C5CD /* PBXContainerItemProxy */;
+		};
+		F29291B099F67C8F2A9E6EFE4D5F532F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = API;
+			target = 43EBC6FAA403E67459D44742B7D3FFED /* API */;
+			targetProxy = 102101F8407AD9E733CE1BF7420DFB56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AC9342C5E7861194E16CB2BCB311FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4DCFF08C580F14ECCE75C52CAA7F90 /* Commons.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Commons/Commons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Commons/Commons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Commons/Commons.modulemap";
+				PRODUCT_MODULE_NAME = Commons;
+				PRODUCT_NAME = Commons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AFC1C48B18D7EDE8A2A5E1172697011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E598E0A9A7707D11A666CFF50D236B /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19114E6B2C4A28601DDA89A67C86DD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5B915B8FF58F730FA70C9A66324EEE /* Pods-Moeda Digital Super AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AD0463BAF4B4FFE9813F82FEF66A5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AAA5AD1DBD5C9D4BE648329100A2B4 /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		209BDAC6838D51FEC871BC26F848F97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF86F3ADE6F76DB0CA6698D08E7DD3F /* AlamofireImage.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage/AlamofireImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28DDBC7D44E91DEC3C03EE844F71263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45D25FA9AE7C0F5F81D7615DB92ADF7 /* LucasCoinAPI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LucasCoinAPI/LucasCoinAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LucasCoinAPI/LucasCoinAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LucasCoinAPI/LucasCoinAPI.modulemap";
+				PRODUCT_MODULE_NAME = LucasCoinAPI;
+				PRODUCT_NAME = LucasCoinAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C4ECE07C6E2D80BBFA38F53AD0E54A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916D62390B1250E2032EEC3BFCF29348 /* Utilities.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Utilities/Utilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Utilities/Utilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Utilities/Utilities.modulemap";
+				PRODUCT_MODULE_NAME = Utilities;
+				PRODUCT_NAME = Utilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36B6A085A1E6A6B96598D6E9B0E4662B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CB97EDD3B2814B20973BDB426A72CE /* Pods-Moeda Digital Super App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3984B875009BAC84EDC04C7E09261D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B4B92C341188BCCDCC51D7C9F5B3F2 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D01BF748932AB335A7A11956FC21C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A014EA7E230CA2B62F20CAF76D10BC /* Commons.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Commons/Commons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Commons/Commons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Commons/Commons.modulemap";
+				PRODUCT_MODULE_NAME = Commons;
+				PRODUCT_NAME = Commons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		554B290AF2021DDE1A5AB2931C2F5F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02B9A6A1521F915A32B5AA94E9DF696 /* Details.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Details/Details-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Details/Details-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Details/Details.modulemap";
+				PRODUCT_MODULE_NAME = Details;
+				PRODUCT_NAME = Details;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56E031F66246414AC7DB4BB47B8D1E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53CE7DF74BA6CCCEE768554EDBBC435 /* DataModels.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DataModels/DataModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DataModels/DataModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DataModels/DataModels.modulemap";
+				PRODUCT_MODULE_NAME = DataModels;
+				PRODUCT_NAME = DataModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		589EFEA2E71A1B6E7F740F4EE50133EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06137B7C23DE8826A1FB69D8251CA50 /* Utilities.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Utilities/Utilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Utilities/Utilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Utilities/Utilities.modulemap";
+				PRODUCT_MODULE_NAME = Utilities;
+				PRODUCT_NAME = Utilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D7C98F889740E7F139BB8CFE6F4F574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1B798F9600737601C9ACF8A171CCAA /* AlamofireImage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage/AlamofireImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70B132D383748B5CCB6F3888BE475834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE1AEA71FFAE6C88E532BAC05EA2E74 /* LucasCoinAPI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LucasCoinAPI/LucasCoinAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LucasCoinAPI/LucasCoinAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LucasCoinAPI/LucasCoinAPI.modulemap";
+				PRODUCT_MODULE_NAME = LucasCoinAPI;
+				PRODUCT_NAME = LucasCoinAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B544458B07542FBE7E752AF065EA00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6478C736B81DFF38D576DFBEB05332 /* Pods-Moeda Digital Super AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90A99FF0CD274D6E9C012A9BFC86669C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E9BD6A806C4C1A670C92A94ABC6429 /* Pods-Moeda Digital Super App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC98C24000BF28DC5B412E19D76988E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C361609FC9469EC856AC633B235C71FA /* LucasUtilities.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LucasUtilities/LucasUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LucasUtilities/LucasUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LucasUtilities/LucasUtilities.modulemap";
+				PRODUCT_MODULE_NAME = LucasUtilities;
+				PRODUCT_NAME = LucasUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0C4D689DF5A6E67B5AF7C83EBC2C069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F549C09385559F8C30EAEE4B97D386 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7389DD9BB67074FA36C2E992DA2A772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDC215A95C54EE4B889C538FA23639B /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C938F3852C44BC43506B34DF67532CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCB96EC40F57BA9D519BC2B89F8CB38 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC89FCE0611561983E8CF99721375D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236755D232F6E58665F95199DA60439D /* API.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/API/API-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/API/API-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/API/API.modulemap";
+				PRODUCT_MODULE_NAME = API;
+				PRODUCT_NAME = API;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDB5D81A567958EC93002FE4444F823B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCA420786243BE898D05B77F6848A51 /* DataModels.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DataModels/DataModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DataModels/DataModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DataModels/DataModels.modulemap";
+				PRODUCT_MODULE_NAME = DataModels;
+				PRODUCT_NAME = DataModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB667918098CCCD2BA4CBE82FB9B5A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C496D2E6438C61554158A9F205A8C93 /* LucasUtilities.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LucasUtilities/LucasUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LucasUtilities/LucasUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LucasUtilities/LucasUtilities.modulemap";
+				PRODUCT_MODULE_NAME = LucasUtilities;
+				PRODUCT_NAME = LucasUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6197AF83E420582B1A8EFB040424D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56511CD6B184BC2165CF1970E5586EA5 /* API.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/API/API-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/API/API-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/API/API.modulemap";
+				PRODUCT_MODULE_NAME = API;
+				PRODUCT_NAME = API;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD3DA0F6F2502DCCB6E4149D7A58BF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D56F177E09513FE31A842919B78ECE1 /* Details.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Details/Details-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Details/Details-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Details/Details.modulemap";
+				PRODUCT_MODULE_NAME = Details;
+				PRODUCT_NAME = Details;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049A610CD30EDD1D618C554F2FD19B43 /* Build configuration list for PBXNativeTarget "Pods-Moeda Digital Super AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19114E6B2C4A28601DDA89A67C86DD97 /* Debug */,
+				7B544458B07542FBE7E752AF065EA00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1273D41EB53307BCDC2CD3B572B54308 /* Build configuration list for PBXNativeTarget "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7389DD9BB67074FA36C2E992DA2A772 /* Debug */,
+				1AD0463BAF4B4FFE9813F82FEF66A5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214C047FB90076607FC6E6E0AC475195 /* Build configuration list for PBXNativeTarget "Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589EFEA2E71A1B6E7F740F4EE50133EE /* Debug */,
+				2C4ECE07C6E2D80BBFA38F53AD0E54A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F9D04FE515B795AB3CD0BF074336F9 /* Build configuration list for PBXNativeTarget "Commons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC9342C5E7861194E16CB2BCB311FAD /* Debug */,
+				3D01BF748932AB335A7A11956FC21C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A444F25582099C4752D9E224B5BE13 /* Build configuration list for PBXNativeTarget "LucasUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC98C24000BF28DC5B412E19D76988E2 /* Debug */,
+				DB667918098CCCD2BA4CBE82FB9B5A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE6CBE2C27A595B00C7D010BB5C6AB4 /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFC1C48B18D7EDE8A2A5E1172697011 /* Debug */,
+				C0C4D689DF5A6E67B5AF7C83EBC2C069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3D2DE968D44C57AB8A00236551CC75 /* Build configuration list for PBXNativeTarget "LucasCoinAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B132D383748B5CCB6F3888BE475834 /* Debug */,
+				28DDBC7D44E91DEC3C03EE844F71263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993757090A107A5B885BC56314F6810B /* Build configuration list for PBXNativeTarget "Details" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554B290AF2021DDE1A5AB2931C2F5F16 /* Debug */,
+				FD3DA0F6F2502DCCB6E4149D7A58BF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5950BC150D90E1729FED0861D1AFAC /* Build configuration list for PBXNativeTarget "DataModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E031F66246414AC7DB4BB47B8D1E0A /* Debug */,
+				CDB5D81A567958EC93002FE4444F823B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ECA84A874E96F80F7260516ED3BF81 /* Build configuration list for PBXNativeTarget "Pods-Moeda Digital Super App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A99FF0CD274D6E9C012A9BFC86669C /* Debug */,
+				36B6A085A1E6A6B96598D6E9B0E4662B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC1568B3FF10C280F66DA39DC8D5552 /* Build configuration list for PBXNativeTarget "API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6197AF83E420582B1A8EFB040424D7B /* Debug */,
+				CC89FCE0611561983E8CF99721375D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D140F4D7C209B65E40BA4ABA13E4D9EE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3984B875009BAC84EDC04C7E09261D7D /* Debug */,
+				C938F3852C44BC43506B34DF67532CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD9583BC59E901ADEDF089E470A4BD2 /* Build configuration list for PBXNativeTarget "AlamofireImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7C98F889740E7F139BB8CFE6F4F574 /* Debug */,
+				209BDAC6838D51FEC871BC26F848F97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		509F0A5602965FAF5711681C /* Pods_Moeda_Digital_Super_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3791EE2531A40290A825C57E /* Pods_Moeda_Digital_Super_App.framework */; };
+		93FF4FAB262E095C00AF0544 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF4FAA262E095C00AF0544 /* CellViewModel.swift */; };
+		93FF5004262E4CA100AF0544 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF5002262E4CA100AF0544 /* FavoriteViewController.swift */; };
+		93FF5005262E4CA100AF0544 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF5003262E4CA100AF0544 /* FavoriteViewController.xib */; };
+		93FF501B262E514400AF0544 /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FF5019262E514400AF0544 /* FavoritesCollectionViewCell.swift */; };
+		93FF501C262E514400AF0544 /* FavoritesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF501A262E514400AF0544 /* FavoritesCollectionViewCell.xib */; };
 		9A261FFEC569AED877E19A79 /* Pods_Moeda_Digital_Super_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCFFD6C9C57F3BF6DEE5371 /* Pods_Moeda_Digital_Super_AppTests.framework */; };
 		9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */; };
 		9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F379E26275DA300D6042A /* CoinCell.swift */; };
@@ -50,6 +55,11 @@
 		44A5C2F4D1BA6DF2D32A11B5 /* Pods-Moeda Digital Super AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DD8E8BC09DA1013835F8A2F /* Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		800672FC906E1CE55E4C0B27 /* Pods-Moeda Digital Super AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moeda Digital Super AppTests.release.xcconfig"; path = "Target Support Files/Pods-Moeda Digital Super AppTests/Pods-Moeda Digital Super AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		93FF4FAA262E095C00AF0544 /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellViewModel.swift; path = ../../../../../../DataModels/DataModels/Classes/ViewModel/CellViewModel.swift; sourceTree = "<group>"; };
+		93FF5002262E4CA100AF0544 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		93FF5003262E4CA100AF0544 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		93FF5019262E514400AF0544 /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewCell.swift; sourceTree = "<group>"; };
+		93FF501A262E514400AF0544 /* FavoritesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesCollectionViewCell.xib; sourceTree = "<group>"; };
 		9D22A88B262B77B3004F0CA5 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		9D7F379E26275DA300D6042A /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 		9D7F379F26275DA300D6042A /* CoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinCell.xib; sourceTree = "<group>"; };
@@ -101,6 +111,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93FF4FA7262E08DE00AF0544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93FF5002262E4CA100AF0544 /* FavoriteViewController.swift */,
+				93FF5003262E4CA100AF0544 /* FavoriteViewController.xib */,
+				93FF5019262E514400AF0544 /* FavoritesCollectionViewCell.swift */,
+				93FF501A262E514400AF0544 /* FavoritesCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93FF4FA8262E08F800AF0544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93FF4FAA262E095C00AF0544 /* CellViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93FF4FA9262E090000AF0544 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9D22A88A262B7771004F0CA5 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,15 +170,11 @@
 		9D73A949262C62660003D83A /* FavoriteList */ = {
 			isa = PBXGroup;
 			children = (
+				93FF4FA9262E090000AF0544 /* ViewModel */,
+				93FF4FA8262E08F800AF0544 /* Model */,
+				93FF4FA7262E08DE00AF0544 /* View */,
 			);
 			path = FavoriteList;
-			sourceTree = "<group>";
-		};
-		9DA648202629F89200138F87 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		9DA648212629F8CC00138F87 /* View */ = {
@@ -152,20 +184,6 @@
 				9DDB0E0B262716DB00694E68 /* LaunchScreen.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		9DA648222629F8D400138F87 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		9DA648232629F8E000138F87 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		9DA648242629F8E900138F87 /* Application */ = {
@@ -205,10 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA648242629F8E900138F87 /* Application */,
-				9DA648232629F8E000138F87 /* Controller */,
-				9DA648222629F8D400138F87 /* ViewModel */,
 				9DA648212629F8CC00138F87 /* View */,
-				9DA648202629F89200138F87 /* Model */,
 				9D4F9D0C262748EC0037ED53 /* Components */,
 				9DDB0E0E262716DB00694E68 /* Info.plist */,
 			);
@@ -267,7 +282,7 @@
 				9DDB0DF6262716DA00694E68 /* Sources */,
 				9DDB0DF7262716DA00694E68 /* Frameworks */,
 				9DDB0DF8262716DA00694E68 /* Resources */,
-				0C8C47CFE1EFCB907B592627 /* [CP] Embed Pods Frameworks */,
+				DBE459121399E92130362802 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,7 +320,7 @@
 				9DDB0E1A262716DB00694E68 /* Sources */,
 				9DDB0E1B262716DB00694E68 /* Frameworks */,
 				9DDB0E1C262716DB00694E68 /* Resources */,
-				6F0C71EDDA11B0105AEAAC2E /* [CP] Embed Pods Frameworks */,
+				C9716B7D38C6DF497C60FB73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,9 +381,11 @@
 			files = (
 				9DDB0E3A26271DD600694E68 /* CoinListVC.xib in Resources */,
 				9DF420B7262B807500E240FC /* Main.storyboard in Resources */,
+				93FF5005262E4CA100AF0544 /* FavoriteViewController.xib in Resources */,
 				9DDB0E0D262716DB00694E68 /* LaunchScreen.storyboard in Resources */,
 				9DDB0E0A262716DB00694E68 /* Assets.xcassets in Resources */,
 				9D7F37A126275DA300D6042A /* CoinCell.xib in Resources */,
+				93FF501C262E514400AF0544 /* FavoritesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,23 +406,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C8C47CFE1EFCB907B592627 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		19182B752101694A71D08576 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,7 +472,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F0C71EDDA11B0105AEAAC2E /* [CP] Embed Pods Frameworks */ = {
+		C9716B7D38C6DF497C60FB73 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,6 +489,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests/Pods-Moeda Digital Super App-Moeda Digital Super AppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DBE459121399E92130362802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moeda Digital Super App/Pods-Moeda Digital Super App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -497,8 +514,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDB0E08262716DA00694E68 /* Moeda_Digital_Super_App.xcdatamodeld in Sources */,
+				93FF501B262E514400AF0544 /* FavoritesCollectionViewCell.swift in Sources */,
 				9DDB0DFE262716DA00694E68 /* AppDelegate.swift in Sources */,
 				9D7F37A026275DA300D6042A /* CoinCell.swift in Sources */,
+				93FF5004262E4CA100AF0544 /* FavoriteViewController.swift in Sources */,
+				93FF4FAB262E095C00AF0544 /* CellViewModel.swift in Sources */,
 				9DDB0E00262716DA00694E68 /* SceneDelegate.swift in Sources */,
 				9D22A88D262B77B3004F0CA5 /* TabBarVC.swift in Sources */,
 				9DDB0E3926271DD600694E68 /* CoinListVC.swift in Sources */,

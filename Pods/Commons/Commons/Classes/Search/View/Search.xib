@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Search" customModule="Commons" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="572" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-wN-hQL" customClass="Search" customModule="Commons">
+                    <rect key="frame" x="0.0" y="0.0" width="572" height="60"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" searchBarStyle="prominent" text="" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="qhx-o9-wPR">
+                            <rect key="frame" x="2" y="1" width="572" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="Ktj-1e-aUq"/>
+                            </constraints>
+                            <color key="barTintColor" red="0.1019607843" green="0.098039215690000001" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                    </subviews>
+                    <color key="backgroundColor" red="0.10196078431372549" green="0.098039215686274508" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="7bT-r1-AeI"/>
+                        <constraint firstAttribute="trailing" secondItem="qhx-o9-wPR" secondAttribute="trailing" constant="-2" id="Er7-oh-aq1"/>
+                        <constraint firstItem="qhx-o9-wPR" firstAttribute="leading" secondItem="Bea-wN-hQL" secondAttribute="leading" constant="2" id="hm4-wz-Gc2"/>
+                        <constraint firstItem="qhx-o9-wPR" firstAttribute="top" secondItem="Bea-wN-hQL" secondAttribute="top" constant="1" id="oAG-gc-xcw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Bea-wN-hQL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6Ze-Lp-lmc"/>
+                <constraint firstAttribute="bottom" secondItem="Bea-wN-hQL" secondAttribute="bottom" id="AlL-O0-IpA"/>
+                <constraint firstItem="Bea-wN-hQL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="U60-Zk-qFy"/>
+                <constraint firstItem="Bea-wN-hQL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eMP-cy-sf4"/>
+                <constraint firstItem="Bea-wN-hQL" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="yXf-vc-ePP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-149.27536231884059" y="-3.683035714285714"/>
+        </view>
+    </objects>
+</document>

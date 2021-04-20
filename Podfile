@@ -16,6 +16,7 @@ target 'Moeda Digital Super App' do
   pod 'Commons', :git => 'https://github.com/ssabrinasu/Commons'
   pod 'DataModels', :git => 'https://github.com/ssabrinasu/DataModels'
   pod 'Details', :git => 'https://github.com/ssabrinasu/Details'
+  
 
   target 'Moeda Digital Super AppTests' do
     inherit! :search_paths
