@@ -21,6 +21,7 @@ class CoinListVC: UIViewController {
 	
 	var coins: [Coin] = []
 	var allCoins: [Coin] = []
+	var favoriteList = [""]
 	
 	// MARK: - Initialization
 	
@@ -34,6 +35,7 @@ class CoinListVC: UIViewController {
 	}
 	
 	// MARK: - Functions
+	
 	func setupNavigation() {
 		title = "Moedas"
 		self.navigationController?.isNavigationBarHidden = true
@@ -71,6 +73,22 @@ class CoinListVC: UIViewController {
 		
 		coinSearchBar.isAccessibilityElement = true
 		coinSearchBar.accessibilityHint = "Barra de pesquisa"
+	}
+	
+	func getDecodedFavoriteList() -> [String] {
+		guard let favoriteListStr = UserDefaults.standard.value(forKey: "favoriteList") as? String else {
+			return [""]
+		}
+		let decodedFavoriteList = Utilities.decode(idListString: favoriteListStr)
+		return decodedFavoriteList
+	}
+	
+	func retrieveFavoriteList() {
+		favoriteList = getDecodedFavoriteList()
+	}
+	
+	func isFavorite(id: String) -> Bool {
+		return favoriteList.contains(id)
 	}
 	
 	// MARK: - Life Cycle
