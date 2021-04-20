@@ -120,13 +120,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		93FF4FA9262E090000AF0544 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		9D22A88A262B7771004F0CA5 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,8 +153,6 @@
 		9D73A949262C62660003D83A /* FavoriteList */ = {
 			isa = PBXGroup;
 			children = (
-				9DFD41B4262F07D700A63BFF /* Model */,
-				93FF4FA9262E090000AF0544 /* ViewModel */,
 				93FF4FA7262E08DE00AF0544 /* View */,
 			);
 			path = FavoriteList;
@@ -236,13 +227,6 @@
 				9DDB0E24262716DB00694E68 /* Info.plist */,
 			);
 			path = "Moeda Digital Super AppUITests";
-			sourceTree = "<group>";
-		};
-		9DFD41B4262F07D700A63BFF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C7D316177E0F1A199A2FE83D /* Frameworks */ = {

@@ -35,14 +35,14 @@ public class Utilities {
 	public static func encode(idList: [String]) -> String {
 		
 		let encoded = idList.joined(separator: "|")
-		print("ID list encoded to string: \(encoded)")
+//		print("ID list encoded to string: \(encoded)")
 		return encoded
 	}
 	
 	public static func decode(idListString: String) -> [String] {
 		
 		let decoded = idListString.components(separatedBy: "|")
-		print("String of ID List decoded to array of string: \(decoded)")
+//		print("String of ID List decoded to array of string: \(decoded)")
 		return decoded
 	}
 }
