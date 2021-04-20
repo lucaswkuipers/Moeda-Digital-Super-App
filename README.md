@@ -1,9 +1,9 @@
 # Moeda Digital Super App
 
 [![CI Status](https://img.shields.io/travis/lucaswkuipers/MoedaDigitalSuperApp.svg?style=flat)](https://travis-ci.org/lucaswkuipers/MoedaDigitalSuperApp)
-[![Version](https://img.shields.io/cocoapods/v/API.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
-[![License](https://img.shields.io/cocoapods/l/API.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
-[![Platform](https://img.shields.io/cocoapods/p/API.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
+[![Version](https://img.shields.io/cocoapods/v/MoedaDigitalSuperApp.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
+[![License](https://img.shields.io/cocoapods/l/MoedaDigitalSuperApp.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
+[![Platform](https://img.shields.io/cocoapods/p/MoedaDigitalSuperApp.svg?style=flat)](https://cocoapods.org/pods/MoedaDigitalSuperApp)
 
 ## Example
 
