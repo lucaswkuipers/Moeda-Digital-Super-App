@@ -17,7 +17,7 @@ class TabBarVC: UITabBarController {
 	override func viewDidAppear(_ animated: Bool) {
 		let tabBarVC = self
 		let coinListVC = UINavigationController(rootViewController: CoinListVC())
-		let favoriteListVC = UINavigationController(rootViewController: FavoriteListVC())
+		let favoriteListVC = UINavigationController(rootViewController: FavoriteViewController())
 		favoriteListVC.title = "Adicionadas"
 		
 		tabBarVC.setViewControllers([coinListVC,favoriteListVC], animated: false)
@@ -31,14 +31,14 @@ class TabBarVC: UITabBarController {
 	}
 }
 
-class FavoriteListVC: UIViewController {
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		view.backgroundColor = .gray
-		title = "Adicionadas"
-		self.navigationController?.isNavigationBarHidden = true
-        
-        let viewController = FavoriteViewController()
-        self.navigationController?.pushViewController(viewController, animated: true)
-	}
-}
+//class FavoriteListVC: UIViewController {
+//	override func viewDidLoad() {
+//		super.viewDidLoad()
+//		view.backgroundColor = .gray
+//		title = "Adicionadas"
+//		self.navigationController?.isNavigationBarHidden = true
+//
+//        let viewController = FavoriteViewController()
+//        self.navigationController?.pushViewController(viewController, animated: true)
+//	}
+//}

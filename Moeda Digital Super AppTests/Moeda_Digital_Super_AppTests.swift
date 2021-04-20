@@ -9,7 +9,7 @@ import XCTest
 @testable import Moeda_Digital_Super_App
 
 class Moeda_Digital_Super_AppTests: XCTestCase {
-
+	
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

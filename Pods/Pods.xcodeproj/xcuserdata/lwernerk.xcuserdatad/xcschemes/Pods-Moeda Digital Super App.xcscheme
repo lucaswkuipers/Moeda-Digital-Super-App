@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "06A866AF8C90AF1093B4FEE39DA6E733"
-               BuildableName = "Pods_Moeda_Digital_Super_AppTests.framework"
-               BlueprintName = "Pods-Moeda Digital Super AppTests"
+               BlueprintIdentifier = "5EDE3036DAA1813516BA4EF9F0655ABC"
+               BuildableName = "Pods_Moeda_Digital_Super_App.framework"
+               BlueprintName = "Pods-Moeda Digital Super App"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

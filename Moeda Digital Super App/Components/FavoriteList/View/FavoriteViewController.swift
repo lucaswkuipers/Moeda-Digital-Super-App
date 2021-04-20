@@ -12,6 +12,26 @@ import Commons
 import Utilities
 import Details
 
+
+public struct CellsViewModel{
+	
+	public var icon: String
+	public var name: String
+	public var identifier: String
+	public var price: Double
+	
+	
+	public init(coin: Coin) {
+		self.icon = String(coin.idIcon ?? " ")
+		self.name = coin.name ?? "indisponivel"
+		self.identifier = coin.assetID
+		self.price = coin.priceUsd ?? 00
+		
+	}
+}
+
+
+
 class FavoriteViewController: UIViewController {
     
     //MARK: Var
@@ -23,17 +43,13 @@ class FavoriteViewController: UIViewController {
     var coinsResults: [Coin] = []
 
     let defaults = UserDefaults.standard
-    let favoritesDefaults: String
-    let arrayIds: [String]
+    var favoritesDefaults = ""
+    var arrayIds = [String]()
     
   
     //MARK: Init
   
     public init(){
-        
-        let defaults = UserDefaults.standard
-        self.favoritesDefaults = defaults.object(forKey: "favoriteList") as! String
-        self.arrayIds = Utilities.decode(idListString: favoritesDefaults)
         
         super.init(nibName: "FavoriteViewController", bundle: Bundle(for: FavoriteViewController.self))
         
@@ -47,13 +63,16 @@ class FavoriteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+		let defaults = UserDefaults.standard
+		favoritesDefaults = defaults.object(forKey: "favoriteList") as! String
+		arrayIds = Utilities.decode(idListString: favoritesDefaults)
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         collection?.reloadData()
         setupCollectionView()
         collection?.reloadData()
-        setData()
+        setDate()
         accessibility()
         }
     
@@ -67,7 +86,7 @@ class FavoriteViewController: UIViewController {
     }
   
     
-    func setData() -> String{
+    func setDate() -> String{
         let now = Date()
 
         let formatter = DateFormatter()
@@ -93,7 +112,7 @@ class FavoriteViewController: UIViewController {
      
         dayLabel.isAccessibilityElement = true
         dayLabel.accessibilityTraits = .staticText
-        dayLabel.accessibilityLabel = "\(setData())"
+        dayLabel.accessibilityLabel = "\(setDate())"
         
         tituloLabel.isAccessibilityElement = true
         tituloLabel.accessibilityTraits = .image

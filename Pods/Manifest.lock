@@ -1,7 +1,7 @@
 PODS:
-  - Alamofire (5.4.1)
-  - AlamofireImage (4.1.0):
-    - Alamofire (~> 5.1)
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - API (0.0.1):
     - AlamofireImage
     - SwiftLint
@@ -68,8 +68,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/lucaswkuipers/Utilities
 
 SPEC CHECKSUMS:
-  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
-  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   API: 72054ef4be24a2d740cfbd6caa03cc7b9dbb9754
   Commons: 2bc03655794d970a880bc1bbb3d434d65f08ec86
   DataModels: b2f8c7025a553f5eafc14713f90b80d72753e35f
